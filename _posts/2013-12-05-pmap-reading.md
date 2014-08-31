@@ -201,4 +201,4 @@ procps ユーティリティには top や vmstat といったコマンドも含
  * [procps – Home Page]([http://procps.sourceforge.net/)
  * [Man page of PMAP](http://linuxjm.sourceforge.jp/html/procps/man1/pmap.1.html)
  * [Man page of PROC](http://linuxjm.sourceforge.jp/html/LDP_man-pages/man5/proc.5.html)
- * [pmap でプロセスのメモリマッピングについて調べる – nhiroki’s weblog](2013/12/03/pmap/)
+ * [pmap でプロセスのメモリマッピングについて調べる – nhiroki’s weblog](/2013/12/03/pmap/)

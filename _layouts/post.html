@@ -5,11 +5,16 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} | {{ page.author }}{% endif %}{% if page.meta %} | {{ page.meta }}{% endif %}{% if page.categories %} |{% for category in page.categories %} {{ category }}{% endfor %}{% endif %}</p>
   </header>
 
   <article class="post-content">
     {{ content }}
   </article>
+
+  <footer class="post-footer">
+    {% if page.previous %}<a class='previous' href="{{ page.previous.url }}">« {{ page.previous.title }}</a>{% endif %}
+    {% if page.next %}<a class='next' href="{{ page.next.url }}">{{ page.next.title }} »</a>{% endif %}
+  </footer>
 
 </div>

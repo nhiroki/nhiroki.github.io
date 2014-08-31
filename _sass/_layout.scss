@@ -5,6 +5,7 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background: #000;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -19,7 +20,11 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #fff;
+    }
+
+    &:hover {
+        color: #fff;
     }
 }
 
@@ -32,7 +37,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: #fff;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -175,6 +180,7 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        border-bottom: 1px solid $grey-color-light;
     }
 }
 
@@ -232,5 +238,18 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+}
+
+.post-footer {
+    border-top: 2px dotted $grey-color-light;
+    padding-top: 10px;
+
+    .previous {
+        float: left;
+    }
+
+    .next {
+        float: right;
     }
 }

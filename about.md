@@ -1,11 +1,15 @@
 ---
 layout: page
 title: About
+date: 2014/08/30
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+ソフトウェアエンジニア
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+#発表したもの#
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+* 2014.06.27 「LevelDB のちょっとした話 (LT)」 (天下一 InfluxDB 勉強会) ([slide](https://docs.google.com/a/chromium.org/presentation/d/1rqB-7G1CD0PQ74UGr2OKqpwOxVenXYeJIU_FzgskvKA/edit#slide=id.p))
+* 2013.06.11 「syncFileSystem API (LT)」 (Webオフライン技術研究会#01、Webアーキテクチャ技術研究会#01 by html5jえんぷら部)
+* 2013.02.28 「Introduction to NativeClient (LT)」 (第4回若手Webエンジニア交流会)
+* 2012.07.13 「Web ブラウザが支える技術 (LT)」 (第1回若手Webエンジニア交流会)

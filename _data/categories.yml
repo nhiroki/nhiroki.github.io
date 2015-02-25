@@ -1,4 +1,6 @@
 blog:
   name: Blog
+draft:
+  name: DRAFT
 programming:
   name: Programming

@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% for category in site.data.categories %}
+  {% if category.id == page.category %}
+    {% capture category_link %}
+      <a class="post-category-link" href=".">{{ category.name }}</a>
+    {% endcapture %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<div class="home">
+
+  <h1 class="page-heading">Posts in {{ category_link }}</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% if page.category != post.category %}
+        {% continue %}
+      {% endif %}
+
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+
+        <p>{{ post.excerpt }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

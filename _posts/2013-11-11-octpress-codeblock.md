@@ -2,7 +2,7 @@
 layout: post
 title:  "Octpress の codeblock でオプションが効かない"
 date:   2013-11-11 02:00:00
-categories: Blog
+category: blog
 ---
 
 TL;DR Octpress の codeblock の start, mark, linenos オプションは現状 site-2.1 ブランチでしか使えない．

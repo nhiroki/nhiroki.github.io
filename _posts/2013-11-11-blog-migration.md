@@ -2,7 +2,7 @@
 layout: post
 title:  "ブログを移行しました"
 date:   2013-11-11 01:00:00
-categories: Blog
+category: blog
 ---
 
 VPS サーバのアップデートを機に，ドメインを nhiroki.me から nhiroki.jp へと変更し，ブログシステムを WordPress から Octpress に変更してみました．

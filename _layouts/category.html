@@ -2,25 +2,12 @@
 layout: default
 ---
 
-{% for category in site.data.categories %}
-  {% if category.id == page.category %}
-    {% capture category_link %}
-      <a class="post-category-link" href=".">{{ category.name }}</a>
-    {% endcapture %}
-    {% break %}
-  {% endif %}
-{% endfor %}
-
 <div class="home">
 
-  <h1 class="page-heading">Posts in {{ category_link }}</h1>
+  <h1 class="page-heading">Posts in <a class="post-category-link" href=".">{{ site.data.categories[page.category].name }}</a></h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
-      {% if page.category != post.category %}
-        {% continue %}
-      {% endif %}
-
+    {% for post in site.categories[page.category] %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 

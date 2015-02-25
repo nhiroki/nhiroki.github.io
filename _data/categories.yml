@@ -1,4 +1,4 @@
-- id: blog
+blog:
   name: Blog
-- id: programming
+programming:
   name: Programming

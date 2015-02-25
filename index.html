@@ -17,11 +17,7 @@ layout: default
 
         <p>{{ post.excerpt }}</p>
 
-        {% for category in site.data.categories %}
-          {% if category.id == post.category %}
-            <p class="post-category"><a class="post-category-link" href="/category/{{ category.id }}/">{{ category.name }}</a></p>
-          {% endif %}
-        {% endfor %}
+        <p class="post-category"><a class="post-category-link" href="/category/{{ post.category }}/">{{ site.data.categories[post.category].name }}</a></p>
       </li>
     {% endfor %}
   </ul>

@@ -203,10 +203,11 @@
 a.post-category-link {
     font-size: $very-small-font-size;
     font-weight: bold;
+    vertical-align: middle;
+
     color: #ffffff;
     background-color: #008800;
     border-radius: 3px;
-    margin: 3px;
     padding: 4px 8px;
 }
 

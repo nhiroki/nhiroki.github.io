@@ -181,12 +181,7 @@
 
     > li {
         margin-bottom: $spacing-unit;
-        border-bottom: 1px solid $grey-color-light;
         @extend %clearfix;
-    }
-
-    .post-category {
-        float: right;
     }
 }
 
@@ -197,11 +192,11 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 a.post-category-link {
-    font-size: $small-font-size;
+    font-size: $very-small-font-size;
     vertical-align: middle;
 
     color: #ffffff;
@@ -219,9 +214,9 @@ a.post-category-link {
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 30px;
     letter-spacing: -1px;
-    line-height: 1;
+    line-height: 1.2;
 
     @include media-query($on-laptop) {
         font-size: 36px;

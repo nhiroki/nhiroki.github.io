@@ -76,27 +76,29 @@ navigator.serviceWorker.register('sw.js', {scope: '/scope/'})
       return navigator.serviceWorker.ready;
     })
   .then(function() {
-      // このクライアント '/scope/will-be-controlled.html' は
-      // 初回ロード時からコントロールされる。
+      // このクライアントは初回ロード時からコントロールされる
       assert_true(navigator.serviceWorker.controller);
     });
 {% endhighlight %}
 
-ところで、新たにコントロールされることになったクライアントには controllerchange イベントが発火します。このイベントはロード時からコントロールされている場合は発火しないので注意が必要です。もし ready の代わりに使う場合は navigator.serviceWorker.controller と一緒に Promise.race で待つと良いかもしれないです。
+新たにコントロールされることになったクライアントには controllerchange イベントが発火します。もし ready の代わりに使う場合は次のように書けます (ready を使った方がシンプルだと思いますが)。
 
 {% highlight js %}
 // /scope/will-be-controlled.html
+var controller_change_promise = new Promise(function(resolve) {
+  navigator.serviceworker.addEventListener('controllerchange', resolve);
+});
+
 navigator.serviceWorker.register('sw.js', {scope: '/scope/'})
   .then(function(registration) {
-      var controller_change_promise = new Promise(function(resolve) {
-        navigator.serviceWorker.addEventListener('controllerchange', resolve);
-      });
-      return Promise.race([navigator.serviceWorker.controller,
-                           controller_change_promise]);
+      if (navigator.serviceWorker.controller) {
+        // 既にコントロール状態 (二回目以降のロード時)
+        return;
+      }
+      // コントロールされるのを待つ (初回ロード時)
+      return controller_change_promise;
     })
   .then(function() {
-      // このクライアント '/scope/will-be-controlled.html' は
-      // 初回ロード時からコントロールされる。
       assert_true(navigator.serviceWorker.controller);
     });
 {% endhighlight %}

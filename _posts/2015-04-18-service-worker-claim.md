@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Service Worker の claim() について"
-date: 2015-04-19 00:00:00
+date: 2015-04-18 00:00:00
 category: programming
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Service Worker の claim() について"
 date: 2015-04-18 00:00:00
-category: programming
+tags: serviceworker
 ---
 
 Service Worker のスコープとページコントロールについて解説する記事のその 2 です。既に Service Worker の基本について理解していて、かつ、[前回の記事](/2015/02/28/service-worker-scope-and-page-control/)を読んでいることを前提にしています。今回は「まだコントロールされていないページをコントロール状態にする claim()」について紹介します。claim() は Chrome ではバージョン 42 から使用することができます ([リリースノート](https://groups.google.com/a/chromium.org/forum/#!topic/service-worker-discuss/c6qFwC79Q1A))。

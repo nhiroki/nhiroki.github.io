@@ -1,0 +1,10 @@
+blog:
+  name: blog
+linux:
+  name: linux
+codereading:
+  name: codereading
+serviceworker:
+  name: serviceworker
+event:
+  name: event

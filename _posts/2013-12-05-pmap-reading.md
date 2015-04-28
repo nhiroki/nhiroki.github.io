@@ -2,7 +2,7 @@
 layout: post
 title:  "pmap ソースコードリーディング"
 date:   2013-12-05 00:00:00
-category: programming
+tags: linux codereading
 ---
 
 昨日調べた pmap のソースコードを読んだので，メモしておきます．これから読む人の参考になればと思います．

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Service Worker のスコープとページコントロールについて"
+title: "Service Worker のスコープとページコントロール"
 date: 2015-02-28 00:00:00
 tags: serviceworker
 ---

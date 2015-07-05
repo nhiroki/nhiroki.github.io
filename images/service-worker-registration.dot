@@ -1,0 +1,38 @@
+digraph registration {
+  graph [compound = true, rankdir = LR];
+  start [shape = point];
+
+  registration [shape = box, color = "#ff0000"];
+  registration -> installing [label = ".installing",
+                              style = dashed,
+                              color = "#ff0000",
+                              fontcolor = "#ff0000"];
+  registration -> installed [xlabel = "  .waiting     ",
+                             style = dashed,
+                             color = "#ff0000",
+                             fontcolor = "#ff0000"];
+  registration -> activated [lhead=cluster_active,
+                             label = ".active",
+                             style = dashed,
+                             color = "#ff0000"
+                             fontcolor = "#ff0000"];
+
+  installing [label = "installing\nstate"];
+  installed [label = "installed\nstate"];
+  activating [label = "activating\nstate"];
+  activated [label = "activated\nstate"];
+  redundant [label = "redundant\nstate"];
+
+  start -> installing [label = " register()\nor\nupdate()"];
+  installing -> installed [label = " install event"];
+  installed -> activating [label = " no controlled client\nor skipWaiting()"];
+  activated -> redundant;
+
+  subgraph cluster_active {
+    activating -> activated [label = " activate event"];
+    {rank=same; activating; activated};
+  }
+
+  {rank=same; installing};
+  {rank=same; registration; installed};
+}

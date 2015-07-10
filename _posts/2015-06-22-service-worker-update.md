@@ -9,7 +9,7 @@ Chromium に ServiceWorkerRegistration.update() を実装したのでその紹�
 
 - [[spec] Service Workers - update()](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#service-worker-registration-update)
 - [[blink-dev] Intent-to-Ship](https://groups.google.com/a/chromium.org/forum/#!topic/Blink-dev/bvi8fXqvNhs)
-- [Chromium Issue](https://code.google.com/p/chromium/issues/detail?id=450507)
+- [Chromium Dashboard - ServiceWorkerRegistration.update()](https://www.chromestatus.com/feature/5663070173003776)
 
 Service Worker は適当なタイミングでスクリプトのアップデートチェックが走ります。例えば Service Worker のコントロール下にあるページを開いたときにチェックします ([Handle Fetch Algorithm](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#on-fetch-request-algorithm) 参照)。このアップデートチェックはスクリプトの Cache-Control ヘッダに従うため、もし頻繁にスクリプトを更新しないのであれば max-age を指定してあげることで不要なチェックを省くことができます。
 

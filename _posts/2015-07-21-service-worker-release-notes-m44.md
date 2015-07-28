@@ -13,6 +13,8 @@ tags: serviceworker
 
 - [Chrome 43 の Service Worker の変更点](/2015/07/08/service-worker-release-notes-m43/)
 
+(2015/07/28 追記) [@FalkenMatto](https://twitter.com/FalkenMatto) さん (原文の投稿者) からコメントをいただき、一部加筆修正しました。ありがとうございます。
+
 ---
 
 Chrome 44 の Service Worker 関係の変更は次のとおりです。
@@ -31,7 +33,7 @@ Chrome 44 の Service Worker 関係の変更は次のとおりです。
 #改善点#
 
 - ブラウザのコンテンツ設定で Service Worker を許可しているかどうか、"Cookies set by this page" UI[^cookies-ui] 上で確認できるようになりました ([Bug](https://code.google.com/p/chromium/issues/detail?id=419284))。
-- Service Worker がスタートアップに失敗するバグが修正されました。また、キャッシュ済みのメインリソースのロードに失敗した場合は適切にネットワークへフォールバックするように改善されました ([Bug](https://code.google.com/p/chromium/issues/detail?id=448003))。
+- Service Worker がスタートアップに失敗するバグが修正されました。また、スタートアップ失敗によってメインリソースリクエストに対する `FetchEvent` がディスパッチできなかった場合は適切に[^network-fallback]ネットワークにフォールバックするように改善されました ([Bug](https://code.google.com/p/chromium/issues/detail?id=448003))。
 
 #DevTools 関係の変更#
 
@@ -61,3 +63,4 @@ $ ./chrome --user-data-dir=/tmp/foo --unsafely-treat-insecure-origin-as-secure=h
 [^extendable-event]: `ExtendableEvent` はそれの持つ `waitUntil()` に任意の Promise を渡すことで、その Promise が settled (resolved or rejected) になるまでイベントのライフタイムを延長することができるイベントです。
 [^client-request]: client requests とは `Request.context` が navigation 関係 (form, frame, hyperlink etc) もしくは worker (serviceworker, sharedworker, worker) であるようなものを指します。詳しくは [Fetch の仕様](https://fetch.spec.whatwg.org/#requests)を参照してください。
 [^cookies-ui]: URL バーの鍵もしくはファイルアイコンをクリックした時に表示される UI です。
+[^network-fallback]: (2015/07/28 追記) メインリソースリクエストがネットワークにフォールバックした場合は、その後のサブリソースリクエストもすべて Service Worker を介さずにネットワークにフォールバックします。サブリソースリクエスト時に `FetchEvent` がディスパッチできなかった場合はネットワークにフォールバックせず、エラーレスポンス (500 "Service Worker Response Error") を返します。これにより、同一ドキュメント内で Service Worker にインターセプトされるリクエストとされないリクエストが混在することはありません。

@@ -10,6 +10,7 @@ Chrome 46 に CacheStorage API の Cache.addAll() を実装したのでその紹
  - [MDN - Cache.addAll()](https://developer.mozilla.org/en-US/docs/Web/API/Cache/addAll)
  - [Spec - Cache.addAll()](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#cache)
  - [Chromium Dashboard - Cache.addAll()](https://www.chromestatus.com/feature/4922023562182656)
+ - (2015/09/09 追記) [Google Web Updates - Updates to the service worker cache API](https://developers.google.com/web/updates/2015/09/updates-to-cache-api)
 
 Cache.addAll() は Request もしくは URL String の配列を受け取り、それらを fetch した結果を Cache に保存する API です。
 

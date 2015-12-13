@@ -5,7 +5,12 @@ date: 2015-06-22 00:00:00
 tags: serviceworker
 ---
 
-Chromium に ServiceWorkerRegistration.update() を実装したのでその紹介。順調に行けばバージョン 45 から使用することができます (Canary ではもう使えます)。
+- **2015/12/13 : update() とブラウザキャッシュのインタラクションについて仕様変更があったので追記しました。Chrome 48 から適用されます。**
+- **2015/12/13 : update() が Promise を返すように仕様変更があったので追記しました。Chrome 46 から適用されます。**
+
+---
+
+Chrome に ServiceWorkerRegistration.update() を実装したのでその紹介。Chrome 45 から使用することができます。
 
 - [[spec] Service Workers - update()](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#service-worker-registration-update)
 - [[blink-dev] Intent-to-Ship](https://groups.google.com/a/chromium.org/forum/#!topic/Blink-dev/bvi8fXqvNhs)
@@ -15,11 +20,19 @@ Service Worker は適当なタイミングでスクリプトのアップデー�
 
 一方で、もし何らかの理由で max-age に長大な時間が設定された場合は、スクリプトがなかなか更新されないことになります。このようなスクリプトの焼付けを防ぐために、Service Worker では最後の更新から 24 時間以上が経った場合はキャッシュの有無に関わらず必ずアップデートチェックを実行します ([Update Algorithm](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#update-algorithm ) 参照)。
 
-update() はこの「キャッシュを無視するアップデートチェック」をスクリプトから行えるようにしたものです ([Note](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#service-worker-registration-update) 参照)。例えば次のように使います。
+update() はこの「~~キャッシュを無視する~~アップデートチェック」をスクリプトから行えるようにしたものです (**2015/12/13 追記: Chrome 48 から update() もスクリプトの Cache-Control ヘッダに従うようになりました。前回更新から 24 時間以上経った場合は今まで通りキャッシュを無視してチェックを行います ([Dashboard](https://www.chromestatus.com/feature/5897293530136576))**)。
+
+例えば次のように使います (2015/12/13 追記: Chrome 46 から update() が Promise を返すようになりました ([Dashboard](https://www.chromestatus.com/feature/5631681746698240)))。
 
 {% highlight js %}
 navigator.serviceWorker.getRegistration()
-  .then(function(registration) { registration.update(); });
+  .then(function(registration) { return registration.update(); })
+  .then(function() {
+      // The script is updated, or there is no updated script.
+    })
+  .catch(function(e) {
+      // An error occurs during update (eg. Network error, Runtime error).
+    });
 {% endhighlight %}
 
 更新があった場合は updatefound イベントが発火します。

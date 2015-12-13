@@ -58,9 +58,5 @@ Note: 最新の DevTools を試すために、[Dev channel もしくは Canary](
 - Service Worker のアイドルタイマーが他のイベントと同じようにメッセージイベントでもリセットされるようになりました ([Bug](https://code.google.com/p/chromium/issues/detail?id=498121))。
 - バグフィックスの全リストは[こちら](https://code.google.com/p/chromium/issues/list?can=1&q=Cr%3DBlink-ServiceWorker+m%3D45+status%3AFixed%2CVerified&colspec=ID+Pri+M+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)で確認できます。
 
----
-
-#訳者補足#
-
 [^registration-update]: `update()` については「[Service Worker の update()](/2015/06/22/service-worker-update)」で解説を書きました。
 [^failing-to-activate]: "failing to activate" の挙動は「[Service Worker の Registration](/2015/07/05/service-worker-registration)」でも紹介しました。

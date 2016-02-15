@@ -41,9 +41,9 @@ Note: 最新の DevTools を試すために、[Dev channel もしくは Canary](
 
 - `--unsafely-treat-insecure-origin-as-secure` コマンドラインオプションが追加されました。Service Worker のような [Powerful Features](https://www.google.com/url?q=https%3A%2F%2Fw3c.github.io%2Fwebappsec%2Fspecs%2Fpowerfulfeatures%2F&sa=D&sntz=1&usg=AFQjCNG2JU3mZRk1D6C5Nh2qlu5OXWBVLw) は Secure Contexts (例: HTTPS) を必要としますが、このオプションで指定されたオリジンではセキュリティチェックをバイパスします。これによりローカル環境での開発が行いやすくなりました。
 
-{% highlight sh %}
+```sh
 $ ./chrome --user-data-dir=/tmp/foo --unsafely-treat-insecure-origin-as-secure=http://your.insecure.site
-{% endhighlight %}
+```
 
 - Cache Storage のエントリを個別に消せるようになりました ([Bug](https://code.google.com/p/chromium/issues/detail?id=474455))。
 - Cache Storage が Service Worker のフレームだけでなく、すべてのフレームから inspect できるようになりました ([Bug](https://code.google.com/p/chromium/issues/detail?id=439389))。

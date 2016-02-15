@@ -21,7 +21,7 @@ pmap は procps と呼ばれるユーティリティ群の一つとして公開�
 
 長めですが，大半はオプションの解析です．360 行目辺りからが実際の処理を行なっている部分です．
 
-{% highlight c %}
+```c
 // pmap.c
 359   discover_shm_minor();
 360
@@ -33,7 +33,7 @@ pmap は procps と呼ばれるユーティリティ群の一つとして公開�
 366     count--;
 367   }
 368   closeproc(PT);
-{% endhighlight %}
+```
 
  * discover_shm_minor 関数は共有メモリのメモリマッピング名を取るためのものです．詳細は後で見ます．
  * pidlist は引数で渡されたプロセス ID (pid) を詰め込んだリストです．
@@ -45,15 +45,15 @@ readproc で読み込んだ情報を順次 one_proc 関数で処理します．
 
 プロセスに関する情報を実際に読み取る関数です．
 
-{% highlight c %}
+```c
 // pmap.c
 137   sprintf(buf,"/proc/%u/maps",p->tgid);
 138   if(!freopen(buf, "r", stdin)) return 1;
-{% endhighlight %}
+```
 
 tgid (Task Group ID) は PID を意味しています．”/proc/[pid]/maps” がプロセスのメモリマッピングに関する情報を提供しており，これを読み取るためにオープンしています．
 
-{% highlight c %}
+```c
 // pmap.c
 154   while(fgets(mapbuf,sizeof mapbuf,stdin)){
 155     char flags[32];
@@ -62,7 +62,7 @@ tgid (Task Group ID) は PID を意味しています．”/proc/[pid]/maps” �
 158     unsigned long long file_offset, inode;
 159     unsigned dev_major, dev_minor;
 160     sscanf(mapbuf,"%"KLF"x-%"KLF"x %31s %Lx %x:%x %Lu", &start, &end, flags, &file_offset, &dev_major, &dev_minor, &inode);
-{% endhighlight %}
+```
 
 154 行目の while 文で，メモリマッピングを行単位で読み取っています．160 行目の sscanf では，
 
@@ -83,14 +83,14 @@ tgid (Task Group ID) は PID を意味しています．”/proc/[pid]/maps” �
 
 **mapping_name 関数**
 
-{% highlight c %}
+```c
 // pmap.c
 189       const char *cp = mapping_name(p, start, diff, mapbuf, 0, dev_major, dev_minor, inode);
-{% endhighlight %}
+```
 
 189 行目などで呼び出している mapping_name 関数は，その名の通りマッピング名 (ライブラリ名や [ stack ], [ anon ] など) を取得するための関数です．
 
-{% highlight c %}
+```c
 // pmap.c
  99 static const char *mapping_name(proc_t *p, unsigned KLONG addr, unsigned KLONG len, const char *mapbuf, unsigned showpath, unsigned dev_major, unsigned dev_minor, unsigned long long inode){
 100   const char *cp;
@@ -117,7 +117,7 @@ tgid (Task Group ID) は PID を意味しています．”/proc/[pid]/maps” �
 121   if( (p->start_stack >= addr) && (p->start_stack <= addr+len) )  cp = "  [ stack ]";
 122   return cp;
 123 }
-{% endhighlight %}
+```
 
 102 行目から 106 行目は共有メモリに関するマッピング名を取得する部分です．これは先程スキップした discover_shm_minor 関数が関わってくるので，詳しくは次の項を見てください．
 
@@ -133,7 +133,7 @@ pmap ではマッピング名を取得する際に，デバイスのマイナー
 
 デバイス番号を取得するために，一旦 SYSV 共有メモリを自身にアタッチし，そのマッピング情報を調べるということをしています．
 
-{% highlight c %}
+```c
 // pmap.c
 53 static void discover_shm_minor(void){
 54   void *addr;
@@ -142,11 +142,11 @@ pmap ではマッピング名を取得する際に，デバイスのマイナー
 57
 58   if(!freopen("/proc/self/maps", "r", stdin)) return;
 59
-{% endhighlight %}
+```
 
 58 行目で “/proc/self/maps” をオープンしていますが，これは読み込みを行うプロセス自身のメモリマッピングに関する情報を保持しています．この場合だと pmap のメモリマッピングに関する情報が取得されます．
 
-{% highlight c %}
+```c
 // pmap.c
 60   // create
 61   shmid = shmget(IPC_PRIVATE, 42, IPC_CREAT | 0666);
@@ -154,13 +154,13 @@ pmap ではマッピング名を取得する際に，デバイスのマイナー
 63   // attach
 64   addr = shmat(shmid, NULL, SHM_RDONLY);
 65   if(addr==(void*)-1) goto out_destroy;
-{% endhighlight %}
+```
 
 60 行目から 65 行目で，共有メモリの割り当てを行なっています．SYSV 共有メモリの使い方は下記を参照してください．
 
  * [Man page of SHMGET](http://linuxjm.sourceforge.jp/html/LDP_man-pages/man2/shmget.2.html)
 
-{% highlight c %}
+```c
 // pmap.c
 67   while(fgets(mapbuf, sizeof mapbuf, stdin)){
 68     char flags[32];
@@ -184,7 +184,7 @@ pmap ではマッピング名を取得する際に，デバイスのマイナー
 86       break;
 87     }
 88   }
-{% endhighlight %}
+```
 
 67 行目以降では，自身のメモリマップから先ほどアタッチした共有メモリを探しています．start アドレスがアタッチした共有メモリよりも後ろにあり，デバイスのメジャー番号が 0，フラグが “s”hared で，かつマッピング情報に ”/SYSV” を含んでいるものを探し，そのデバイスマイナー番号を採用しています．
 

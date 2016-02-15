@@ -11,7 +11,7 @@ Service Worker のスコープとページコントロールについて解説�
 
 前回の記事で「Service Worker がページをコントロールするかどうかは、そのページを開いた時に判断される」と説明しました。次のコードは前回の記事からのコピーで、ページを開いた後に登録された Service Worker が、そのページを直ちに (初回ロード時) にコントロールすることはないことを示しています。
 
-{% highlight js %}
+```js
 // /scope/will-be-controlled.html
 navigator.serviceWorker.register('sw.js', {scope: '/scope/'})
   .then(function(registration) {
@@ -23,7 +23,7 @@ navigator.serviceWorker.register('sw.js', {scope: '/scope/'})
       // このページ '/scope/will-be-controlled.html' はコントロールされていない。
       assert_true(navigator.serviceWorker.controller == null);
     });
-{% endhighlight %}
+```
 
 ちなみに二回目以降のロードでは既に Service Worker が登録されているため、controller は non-null になります。よって、開発中に初回ロード時の挙動をテストするには DevTools などから登録情報を削除する必要があります。また、同じ Service Worker スクリプトとスコープに対して register() を複数回呼んだ場合、登録済みの registration が返ってきます。registration についてはそのうち別の記事を書くかもしれません。
 
@@ -33,14 +33,14 @@ navigator.serviceWorker.register('sw.js', {scope: '/scope/'})
 
 claim() は Service Worker 側のスクリプトで使います。Service Worker の実行コンテキスト [ServiceWorkerGlobalScope](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#service-worker-global-scope) は clients というフィールドを持っています。これは現在ブラウザで開いているページのうち、この Service Worker と同じオリジンに属するページ一覧のコンテナとなっています。例えば、次のように使います。
 
-{% highlight js %}
+```js
 // sw.js
 var promise = self.clients.matchAll({includeUncontrolled: true})
   .then(function(clients) {
       // clients は現在開いているページ (client) を保持する。
       // ページの visibilityState を取得したり、postMessage で通信したりできる。
     });
-{% endhighlight %}
+```
 
 この clients に claim() は生えているのですが、ここで一旦 claim() は横に置いておき、Client についてもう少し説明します。
 
@@ -48,12 +48,12 @@ Service Worker の仕様では [Service Worker Client](https://slightlyoff.githu
 
 さて、話を claim() に戻します。clients.claim() は同一オリジン内のクライアントに対してこの Service Worker がコントローラーになることを要求します。claim() を使用したコードは次のようになります。
 
-{% highlight js %}
+```js
 // sw.js
 self.addEventListener('activate', function(event) {
     event.waitUntil(self.clients.claim());
   });
-{% endhighlight %}
+```
 
 claim() は activate された Service Worker 上で呼ぶ必要があります。さもなければ InvalidStateError が返ってきます。ここでは activate イベント内で呼ぶことでそれを保証しています。waitUntil() は引数に渡された promise が resolve されるまでイベントのライフタイムを延長します。これにより activate イベント終了時に claim() の実行が終わっていることを保証します。
 
@@ -68,7 +68,7 @@ clients.claim() は各クライアントに対して、呼び出し元の Servic
 
 Service Worker の activate イベント内で claim() の終了を待ってあげれば、最初のクライアント側のコードは特に変更せずにそのまま使えます。
 
-{% highlight js %}
+```js
 // /scope/will-be-controlled.html
 navigator.serviceWorker.register('sw.js', {scope: '/scope/'})
   .then(function(registration) {
@@ -79,11 +79,11 @@ navigator.serviceWorker.register('sw.js', {scope: '/scope/'})
       // このクライアントは初回ロード時からコントロールされる
       assert_true(navigator.serviceWorker.controller);
     });
-{% endhighlight %}
+```
 
 新たにコントロールされることになったクライアントには controllerchange イベントが発火します。もし ready の代わりに使う場合は次のように書けます (ready を使った方がシンプルだと思いますが)。
 
-{% highlight js %}
+```js
 // /scope/will-be-controlled.html
 var controller_change_promise = new Promise(function(resolve) {
   navigator.serviceworker.addEventListener('controllerchange', resolve);
@@ -101,7 +101,7 @@ navigator.serviceWorker.register('sw.js', {scope: '/scope/'})
   .then(function() {
       assert_true(navigator.serviceWorker.controller);
     });
-{% endhighlight %}
+```
 
 #まとめ#
 

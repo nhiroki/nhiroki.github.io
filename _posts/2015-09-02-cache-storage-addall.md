@@ -14,7 +14,7 @@ Chrome 46 に CacheStorage API の Cache.addAll() を実装したのでその紹
 
 Cache.addAll() は Request もしくは URL String の配列を受け取り、それらを fetch した結果を Cache に保存する API です。
 
-{% highlight js %}
+```js
 caches.open('cachename')
   .then(function(cache) {
       return cache.addAll([
@@ -24,7 +24,7 @@ caches.open('cachename')
     })
   .then(function() { /* 全てのレスポンスが保存されると resolve されます */ })
   .catch(e) { /* エラーがあると reject されます */ }
-{% endhighlight %}
+```
 
 機能的には複数の cache.add() を Promise.all() で待ち受けた場合と等価です。
 

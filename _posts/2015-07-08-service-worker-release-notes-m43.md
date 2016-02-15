@@ -47,5 +47,9 @@ Note: 最新の DevTools を試すために、[Dev channel もしくは Canary](
 - `navigator.serviceWorker.ready` はページロード時のスコープマッチ[^scope-match]で選ばれた ServiceWorkerRegistration の `.active` で resolve されていましたが、`.ready` にアクセスした時にスコープマッチしたもので resolve されるように修正されました。これにより、ページロード後に作られた ServiceWorkerRegistration のスコープの方がより長く一致する場合はそちらで resolve されるようになります。
 - バグフィックスの全リストは[こちら](https://code.google.com/p/chromium/issues/list?can=1&q=Cr%3DBlink-ServiceWorker+m%3D43&colspec=ID+Pri+M+Stars+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&cells=tiles)で確認できます。
 
+---
+
+#訳者補足#
+
 [^client]: クライアントについては[こちらの記事](/2015/04/18/service-worker-claim/)で解説を書きました。
 [^scope-match]: ServiceWorkerRegistration のスコープマッチについては[こちらの記事](/2015/02/28/service-worker-scope-and-page-control/)で解説を書きました。

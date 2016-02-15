@@ -52,7 +52,7 @@ enum ServiceWorkerState {
 
 本記事では、一般的な意味での Service Worker を SW、ServiceWorkerRegistration インタフェースを Registration と表記し、ServiceWorker インタフェースについては省略せずに表記します。
 
-#Registration の登録・取得・更新・抹消#
+# Registration の登録・取得・更新・抹消
 
 Registration の登録には register() を使用します。次の例では "https://example.com/foo/bar" をキーとした Registration を登録します。
 
@@ -102,7 +102,7 @@ Registration の抹消には unregister() を使います。
 registration.unregister().then(function(result) { ... });
 ```
 
-#Registration と ServiceWorker の状態遷移#
+# Registration と ServiceWorker の状態遷移
 
 Registration には installing, waiting, active の三つの ServiceWorker オブジェクトが関連付けられています。
 
@@ -155,12 +155,12 @@ self.addEventListener('activate', function(event) {
   });
 ```
 
-##Registration の状態確認##
+# Registration の状態確認
 
 Registration の状態は Chrome の場合は DevTools 上で確認することができます。ただし、この機能は本記事公開の時点では experimental な扱いのため、デフォルトでは使用することができません。利用方法については次のスライドを参考にしてください。
 
 [Debugging ServiceWorker (horo@) - Google スライド](https://docs.google.com/presentation/d/1DKu4RZigLvM5XUq3ovsgffQBIHrro5-pii4qEJuyvrQ/edit?usp=sharing)
 
-##まとめ##
+# まとめ
 
 今回は ServiceWorkerRegistration の概要とそれに関係した API、そして ServiceWorker オブジェクトの状態遷移との対応関係について説明しました。navigator.serviceWorker.register() や getRegistration() が SW のエントリーポイントになるのに対し、Registration は SW の状態を表す中心的なオブジェクトになります。これらを抑えておくことで、SW のモデルをより深く理解できるようになるはずです。

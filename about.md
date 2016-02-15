@@ -7,7 +7,7 @@ permalink: /about/
 
 ソフトウェアエンジニア
 
-#発表したもの#
+# 発表したもの
 
 * 2015.08.02 「Mobile Web and Native App -Past, Present, Future-」 (IT 分科会 #1) (slide)
 * 2015.04.22 「#17 Service Worker」 (mozaic.fm) ([podcast](http://mozaic.fm/post/117004083098/17-service-worker))

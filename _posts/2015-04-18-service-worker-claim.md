@@ -7,7 +7,7 @@ tags: serviceworker
 
 Service Worker のスコープとページコントロールについて解説する記事のその 2 です。既に Service Worker の基本について理解していて、かつ、[前回の記事](/2015/02/28/service-worker-scope-and-page-control/)を読んでいることを前提にしています。今回は「まだコントロールされていないページをコントロール状態にする claim()」について紹介します。claim() は Chrome ではバージョン 42 から使用することができます ([リリースノート](https://groups.google.com/a/chromium.org/forum/#!topic/service-worker-discuss/c6qFwC79Q1A))。
 
-#ページコントロールが始まるタイミング (前回の復習)#
+# ページコントロールが始まるタイミング (前回の復習)
 
 前回の記事で「Service Worker がページをコントロールするかどうかは、そのページを開いた時に判断される」と説明しました。次のコードは前回の記事からのコピーで、ページを開いた後に登録された Service Worker が、そのページを直ちに (初回ロード時) にコントロールすることはないことを示しています。
 
@@ -27,7 +27,7 @@ navigator.serviceWorker.register('sw.js', {scope: '/scope/'})
 
 ちなみに二回目以降のロードでは既に Service Worker が登録されているため、controller は non-null になります。よって、開発中に初回ロード時の挙動をテストするには DevTools などから登録情報を削除する必要があります。また、同じ Service Worker スクリプトとスコープに対して register() を複数回呼んだ場合、登録済みの registration が返ってきます。registration についてはそのうち別の記事を書くかもしれません。
 
-#まだコントロールされていないページをコントロール状態にする#
+# まだコントロールされていないページをコントロール状態にする
 
 上記のコードのままだと初回ロード時は Service Worker によってコントロールされません。これを解決するにはページロード時以外にページコントロールを開始させる方法があると良さそうです。それが claim() です。
 
@@ -64,7 +64,7 @@ clients.claim() は各クライアントに対して、呼び出し元の Servic
 
 以上の条件に合致したクライアントはこの Service Worker によってコントロールされ始めます。
 
-#コントロールの開始#
+# コントロールの開始
 
 Service Worker の activate イベント内で claim() の終了を待ってあげれば、最初のクライアント側のコードは特に変更せずにそのまま使えます。
 
@@ -103,7 +103,7 @@ navigator.serviceWorker.register('sw.js', {scope: '/scope/'})
     });
 ```
 
-#まとめ#
+# まとめ
 
  - Service Worker のコントロール対象をクライアントと呼ぶ
  - Service Worker がクライアントをコントロールするかどうかは、基本的にはそのクライアントをロードした時に判断される

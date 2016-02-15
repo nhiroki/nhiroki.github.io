@@ -19,23 +19,23 @@ tags: serviceworker
 
 Chrome 44 の Service Worker 関係の変更は次のとおりです。
 
-#新機能#
+# 新機能
 
 - `Request.context` がサポートされました ([Bug](https://code.google.com/p/chromium/issues/detail?id=455116), [Spec](https://fetch.spec.whatwg.org/#dom-request-context))。
 - `Cache.add()` が実装されました ([Dashboard](https://www.chromestatus.com/feature/5673980799221760), [Spec](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#cache-add))。
 
-#API の変更#
+# API の変更
 
 - `FetchEvent` が `ExtendableEvent`[^extendable-event] を継承するようになり、コンストラクタが追加されました ([Bug](https://code.google.com/p/chromium/issues/detail?id=479536), [Spec](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#fetch-event-section))。
 - セキュリティ上の理由に、client requests[^client-request] に対して opaque レスポンスを返すことができなくなりました ([Bug](https://code.google.com/p/chromium/issues/detail?id=474914), [Spec Discussion](https://github.com/slightlyoff/ServiceWorker/issues/590))。
 - install イベントのインタフェースが `InstallEvent` から `ExtendableEvent` に変更され、`InstallEvent` インタフェースが削除されました ([Bug](http://code.google.com/p/chromium/issues/detail?id=470032), [Spec Discussion](https://github.com/slightlyoff/ServiceWorker/issues/661))。
 
-#改善点#
+# 改善点
 
 - ブラウザのコンテンツ設定で Service Worker を許可しているかどうか、"Cookies set by this page" UI[^cookies-ui] 上で確認できるようになりました ([Bug](https://code.google.com/p/chromium/issues/detail?id=419284))。
 - Service Worker がスタートアップに失敗するバグが修正されました。また、スタートアップ失敗によってメインリソースリクエストに対する `FetchEvent` がディスパッチできなかった場合は適切に[^network-fallback]ネットワークにフォールバックするように改善されました ([Bug](https://code.google.com/p/chromium/issues/detail?id=448003))。
 
-#DevTools 関係の変更#
+# DevTools 関係の変更
 
 Note: 最新の DevTools を試すために、[Dev channel もしくは Canary](https://www.chromium.org/getting-involved/dev-channel) の使用をおすすめします。
 
@@ -51,14 +51,14 @@ $ ./chrome --user-data-dir=/tmp/foo --unsafely-treat-insecure-origin-as-secure=h
 - `waitUntil()` や `respondWith()` で発生した例外が Service Worker のコンソールに出力されるようになりました ([Bug](https://code.google.com/p/chromium/issues/detail?id=359423))。
 - Service Worker を使ったアプリの開発効率向上を目指し、現在 "Service Worker explorer UI" の開発に取り組んでいます。この機能はまだ experimental で、現在 UX の改良が行われています。こちらの[スライド](https://docs.google.com/presentation/d/1DKu4RZigLvM5XUq3ovsgffQBIHrro5-pii4qEJuyvrQ/edit?usp=sharing)を参考に試用していただき、是非フィードバックをお寄せください。
 
-#バグフィックス#
+# バグフィックス
 
 - Service Worker が STOPPING 状態でスタックしてしまうバグが修正されました ([Bug](https://code.google.com/p/chromium/issues/detail?id=499646))。
 - バグフィックスの全リストは[こちら](https://code.google.com/p/chromium/issues/list?can=1&q=Cr%3DBlink-ServiceWorker+m%3D44+status%3AFixed%2CVerified&colspec=ID+Pri+M+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)で確認できます。
 
 ---
 
-#訳者補足#
+# 訳者補足
 
 [^extendable-event]: `ExtendableEvent` はそれの持つ `waitUntil()` に任意の Promise を渡すことで、その Promise が settled (resolved or rejected) になるまでイベントのライフタイムを延長することができるイベントです。
 [^client-request]: client requests とは `Request.context` が navigation 関係 (form, frame, hyperlink etc) もしくは worker (serviceworker, sharedworker, worker) であるようなものを指します。詳しくは [Fetch の仕様](https://fetch.spec.whatwg.org/#requests)を参照してください。

@@ -15,21 +15,21 @@ tags: serviceworker
 
 リリースノートを復活させます！2015 年 5 月後半に stable リリースされた Chrome 43 の Service Worker 関係の変更は次の通りです。なお、Chrome 44 は今月後半のリリースが予定されており、またリリースノートを公開する予定です。
 
-#新機能#
+# 新機能
 
 - `Clients.matchAll()` をサポートしました。オプショナル引数によってマッチするクライアント[^client]の種類を指定することができ、Shared Worker のような non-Window クライアントにも対応しました ([Bug](https://code.google.com/p/chromium/issues/detail?id=460415), [Spec](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#clients-getall))。
 - `Clients.openWindow()` で cross-origin URL を開くことができるようになりました ([Bug](https://code.google.com/p/chromium/issues/detail?id=457187), [Spec](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#clients-openwindow))。
 - CacheStorage API が Window や Service Worker 以外の Worker 上でも使えるようになりました ([Bug](https://code.google.com/p/chromium/issues/detail?id=439389), [Spec](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#cache-storage))。注意: 現在 HTTP 上でも使用可能ですが、HTTPS 上でのみ使えるように制限がかけられる可能性があります ([Spec Discussion](https://github.com/slightlyoff/ServiceWorker/issues/709))。
 
-#API の変更#
+# API の変更
 
 - `Clients.getAll()` が削除されました。代わりに `Clients.matchAll()` を使用してください ([Bug](https://code.google.com/p/chromium/issues/detail?id=451334), [Spec](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#clients-getall))。
 
-#改善#
+# 改善
 
 - データベースアクセスの排除により、`Clients.claim()` がより高速に処理されるようになりました ([Bug](https://code.google.com/p/chromium/issues/detail?id=454250))。
 
-#DevTools 関係の変更#
+# DevTools 関係の変更
 
 Note: 最新の DevTools を試すために、[Dev channel もしくは Canary](https://www.chromium.org/getting-involved/dev-channel) の使用をおすすめします。
 
@@ -39,7 +39,7 @@ Note: 最新の DevTools を試すために、[Dev channel もしくは Canary](
 - ドキュメントのコンソールに Service Worker から出力したメッセージが表示されるようになりました。
 - Service Worker を使ったアプリの開発効率向上を目指し、現在 "Service Worker explorer UI" の開発に取り組んでいます。この機能はまだ experimental で、現在 UX の改良が行われています。こちらの[スライド](https://docs.google.com/presentation/d/1DKu4RZigLvM5XUq3ovsgffQBIHrro5-pii4qEJuyvrQ/edit?usp=sharing)を参考に試用していただき、是非フィードバックをお寄せください。
 
-#バグフィックス#
+# バグフィックス
 
 - `navigator.serviceWorker.register()` に渡されたスクリプト URL とスコープは ServiceWorkerContainer のあるドキュメントの URL を基準にパス解決されていましたが、呼び出し元ドキュメントの URL を基準にパス解決されるように修正されました ([Bug](https://code.google.com/p/chromium/issues/detail?id=449422))。
 - `navigator.serviceWorker.ready` が shift-reload で開かれたページでも適切に resolve されるようになりました ([Bug](https://code.google.com/p/chromium/issues/detail?id=462529))。
@@ -49,7 +49,7 @@ Note: 最新の DevTools を試すために、[Dev channel もしくは Canary](
 
 ---
 
-#訳者補足#
+# 訳者補足
 
 [^client]: クライアントについては[こちらの記事](/2015/04/18/service-worker-claim/)で解説を書きました。
 [^scope-match]: ServiceWorkerRegistration のスコープマッチについては[こちらの記事](/2015/02/28/service-worker-scope-and-page-control/)で解説を書きました。

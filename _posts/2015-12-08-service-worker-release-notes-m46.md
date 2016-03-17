@@ -11,9 +11,9 @@ tags: serviceworker
 
 以前のバージョンのリリースノートはこちら。
 
-- [Chrome 45 の Service Worker の変更点](/2015/08/07/service-worker-release-notes-m45/)
-- [Chrome 44 の Service Worker の変更点](/2015/07/21/service-worker-release-notes-m44/)
-- [Chrome 43 の Service Worker の変更点](/2015/07/08/service-worker-release-notes-m43/)
+- [Chrome 45 の Service Worker の変更点](/2015/08/07/service-worker-release-notes-m45)
+- [Chrome 44 の Service Worker の変更点](/2015/07/21/service-worker-release-notes-m44)
+- [Chrome 43 の Service Worker の変更点](/2015/07/08/service-worker-release-notes-m43)
 
 ---
 

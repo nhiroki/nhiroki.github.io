@@ -5,7 +5,7 @@ date: 2015-04-18 00:00:00
 tags: serviceworker
 ---
 
-Service Worker のスコープとページコントロールについて解説する記事のその 2 です。既に Service Worker の基本について理解していて、かつ、[前回の記事](/2015/02/28/service-worker-scope-and-page-control/)を読んでいることを前提にしています。今回は「まだコントロールされていないページをコントロール状態にする claim()」について紹介します。claim() は Chrome ではバージョン 42 から使用することができます ([リリースノート](https://groups.google.com/a/chromium.org/forum/#!topic/service-worker-discuss/c6qFwC79Q1A))。
+Service Worker のスコープとページコントロールについて解説する記事のその 2 です。既に Service Worker の基本について理解していて、かつ、[前回の記事](/2015/02/28/service-worker-scope-and-page-control)を読んでいることを前提にしています。今回は「まだコントロールされていないページをコントロール状態にする claim()」について紹介します。claim() は Chrome ではバージョン 42 から使用することができます ([リリースノート](https://groups.google.com/a/chromium.org/forum/#!topic/service-worker-discuss/c6qFwC79Q1A))。
 
 # ページコントロールが始まるタイミング (前回の復習)
 
@@ -25,7 +25,7 @@ navigator.serviceWorker.register('sw.js', {scope: '/scope/'})
     });
 ```
 
-ちなみに二回目以降のロードでは既に Service Worker が登録されているため、controller は non-null になります。よって、開発中に初回ロード時の挙動をテストするには DevTools などから登録情報を削除する必要があります。また、同じ Service Worker スクリプトとスコープに対して register() を複数回呼んだ場合、登録済みの registration が返ってきます。registration についてはそのうち別の記事を書くかもしれません。
+ちなみに二回目以降のロードでは既に Service Worker が登録されているため、controller は non-null になります。よって、開発中に初回ロード時の挙動をテストするには DevTools などから登録情報を削除する必要があります。また、同じ Service Worker スクリプトとスコープに対して register() を複数回呼んだ場合、登録済みの registration が返ってきます。<del>registration についてはそのうち別の記事を書くかもしれません</del> (**2015/07/05 追記: [Registration について書きました](/2015/07/05/service-worker-registration)**)。
 
 # まだコントロールされていないページをコントロール状態にする
 
@@ -57,7 +57,7 @@ self.addEventListener('activate', function(event) {
 
 claim() は activate された Service Worker 上で呼ぶ必要があります。さもなければ InvalidStateError が返ってきます。ここでは activate イベント内で呼ぶことでそれを保証しています。waitUntil() は引数に渡された promise が resolve されるまでイベントのライフタイムを延長します。これにより activate イベント終了時に claim() の実行が終わっていることを保証します。
 
-clients.claim() は各クライアントに対して、呼び出し元の Service Worker でコントロールできるかどうかを判定するわけですが、その判定条件は[前回の記事](/2015/02/28/service-worker-scope-and-page-control/)で紹介したとおりです。大雑把に言うと次のようになります。
+clients.claim() は各クライアントに対して、呼び出し元の Service Worker でコントロールできるかどうかを判定するわけですが、その判定条件は[前回の記事](/2015/02/28/service-worker-scope-and-page-control)で紹介したとおりです。大雑把に言うと次のようになります。
 
  - クライアントの URL がこの Service Worker のスコープ内に含まれているか
  - クライアントの URL が最長一致のルールに合致しているか

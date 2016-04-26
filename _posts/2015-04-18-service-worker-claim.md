@@ -6,6 +6,7 @@ tags: serviceworker
 ---
 
 - **2016/04/26 : ready イベントの使い方にミスがあったため修正しました。[Jxck](https://twitter.com/Jxck_) さんに指摘していただきました。ありがとうございます。**
+- **2016/04/26 : claim() の挙動は Jxck さんの screen cast によるチュートリアルが分かりやすいです ([中級者向け Service Worker Tutorial - blog.jxck.io](https://blog.jxck.io/entries/2016-04-24/service-worker-tutorial.html))。**
 
 ---
 

@@ -5,6 +5,10 @@ date: 2015-04-18 00:00:00
 tags: serviceworker
 ---
 
+- **2016/04/26 : ready イベントの使い方にミスがあったため修正しました。[Jxck](https://twitter.com/Jxck_) さんに指摘していただきました。ありがとうございます。**
+
+---
+
 Service Worker のスコープとページコントロールについて解説する記事のその 2 です。既に Service Worker の基本について理解していて、かつ、[前回の記事](/2015/02/28/service-worker-scope-and-page-control)を読んでいることを前提にしています。今回は「まだコントロールされていないページをコントロール状態にする claim()」について紹介します。claim() は Chrome ではバージョン 42 から使用することができます ([リリースノート](https://groups.google.com/a/chromium.org/forum/#!topic/service-worker-discuss/c6qFwC79Q1A))。
 
 # ページコントロールが始まるタイミング (前回の復習)
@@ -55,7 +59,7 @@ self.addEventListener('activate', function(event) {
   });
 ```
 
-claim() は activate された Service Worker 上で呼ぶ必要があります。さもなければ InvalidStateError が返ってきます。ここでは activate イベント内で呼ぶことでそれを保証しています。waitUntil() は引数に渡された promise が resolve されるまでイベントのライフタイムを延長します。これにより activate イベント終了時に claim() の実行が終わっていることを保証します。
+claim() は activate された Service Worker 上で呼ぶ必要があります。ここでは activate イベント内で呼ぶことでそれを保証しています。waitUntil() は引数に渡された promise が resolve されるまでイベントのライフタイムを延長します。これにより activate イベント終了時に claim() の実行が終わっていることを保証します。
 
 clients.claim() は各クライアントに対して、呼び出し元の Service Worker でコントロールできるかどうかを判定するわけですが、その判定条件は[前回の記事](/2015/02/28/service-worker-scope-and-page-control)で紹介したとおりです。大雑把に言うと次のようになります。
 
@@ -66,22 +70,11 @@ clients.claim() は各クライアントに対して、呼び出し元の Servic
 
 # コントロールの開始
 
-Service Worker の activate イベント内で claim() の終了を待ってあげれば、最初のクライアント側のコードは特に変更せずにそのまま使えます。
+<del>Service Worker の activate イベント内で claim() の終了を待ってあげれば、最初のクライアント側のコードは特に変更せずにそのまま使えます。</del>
 
-```js
-// /scope/will-be-controlled.html
-navigator.serviceWorker.register('sw.js', {scope: '/scope/'})
-  .then(function(registration) {
-      // activate イベント (claim) の終了を待つ
-      return navigator.serviceWorker.ready;
-    })
-  .then(function() {
-      // このクライアントは初回ロード時からコントロールされる
-      assert_true(navigator.serviceWorker.controller);
-    });
-```
+新たにコントロールされることになったクライアントには controllerchange イベントが発火します。<del>もし ready の代わりに使う場合は次のように書けます (ready を使った方がシンプルだと思いますが)。</del>
 
-新たにコントロールされることになったクライアントには controllerchange イベントが発火します。もし ready の代わりに使う場合は次のように書けます (ready を使った方がシンプルだと思いますが)。
+(**2016/04/26 追記: controller がセットされるのを待つ場合は ready イベントではなく controllerchange イベントを待つようにしてください。ready イベントは activate イベントの直前 (claim() によって controller が変わる前) に発火します ([仕様](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#navigator-service-worker-ready))**)。
 
 ```js
 // /scope/will-be-controlled.html

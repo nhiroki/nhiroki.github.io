@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2016/08/07
+date: 2016/10/23
 permalink: /about/
 ---
 
@@ -103,7 +103,7 @@ Chrome OS の文字入力変換ウィンドウの UI 改善。Chromium とか iB
 
 # 資格
 
-* 2016 TOEIC 965
+* 2015 TOEIC 965
 * 2010 ネットワークスペシャリスト
 * 2010 情報セキュリティスペシャリスト
 * 2008 ソフトウェア開発技術者

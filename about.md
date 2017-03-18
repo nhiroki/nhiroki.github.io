@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2016/12/29
+date: 2017/03/18
 permalink: /about/
 ---
 
@@ -23,7 +23,7 @@ Hiroki Nakagawa (nhiroki)
 その他のこと
 
 - 一児の父親です (2015 年生まれの男の子)。
-- 音ゲー (beatmania IIDX) 好きです。Copula で SP 皆伝 / DP 八段でした。
+- 音ゲー (beatmania IIDX) 好きです。Sinobuz で [SP 皆伝](https://twitter.com/nhiroki_/status/823462360027254784) / [DP 九段](https://twitter.com/nhiroki_/status/842695983267954688)でした。
 - 大学では学園祭実行委員会に所属していました。イベント運営とか好きです。
 - 中学高校では陸上競技部に所属していました。専門は短距離 (200m, 400m) でした。もう走れません。
 
@@ -31,11 +31,11 @@ Hiroki Nakagawa (nhiroki)
 
 # 仕事
 
-**2012.04 -- 現在　グーグル株式会社 / ソフトウェアエンジニア**
+**2012.04 -- 現在　グーグル合同会社（旧：グーグル株式会社） / ソフトウェアエンジニア**
 
 ウェブブラウザ Chrome の開発。Chrome のオープンソースプロジェクト Blink / Chromium のコミッター。主に以下のことをしています。
 
-* [Worker](https://html.spec.whatwg.org/multipage/workers.html#workers) / [Worklet](https://drafts.css-houdini.org/worklets/) 共通基盤の再設計
+* [Worker](https://html.spec.whatwg.org/multipage/workers.html#workers) / [Worklet](https://drafts.css-houdini.org/worklets/) 基盤の設計と実装
 * [CacheStorage API](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#cache-objects) の実装
 * [ServiceWorker](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/) の設計と実装
 * [chrome.syncFileSystem API](https://developer.chrome.com/apps/syncFileSystem) の設計と実装

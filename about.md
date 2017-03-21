@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2017/03/18
+date: 2017/03/21
 permalink: /about/
 ---
 
@@ -64,10 +64,11 @@ Chrome OS の文字入力変換ウィンドウの UI 改善。Chromium とか iB
 
 # 勉強会などでの発表
 
+* 2017.03.21 「[論文紹介] The Linux Scheduler: A Decade of Wasted Cores (EuroSys 2016)」([システム系輪講会](https://connpass.com/event/52323/)) ([slide](https://docs.google.com/presentation/d/1B9lC6uPxHBzWm9Elhn8cvvQXy7ykIe7EPgFe0i0hAYk/pub?start=false&loop=false&slide=id.p))
 * 2016.02.06 「IoT 時代の Web エンジニア」 (IT 分科会 #2) (slide)
 * 2015.08.02 「Mobile Web and Native App -Past, Present, Future-」 (IT 分科会 #1) (slide)
 * 2015.04.22 「#17 Service Worker」 (mozaic.fm) ([podcast](http://mozaic.fm/post/117004083098/17-service-worker))
-* 2015.04.04 「Service Worker Primer」 (Service Worker ハッカソン) ([slide](https://docs.google.com/presentation/d/1WiL241gQYOSAV6yVlM2_hloX-fDwzWHIZXqWhuEzdX0/pub?start=false&loop=false&delayms=3000), [video](https://www.youtube.com/watch?feature=player_embedded&v=FnS0MdLM5ZU#t=285))
+* 2015.04.04 「Service Worker Primer」 ([Service Worker ハッカソン](https://developers-jp.googleblog.com/2015/03/service-worker.html)) ([slide](https://docs.google.com/presentation/d/1WiL241gQYOSAV6yVlM2_hloX-fDwzWHIZXqWhuEzdX0/pub?start=false&loop=false&delayms=3000), [video](https://www.youtube.com/watch?feature=player_embedded&v=FnS0MdLM5ZU#t=285))
 * 2014.06.27 「LevelDB のちょっとした話 (LT)」 (天下一 InfluxDB 勉強会) ([slide](https://docs.google.com/a/chromium.org/presentation/d/1rqB-7G1CD0PQ74UGr2OKqpwOxVenXYeJIU_FzgskvKA/edit#slide=id.p), [video](https://www.youtube.com/watch?v=gU42aRdohhM))
 * 2013.06.11 「syncFileSystem API (LT)」 (Webオフライン技術研究会#01、Webアーキテクチャ技術研究会#01 by html5jえんぷら部)
 * 2013.02.28 「Introduction to NativeClient (LT)」 (第4回若手Webエンジニア交流会)

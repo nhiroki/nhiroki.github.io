@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts in <a href=".">{{ site.data.tags[page.tag].name }}</a></h1>
+  <h1 class="page-heading">Posts in <a href=".">#{{ site.data.tags[page.tag].name }}</a></h1>
 
   <ul class="post-list">
     {% for post in site.tags[page.tag] %}

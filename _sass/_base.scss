@@ -129,10 +129,10 @@ pre,
 code {
     font-size: $small-font-size;
     font-family: $code-font-family;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $grey-color;
     border-radius: 6px;
-    background-color: #333;
-    color: #dcdccc;
+    background-color: $code-background-color;
+    color: $text-color;
 }
 
 code {

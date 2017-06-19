@@ -2,12 +2,12 @@
  * Syntax highlighting styles
  */
 .highlight {
-    background: #333;
+    background: $code-background-color;
     @extend %vertical-rhythm;
 
     .c     { color: #998; } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
-    .k     { color: #aab30f; } // Keyword
+    .k     { color: #cc7820; } // Keyword
     .o     { } // Operator
     .cm    { color: #998; } // Comment.Multiline
     .cp    { color: #999; } // Comment.Preproc

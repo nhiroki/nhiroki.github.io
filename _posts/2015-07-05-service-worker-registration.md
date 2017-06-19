@@ -11,7 +11,7 @@ ServiceWorkerRegistration はその名の通り Service Worker の登録情報�
 
 ServiceWorkerRegistration オブジェクトの IDL は次のように定義されています。
 
-```js
+```
 [Exposed=(Window,Worker)]
 interface ServiceWorkerRegistration : EventTarget {
   [Unforgeable, SameObject] readonly attribute ServiceWorker? installing;
@@ -29,7 +29,7 @@ interface ServiceWorkerRegistration : EventTarget {
 
 ServiceWorker オブジェクトについても言及するので、そちらの IDL も引用しておきます。
 
-```js
+```
 [Exposed=(Window,Worker)]
 interface ServiceWorker : EventTarget {
   readonly attribute USVString scriptURL;
@@ -105,7 +105,7 @@ registration.unregister().then(function(result) { ... });
 
 Registration には installing, waiting, active の三つの ServiceWorker オブジェクトが関連付けられています。
 
-```js
+```
 interface ServiceWorkerRegistration : EventTarget {
   [Unforgeable, SameObject] readonly attribute ServiceWorker? installing;
   [Unforgeable, SameObject] readonly attribute ServiceWorker? waiting;

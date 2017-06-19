@@ -65,7 +65,6 @@ navigator.serviceWorker.register('/sw.js', {scope: '/foo/bar'})
 登録済みの Registration は getRegistration() もしくは getRegistrations() で取得することができます。getRegistrations() は Chrome ではバージョン 45 から使用することができます ([crbug](http://crbug.com/478382))。
 
 ```js
-
 // 現在のページをスコープに含む Registration を返す
 navigator.getRegistration().then(function(registration) { ... });
 // 'https://example.com/hoge/fuga' をスコープに含む Registration を返す

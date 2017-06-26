@@ -8,3 +8,5 @@ serviceworker:
   name: serviceworker
 event:
   name: event
+reading:
+  name: reading

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2017/06/10
+date: 2017/06/27
 permalink: /about/
 ---
 
@@ -9,7 +9,7 @@ permalink: /about/
 
 Hiroki Nakagawa (nhiroki)
 
-シニアソフトウェアエンジニア @ グーグル合同会社。Blink / Chromium (Chrome) 開発者。
+シニアソフトウェアエンジニア @ グーグル。Blink / Chromium (Chrome) 開発者。父親。
 
 ---
 

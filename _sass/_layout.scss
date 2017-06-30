@@ -186,11 +186,18 @@
 
 .post-meta {
     font-size: $small-font-size;
+    @include media-query($on-palm) {
+        font-size: $small-font-size-on-palm;
+    }
 }
 
 .post-link {
-    font-size: 18px;
+    font-size: $base-font-size;
     margin-right: 10px;
+
+    @include media-query($on-palm) {
+        font-size: $base-font-size-on-palm;
+    }
 }
 
 /**
@@ -208,6 +215,10 @@
     @include media-query($on-laptop) {
         font-size: 30px;
     }
+
+    @include media-query($on-palm) {
+        font-size: 24px;
+    }
 }
 
 .post-content {
@@ -219,6 +230,9 @@
         @include media-query($on-laptop) {
             font-size: 24px;
         }
+        @include media-query($on-palm) {
+            font-size: 20px;
+        }
     }
 
     h2 {
@@ -227,6 +241,9 @@
         @include media-query($on-laptop) {
             font-size: 20px;
         }
+        @include media-query($on-palm) {
+            font-size: 18px;
+        }
     }
 
     h3 {
@@ -234,6 +251,9 @@
 
         @include media-query($on-laptop) {
             font-size: 18px;
+        }
+        @include media-query($on-palm) {
+            font-size: 16px;
         }
     }
 

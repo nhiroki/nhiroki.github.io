@@ -20,6 +20,10 @@ body {
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
+
+    @include media-query($on-palm) {
+        font-size: $base-font-size-on-palm;
+    }
 }
 
 
@@ -56,6 +60,10 @@ figure > img {
 
 figcaption {
     font-size: $small-font-size;
+
+    @include media-query($on-palm) {
+        font-size: $small-font-size-on-palm;
+    }
 }
 
 
@@ -111,12 +119,16 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    font-size: $base-font-size;
     letter-spacing: -1px;
     font-style: italic;
 
     > :last-child {
         margin-bottom: 0;
+    }
+
+    @include media-query($on-palm) {
+        font-size: $base-font-size-on-palm;
     }
 }
 
@@ -133,6 +145,10 @@ code {
     border-radius: 6px;
     background-color: $code-background-color;
     color: $text-color;
+
+    @include media-query($on-palm) {
+        font-size: $small-font-size-on-palm;
+    }
 }
 
 code {

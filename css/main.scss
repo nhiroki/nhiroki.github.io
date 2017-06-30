@@ -8,8 +8,11 @@
 // Our variables
 $base-font-family: "Open Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 $base-font-size:   17px;
+$base-font-size-on-palm: 15px;
 $small-font-size:  $base-font-size * 0.875;
+$small-font-size-on-palm:  $base-font-size-on-palm * 0.875;
 $very-small-font-size: $base-font-size * 0.750;
+$very-small-font-size-on-palm: $base-font-size-on-palm * 0.750;
 $base-line-height: 1.6;
 
 $code-font-family: 'Source Code Pro';

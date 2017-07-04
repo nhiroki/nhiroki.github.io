@@ -51,7 +51,7 @@ nhiroki が 2008 年頃 (大学三年生) 以降に読んだ/読みたい/気に
 - C++ のための API デザイン
 - C++ テンプレートテクニック（第二版）
 - The Architecture of Open Source Applications - Volume II: Structure, Scale, and a Few More Fearless Hacks
-- The Architecture of Open Source Applications - Elegance, Evolution, and a Feq Fearless Hacks
+- The Architecture of Open Source Applications - Elegance, Evolution, and a Few Fearless Hacks
 
 - ([途中](https://twitter.com/nhiroki_/status/834200033511698432)) Programming Rust
 - (途中) Linkers and Loaders

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/07/06
+date: 2017/07/07
 permalink: /books/
 ---
 
@@ -114,7 +114,7 @@ permalink: /books/
 
 ## オペレーティングシステム
 
-- Android を支える技術 <II> ― 新のマルチタスクに挑んだモバイル OS の心臓部
+- Android を支える技術 II ― 新のマルチタスクに挑んだモバイル OS の心臓部
 - 詳解 システム・パフォーマンス
 - インサイド Windows 下巻
 - 新装改訂版 Linux のブートプロセスをみる
@@ -123,7 +123,7 @@ permalink: /books/
   - 出版記念イベントに参加しました（[感想](https://twitter.com/nhiroki_/status/730029907426746368)）
 - (途中) インサイド Windows 上巻
 
-- ([2017](https://twitter.com/nhiroki_/status/854652413696917506)) Android を支える技術 <I> - 60 fps を達成するモダンな GUI システム
+- ([2017](https://twitter.com/nhiroki_/status/854652413696917506)) Android を支える技術 I - 60 fps を達成するモダンな GUI システム
 - ([2017](https://twitter.com/nhiroki_/status/749190068376440832)) Linux プログラミングインタフェース
 - (2013) はじめての OS コードリーディング ― UNIX V6 で学ぶカーネルのしくみ
 - <s>(2012) 作りながら学ぶ OS カーネル ― 保護モードプログラミングの基本と実践</s>
@@ -147,13 +147,15 @@ permalink: /books/
 
 ## ネットワーク
 
-- (2009) UNIX ネットワークプログラミング <Vol.2> IPC: プロセス間通信
-- (2009) UNIX ネットワークプログラミング <Vol.1> ネットワーク API: ソケットと XTI
+- (2009) UNIX ネットワークプログラミング (Vol.2) IPC: プロセス間通信
+- (2009) UNIX ネットワークプログラミング (Vol.1) ネットワーク API: ソケットと XTI
 - (2009) Computer Networking: A Top-Down Approach (4th Edition)
   - 学部研究室の輪講題材
 
 ## データベース
 
+- Database Management Systems
+- 理論から学ぶデータベース実践入門 ― リレーショナルモデルによる効率的な SQL
 - プログラマのための SQL ― すべてを知り尽くしたいあなたに
 - プログラマのための SQL グラフ言論 ― リレーショナルデータベースで木と階層構造を扱う
 - 達人に学ぶ SQL 徹底指南書
@@ -162,7 +164,7 @@ permalink: /books/
 
 - ブラウザハック
 
-- (途中) Real World HTTP
+- ([途中](https://twitter.com/nhiroki_/status/881658486207139840)) Real World HTTP
 
 - ([2017](https://twitter.com/nhiroki_/status/869688379167842304)) Web フロントエンドハイパフォーマンスチューニング
 - (2014) ハイパフォーマンスブラウザネットワーキング ― ネットワークアプリケーションのためのパフォーマンス最適化

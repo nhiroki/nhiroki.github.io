@@ -1,5 +1,7 @@
 blog:
   name: blog
+book:
+  name: book
 linux:
   name: linux
 codereading:
@@ -10,3 +12,9 @@ event:
   name: event
 reading:
   name: reading
+ruby:
+  name: ruby
+javascript:
+  name: javascript
+programming:
+  name: programming

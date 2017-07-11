@@ -123,7 +123,7 @@ permalink: /books/
   - 出版記念イベントに参加しました（[感想](https://twitter.com/nhiroki_/status/730029907426746368)）
 - (途中) インサイド Windows 上巻
 
-- ([2017](https://twitter.com/nhiroki_/status/854652413696917506)) Android を支える技術 I - 60 fps を達成するモダンな GUI システム
+- ([2017](/2017/07/11/book-android)) Android を支える技術 I - 60 fps を達成するモダンな GUI システム
 - ([2017](https://twitter.com/nhiroki_/status/749190068376440832)) Linux プログラミングインタフェース
 - (2013) はじめての OS コードリーディング ― UNIX V6 で学ぶカーネルのしくみ
 - <s>(2012) 作りながら学ぶ OS カーネル ― 保護モードプログラミングの基本と実践</s>

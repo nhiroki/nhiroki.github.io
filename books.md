@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/07/07
+date: 2017/07/11
 permalink: /books/
 ---
 
@@ -154,11 +154,12 @@ permalink: /books/
 
 ## データベース
 
-- Database Management Systems
 - 理論から学ぶデータベース実践入門 ― リレーショナルモデルによる効率的な SQL
 - プログラマのための SQL ― すべてを知り尽くしたいあなたに
 - プログラマのための SQL グラフ言論 ― リレーショナルデータベースで木と階層構造を扱う
 - 達人に学ぶ SQL 徹底指南書
+
+- ([途中](https://twitter.com/nhiroki_/status/884545876420681733)) Database Management Systems
 
 ## ウェブ
 

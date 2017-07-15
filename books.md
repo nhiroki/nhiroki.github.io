@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/07/11
+date: 2017/07/15
 permalink: /books/
 ---
 
@@ -201,6 +201,9 @@ permalink: /books/
 - ([2016](https://twitter.com/nhiroki_/status/779116461033873408)) デジタルゲームの教科書
 
 ## その他
+
+- セキュリティコンテストのための CTF 問題集
+- セキュリティコンテストチャレンジブック ― CTF で学ぼう! 情報を守るための戦い方
 
 - ([2017](https://twitter.com/nhiroki_/status/830903270759501826)) こんなにスゴイ！地図作りの現場
 - (2015) たのしい電子工作 Arduino で電子工作をはじめよう！

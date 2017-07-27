@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2017/06/27
+date: 2017/07/28
 permalink: /about/
 ---
 
@@ -18,7 +18,7 @@ Hiroki Nakagawa (nhiroki)
 - 特に興味のあること
   - ウェブ / 仕事で作っているので。
   - システムソフトウェア (オペレーティングシステム、ファイルシステム、プログラミング言語処理系、メモリ管理機構) / 仕組みを知るのが面白い。
-  - コンピュータアーキテクチャ / ソフトウェアとハードウェアの境界に興味があり。上を知ったら下も知りたい。
+  - コンピュータアーキテクチャ / [ソフトウェアとハードウェアの境界](/2017/07/26/software-and-hardware)に興味があり。上を知ったら下も知りたい。
   - 並列・並行プログラミング / スレッドやプロセスをどのように協調動作させるか考えるのが楽しい。
 - よく使うのは C++ と JavaScript。ウェブアプリケーションやちょっとしたツールには Ruby。勉強中なのは Rust。その前に勉強していたのは Haskell と Golang。ご無沙汰なのは Java と PHP。もう読めないのは Perl。エディタは Vim です。
 
@@ -35,12 +35,13 @@ Hiroki Nakagawa (nhiroki)
 
 **2012.04 -- 現在　グーグル合同会社（旧：グーグル株式会社） / シニアソフトウェアエンジニア**
 
-ウェブブラウザ Chrome の開発。Chrome のオープンソースプロジェクト Blink / Chromium のコミッター。主に以下のことをしています。
+ウェブブラウザ Chrome の開発。Chrome のオープンソースプロジェクト Blink / Chromium のコミッター。主に以下のことをしていました。
 
 * [Worker](https://html.spec.whatwg.org/multipage/workers.html#workers) / [Worklet](https://drafts.css-houdini.org/worklets/) 基盤の設計と実装
 * [CacheStorage API](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#cache-objects) の実装
 * [ServiceWorker](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/) の設計と実装
 * [chrome.syncFileSystem API](https://developer.chrome.com/apps/syncFileSystem) の設計と実装
+* PPAPI 用 FileSystem API の設計と実装
 * [FileSystem API](https://www.w3.org/TR/file-system-api/) / [QuotaManagement API](http://w3c.github.io/quota-api/) のメンテナンス
 
 私が加えた変更の一覧は[こちら](https://codereview.chromium.org/search?closed=1&owner=nhiroki%40chromium.org&reviewer=&cc=&repo_guid=&base=&project=&private=1&commit=1&created_before=&created_after=&modified_before=&modified_after=&order=&format=html&keys_only=False&with_messages=False&cursor=&limit=200)で見ることができます。また、上記コンポーネントの[コードオーナーシップ](https://www.chromium.org/developers/owners-files)を持っています。主な使用言語は C++ / JavaScript です。

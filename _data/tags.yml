@@ -2,6 +2,8 @@ blog:
   name: blog
 book:
   name: book
+essay:
+  name: essay
 linux:
   name: linux
 codereading:

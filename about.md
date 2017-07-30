@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2017/07/28
+date: 2017/07/30
 permalink: /about/
 ---
 
@@ -37,14 +37,15 @@ Hiroki Nakagawa (nhiroki)
 
 ウェブブラウザ Chrome の開発。Chrome のオープンソースプロジェクト Blink / Chromium のコミッター。主に以下のことをしていました。
 
-* [Worker](https://html.spec.whatwg.org/multipage/workers.html#workers) / [Worklet](https://drafts.css-houdini.org/worklets/) 基盤の設計と実装
+* ES6 Modules for Worklet の設計と実装
+* [Worker](https://html.spec.whatwg.org/multipage/workers.html#workers) / [Worklet](https://drafts.css-houdini.org/worklets/) API のスレッディング基盤の設計と実装
 * [CacheStorage API](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#cache-objects) の実装
 * [ServiceWorker](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/) の設計と実装
 * [chrome.syncFileSystem API](https://developer.chrome.com/apps/syncFileSystem) の設計と実装
 * PPAPI 用 FileSystem API の設計と実装
 * [FileSystem API](https://www.w3.org/TR/file-system-api/) / [QuotaManagement API](http://w3c.github.io/quota-api/) のメンテナンス
 
-私が加えた変更の一覧は[こちら](https://codereview.chromium.org/search?closed=1&owner=nhiroki%40chromium.org&reviewer=&cc=&repo_guid=&base=&project=&private=1&commit=1&created_before=&created_after=&modified_before=&modified_after=&order=&format=html&keys_only=False&with_messages=False&cursor=&limit=200)で見ることができます。また、上記コンポーネントの[コードオーナーシップ](https://www.chromium.org/developers/owners-files)を持っています。主な使用言語は C++ / JavaScript です。
+私が加えた変更の一覧は[こちら (2017 年 6 月以降)](https://chromium-review.googlesource.com/q/owner:nhiroki%2540chromium.org)と[こちら (2017 年 5 月以前)](https://codereview.chromium.org/search?closed=1&owner=nhiroki%40chromium.org&reviewer=&cc=&repo_guid=&base=&project=&private=1&commit=1&created_before=&created_after=&modified_before=&modified_after=&order=&format=html&keys_only=False&with_messages=False&cursor=&limit=200)で見ることができます。また、上記コンポーネントの[コードオーナーシップ](https://www.chromium.org/developers/owners-files)を持っています。主な使用言語は C++ / JavaScript です。
 
 **2011.02 -- 2012.03　アシアル株式会社 / プログラマー、システムエンジニア (アルバイト)**
 

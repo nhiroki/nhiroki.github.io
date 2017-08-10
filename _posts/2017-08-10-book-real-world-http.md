@@ -41,7 +41,7 @@ HTTP の歴史 (0.9 から 1.0)、HTTP の先祖 (電子メール、ニュース
 
 > document co-author Roy Fielding has remarked that neither "referrer" nor the misspelling "referer" were recognized by the standard Unix spell checker of the period.
 
-[^CDN]: http://tech.mercari.com/entry/2017/06/22/204500
+[^CDN]: [http://tech.mercari.com/entry/2017/06/22/204500](http://tech.mercari.com/entry/2017/06/22/204500)
 
 ## 第 3 章　Go 言語による HTTP/1.0 クライアントの実装
 

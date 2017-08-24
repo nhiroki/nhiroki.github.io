@@ -3,6 +3,7 @@ title: "nhiroki's weblog"
 description: "このブログで述べられている内容はすべて私の個人的な意見に基づくものであり、所属する組織、団体とは一切関係ありません。"
 twitter_username: "nhiroki_"
 github_username:  "nhiroki"
+lang: ja_JP
 
 # Post settings
 permalink: /:year/:month/:day/:title
@@ -12,3 +13,6 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/09/01
+date: 2017/09/05
 permalink: /books/
 ---
 
@@ -137,6 +137,8 @@ permalink: /books/
 - (辞書) 詳解 LINUX カーネル
 
 ## 並列並行プログラミング・分散システム
+
+- ビッグデータを支える技術 ― 刻々とデータが脈打つ自動化の世界
 
 - ([途中](https://twitter.com/nhiroki_/status/798189186457026560)) Shared Memory Application Programming
 

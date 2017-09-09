@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/09/05
+date: 2017/09/09
 permalink: /books/
 ---
 
@@ -119,6 +119,7 @@ permalink: /books/
 - 詳解 システム・パフォーマンス
 - インサイド Windows 下巻
 - 新装改訂版 Linux のブートプロセスをみる
+- Linux デバイスドライバ
 
 - (途中) Unix 考古学 Truth of the Legend
   - 出版記念イベントに参加しました（[感想](https://twitter.com/nhiroki_/status/730029907426746368)）
@@ -134,7 +135,7 @@ permalink: /books/
 - (2008) 例解 UNIX プログラミング教室 ― システムコールを使いこなすための 12 講
 - (2008) オペレーティングシステムの仕組み
 
-- (辞書) 詳解 LINUX カーネル
+- (辞書) 詳解 Linux カーネル
 
 ## 並列並行プログラミング・分散システム
 

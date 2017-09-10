@@ -26,12 +26,12 @@ permalink: /books/
 - 純粋関数型データ構造
 - Understanding Compression
 - 型システム入門 ― プログラミング言語と型の理論
-- ガベージコレクション ― 自動的メモリ管理を構成する理論と実装
 - その数式、プログラムできますか？
 - 計算機プログラムの構造と解釈
 - 正規表現技術入門 ― 最新エンジン実装と理論的背景
 
 - (途中) アンダースタンディング コンピュテーション ― 単純な機械から不可能なプログラムまで
+- ([途中](https://twitter.com/nhiroki_/status/902273093782999040)) ガベージコレクション ― 自動的メモリ管理を構成する理論と実装
 
 - (2012) アルゴリズムを学ぼう
 - (2010) ガベージコレクションのアルゴリズムと実装
@@ -139,6 +139,7 @@ permalink: /books/
 
 ## 並列並行プログラミング・分散システム
 
+- Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
 - ビッグデータを支える技術 ― 刻々とデータが脈打つ自動化の世界
 
 - ([途中](https://twitter.com/nhiroki_/status/798189186457026560)) Shared Memory Application Programming

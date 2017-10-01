@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/09/09
+date: 2017/10/01
 permalink: /books/
 ---
 
@@ -139,6 +139,7 @@ permalink: /books/
 
 ## 並列並行プログラミング・分散システム
 
+- SRE サイトリライアビリティエンジニアリング ― Google の信頼性を支えるエンジニアリングチーム
 - Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
 - ビッグデータを支える技術 ― 刻々とデータが脈打つ自動化の世界
 

@@ -29,8 +29,6 @@ Hiroki Nakagawa (nhiroki)
 - 大学では学園祭実行委員会に所属していました。イベント運営とか好きです。
 - 中学高校では陸上競技部に所属していました。専門は短距離 (200m, 400m) でした。もう走れません。
 
----
-
 # 仕事
 
 **2012.04 -- 現在　グーグル合同会社（旧：グーグル株式会社） / シニアソフトウェアエンジニア**
@@ -64,8 +62,6 @@ Chrome OS の文字入力変換ウィンドウの UI 改善。Chromium とか iB
 
 ウェブクローラーの開発 (Perl / PHP)、Drupal を使った社内ポータルサイトの構築 (PHP)、OpenLDAP / OpenAM を使ったシングルサインオン環境の構築と SNS への組み込み (PHP)、E-Learning アプリケーションの開発 (Ruby on Rails) などをしていました。その他に二年ほど高校生の家庭教師をしていました。
 
----
-
 # 勉強会などでの発表
 
 * 2017.03.21 「[論文紹介] The Linux Scheduler: A Decade of Wasted Cores (EuroSys 2016)」([システム系輪講会](https://connpass.com/event/52323/)) ([slide](https://docs.google.com/presentation/d/1B9lC6uPxHBzWm9Elhn8cvvQXy7ykIe7EPgFe0i0hAYk/pub?start=false&loop=false&slide=id.p))
@@ -77,8 +73,6 @@ Chrome OS の文字入力変換ウィンドウの UI 改善。Chromium とか iB
 * 2013.06.11 「syncFileSystem API (LT)」 (Webオフライン技術研究会#01、Webアーキテクチャ技術研究会#01 by html5jえんぷら部)
 * 2013.02.28 「Introduction to NativeClient (LT)」 (第4回若手Webエンジニア交流会)
 * 2012.07.13 「Web ブラウザが支える技術 (LT)」 (第1回若手Webエンジニア交流会)
-
----
 
 # 大学
 
@@ -104,8 +98,6 @@ Chrome OS の文字入力変換ウィンドウの UI 改善。Chromium とか iB
 * 2011.09 中川 博貴，笹田 耕一: Teleporter: Ruby オブジェクトの効率的なプロセス間転送・共有機構 (ソフトウェア科学会 第28回大会 講演論文集)
 * 2011.04 中川 博貴，笹田 耕一: Rubyの文字列処理の手軽な高速化 (情報処理学会 第83回 プログラミング研究発表会)
 
----
-
 # 資格
 
 * 2015 TOEIC 965
@@ -113,8 +105,6 @@ Chrome OS の文字入力変換ウィンドウの UI 改善。Chromium とか iB
 * 2010 情報セキュリティスペシャリスト
 * 2008 ソフトウェア開発技術者
 * 2007 基本情報処理技術者
-
----
 
 # コンテスト
 

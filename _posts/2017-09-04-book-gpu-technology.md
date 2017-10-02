@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「GPU を支える技術 ― 超並列ハードウェアの快進撃 [技術基礎]」読了"
+title: "「GPU を支える技術」読了"
 date: 2017-09-04 00:00:00 +09:00
 tags: book
 image: /images/book-gpu-technology.jpg
@@ -170,7 +170,5 @@ AMD では HSA (Heterogeneous System Architecture)[^HSA1] [^HSA2] という考�
 [^HSA1]: [AMD，次期主力APU「Kaveri」で対応する新技術「hUMA」を発表。CPUとGPUが同じメモリ空間を共有可能に](http://www.4gamer.net/games/147/G014731/20130428008/) / 4Gamer.net (2013/04/30)
 [^HSA2]: [AMD，GPUとCPUで同じプログラムが動く「HSA」の最新動向を公表。Javaへの対応計画も明らかに](http://www.4gamer.net/games/147/G014731/20130827001/) / 4Gamer.net (2013/08/27)
 [^dark-silicon]: [モバイルSoCにおけるダークシリコンの呪縛](http://pc.watch.impress.co.jp/docs/column/kaigai/549137.html) / PC Watch - 後藤弘茂のWeekly海外ニュース (2012/07/26)
-
----
 
 # 注釈

@@ -45,8 +45,6 @@ Note: 最新の DevTools を試すために、[Dev channel もしくは Canary](
 
 - CORS フォールバックしたレスポンスが DevTools の Network タブ上で "(Service Worker Fallback)" と表示されるようになりました。以前は "(cancelled)" と表示されていました。詳しくはバグトラッカーに添付されたスクリーンショットを参照してください ([bug](https://code.google.com/p/chromium/issues/detail?id=511054))。
 
----
-
 # 補足
 
 [^client-requests]: 以前は client requests と呼ばれていましたが、`Request.context` の削除に伴い non-subresource requests という用語になりました ([spec change](https://github.com/whatwg/fetch/commit/d2208faa939998cf56bb08a724cd8d4590afea47?diff=split))。client requests については [Chrome 44 のリリースノート](/2015/07/21/service-worker-release-notes-m44/#fn:client-request)を参照してください。

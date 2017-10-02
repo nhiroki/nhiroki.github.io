@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「Android を支える技術 I ― 60 fps を達成するモダンな GUI システム」読了"
+title: "「Android を支える技術 I」読了"
 date: 2017-07-11 00:00:00 +09:00
 tags: book
 ---

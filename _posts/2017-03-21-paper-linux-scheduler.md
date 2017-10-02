@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "【論文紹介】The Linux Scheduler: A Decade of Wasted Cores (2016)"
+title:  "[論文] The Linux Scheduler: A Decade of Wasted Cores (2016)"
 date:   2017-03-21 00:00:00 +09:00
 tags: linux reading
 ---

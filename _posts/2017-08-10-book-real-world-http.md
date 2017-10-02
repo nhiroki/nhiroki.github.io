@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「Real World HTTP ― 歴史とコードに学ぶインターネットとウェブ技術」読了"
+title: "「Real World HTTP」読了"
 date: 2017-08-10 00:00:00 +09:00
 tags: book
 ---
@@ -94,7 +94,5 @@ RESTful と REST-ish、 RESTful API におけるメソッド・ステータス�
 
 - HTTP によるデータベースアクセスに関しては「4.3 PUT メソッドと DELETE メソッドの標準化」でも触れられている。
 - LSUDs (Large Set of Unknown Developers) の話を見て Web API の粒度を決めるのは本当に難しそうだと感じた。私は SSKDs (Small Set of Known Developers) しか設計したことがないのでモノリシックな API を作れば事足りたけど、ユースケースが事前に明確に決められない場合悩みすぎていつまでも API をローンチできなさそう。
-
----
 
 # 補足

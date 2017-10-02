@@ -56,8 +56,6 @@ $ ./chrome --user-data-dir=/tmp/foo --unsafely-treat-insecure-origin-as-secure=h
 - Service Worker が STOPPING 状態でスタックしてしまうバグが修正されました ([Bug](https://code.google.com/p/chromium/issues/detail?id=499646))。
 - バグフィックスの全リストは[こちら](https://code.google.com/p/chromium/issues/list?can=1&q=Cr%3DBlink-ServiceWorker+m%3D44+status%3AFixed%2CVerified&colspec=ID+Pri+M+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)で確認できます。
 
----
-
 # 訳者補足
 
 [^extendable-event]: `ExtendableEvent` はそれの持つ `waitUntil()` に任意の Promise を渡すことで、その Promise が settled (resolved or rejected) になるまでイベントのライフタイムを延長することができるイベントです。

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「Database Management Systems / Chapter 8 - Overview of Storage and Indexing」読了"
+title: "「DBMS / Chapter 8 - Overview of Storage and Indexing」読了"
 date: 2017-08-25 00:00:00 +09:00
 tags: book
 image: /images/book-database-management-systems.jpg

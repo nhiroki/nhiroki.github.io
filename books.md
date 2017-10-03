@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/10/01
+date: 2017/10/04
 permalink: /books/
 ---
 
@@ -189,6 +189,7 @@ permalink: /books/
 - マイクロサービスアーキテクチャ
 - API デザインケーススタディ ~Rubyの実例から学ぶ。問題に即したデザインと普遍の考え方
 
+- ([2017](/2017/10/04/book-principles-of-programming)) プリンシプル オブ プログラミング ― 3 年目までに身につけたい 一生役立つ 101 の原理原則
 - (2014) GitHub 実践入門 ― Pull Request による開発の変革
 - (2012) リーダブルコード　より良いコードを書くためのシンプルで実践的なテクニック
 - ([2009](http://d.hatena.ne.jp/sternheller/20090608)) Joel on Software

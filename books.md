@@ -17,9 +17,7 @@ permalink: /books/
 - 辞書：辞書的に読んでいるので永遠に読み終わらない。
 - <s>挫折</s>
 
-# コンピュータサイエンス
-
-## 情報科学全般
+# 情報科学全般
 
 - 純粋関数型データ構造
 - Understanding Compression
@@ -42,7 +40,7 @@ permalink: /books/
 
 - (辞書) 詳説正規表現
 
-## プログラミング・言語処理系
+# プログラミング・言語処理系
 
 - 7 つの言語 7 つの世界
 - Optimized C++
@@ -92,7 +90,7 @@ permalink: /books/
 
 - (辞書) コンパイラ ― 原理・技法・ツール（ドラゴンブック）
 
-## コンピュータアーキテクチャ
+# コンピュータアーキテクチャ
 
 - FPGA の原理と構成
 - コンピュータシステムの理論と実装
@@ -111,7 +109,7 @@ permalink: /books/
 - (2009) コンピュータの構成と設計（パタヘネ）
 - (2008) 作りながら学ぶコンピュータアーキテクチャ
 
-## オペレーティングシステム
+# オペレーティングシステム
 
 - Android を支える技術 II ― 新のマルチタスクに挑んだモバイル OS の心臓部
 - 詳解 システム・パフォーマンス
@@ -135,7 +133,7 @@ permalink: /books/
 
 - (辞書) 詳解 Linux カーネル
 
-## 並列並行プログラミング・分散システム
+# 並列並行プログラミング・分散システム
 
 - SRE サイトリライアビリティエンジニアリング ― Google の信頼性を支えるエンジニアリングチーム
 - Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
@@ -149,14 +147,14 @@ permalink: /books/
   - 学部研究室の輪講題材
 - ([2008](http://d.hatena.ne.jp/sternheller/20080331)) Google を支える技術
 
-## ネットワーク
+# ネットワーク
 
 - (2009) UNIX ネットワークプログラミング (Vol.2) IPC: プロセス間通信
 - (2009) UNIX ネットワークプログラミング (Vol.1) ネットワーク API: ソケットと XTI
 - (2009) Computer Networking: A Top-Down Approach (4th Edition)
   - 学部研究室の輪講題材
 
-## データベース
+# データベース
 
 - 理論から学ぶデータベース実践入門 ― リレーショナルモデルによる効率的な SQL
 - プログラマのための SQL ― すべてを知り尽くしたいあなたに
@@ -165,7 +163,7 @@ permalink: /books/
 
 - ([途中](https://twitter.com/nhiroki_/status/884545876420681733)) Database Management Systems
 
-## ウェブ
+# ウェブ
 
 - ブラウザハック
 
@@ -177,7 +175,7 @@ permalink: /books/
 - (2010) Web 開発者のための大規模サービス技術入門 ― データ構造、メモリ、OS、DB、サーバ/インフラ
 - (2008) 24 時間 365 日 サーバ/インフラを支える技術 ― スケーラビリティ、ハイパフォーマンス、省力運用
 
-## 機械学習/人工知能
+# 機械学習/人工知能
 
 - ([途中](https://twitter.com/nhiroki_/status/808263006656217088)) ゼロから作る Deep Learning
 - (途中) はじめてのパターン認識
@@ -185,7 +183,7 @@ permalink: /books/
 - ([2016](https://twitter.com/nhiroki_/status/700320801665339393)) 人工知能は人間を超えるか
 - (2008) 人工知能の基礎
 
-## ソフトウェア工学
+# ソフトウェア工学
 
 - エリック・エヴァンスのドメイン駆動設計
 - マイクロサービスアーキテクチャ
@@ -197,14 +195,14 @@ permalink: /books/
 
 - <s>SCRUM BOOT CAMP THE BOOK</s>
 
-## ゲーム
+# ゲーム
 
 - Game Programming Patterns ― ソフトウェア開発の問題解決メニュー
 - ゲームエンジン・アーキテクチャ
 
 - ([2016](https://twitter.com/nhiroki_/status/779116461033873408)) デジタルゲームの教科書
 
-## その他
+# その他
 
 - セキュリティコンテストのための CTF 問題集
 - セキュリティコンテストチャレンジブック ― CTF で学ぼう! 情報を守るための戦い方

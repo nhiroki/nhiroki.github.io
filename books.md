@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/10/04
+date: 2017/10/08
 permalink: /books/
 ---
 
@@ -218,9 +218,10 @@ permalink: /books/
 
 # 理工学
 
-- ([途中](https://twitter.com/nhiroki_/status/883742870422798336)) 天文宇宙検定公式テキスト 2 級 / 公式問題集 2 級
+- ([途中](https://twitter.com/nhiroki_/status/883742870422798336)) 天文宇宙検定公式問題集 2 級 (2016-2017 年版)
 - ([途中](https://twitter.com/nhiroki_/status/785470001981431809)) スタンフォード物理学再入門　力学
 
+- ([2017](https://twitter.com/nhiroki_/status/883742870422798336)) 天文宇宙検定公式テキスト 2 級 (2017 - 2018 年版)
 - ([2017](https://twitter.com/nhiroki_/status/830073945017585664)) 地球・生命の大進化 ― 46億年の物語 大人のための図鑑
 - ([2016](https://twitter.com/nhiroki_/status/813403778380509188)) みんなが知りたい船の疑問 100
 - ([2016](https://twitter.com/nhiroki_/status/712291499895951360)) 輪廻する宇宙 ― ダークエネルギーに満ちた宇宙の将来

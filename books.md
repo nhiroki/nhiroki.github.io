@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/10/08
+date: 2017/10/15
 permalink: /books/
 ---
 
@@ -144,7 +144,6 @@ permalink: /books/
 - (2011) The Art of Multiprocessor Programming ― 並行プログラミングの原理から実践まで
 - (2009) Pthreads プログラミング
 - (2009) Distributed Systems: Principles and Paradigms (2nd Edition)
-  - 学部研究室の輪講題材
 - ([2008](http://d.hatena.ne.jp/sternheller/20080331)) Google を支える技術
 
 # ネットワーク
@@ -152,7 +151,6 @@ permalink: /books/
 - (2009) UNIX ネットワークプログラミング (Vol.2) IPC: プロセス間通信
 - (2009) UNIX ネットワークプログラミング (Vol.1) ネットワーク API: ソケットと XTI
 - (2009) Computer Networking: A Top-Down Approach (4th Edition)
-  - 学部研究室の輪講題材
 
 # データベース
 
@@ -218,9 +216,10 @@ permalink: /books/
 
 # 理工学
 
-- ([途中](https://twitter.com/nhiroki_/status/883742870422798336)) 天文宇宙検定公式問題集 2 級 (2016-2017 年版)
+- 惑星形成の物理 ― 太陽系と系外惑星系の形成論入門
 - ([途中](https://twitter.com/nhiroki_/status/785470001981431809)) スタンフォード物理学再入門　力学
 
+- ([2017](https://twitter.com/nhiroki_/status/883742870422798336)) 天文宇宙検定公式問題集 2 級 (2016-2017 年版)
 - ([2017](https://twitter.com/nhiroki_/status/883742870422798336)) 天文宇宙検定公式テキスト 2 級 (2017 - 2018 年版)
 - ([2017](https://twitter.com/nhiroki_/status/830073945017585664)) 地球・生命の大進化 ― 46億年の物語 大人のための図鑑
 - ([2016](https://twitter.com/nhiroki_/status/813403778380509188)) みんなが知りたい船の疑問 100

@@ -240,19 +240,24 @@ permalink: /books/
 - (2015) お金持ちの教科書
 - ([2008](http://d.hatena.ne.jp/sternheller/20080331/1206971291)) お金は銀行に預けるな ― 金融リテラシーの基本と実践
 
-# その他
+# 子育て・教育
 
 - (途中) レジリエンスの鍛え方
+
+- ([2017](https://twitter.com/nhiroki_/status/919538261877391360)) 世界のトップ 1% に育てる親の習慣ベスト 45
+- ([2017](https://twitter.com/nhiroki_/status/864853180806332416)) 頭がいい子の家のリビングには必ず「辞書」「地図」「図鑑」がある
+- ([2015](https://twitter.com/nhiroki_/status/672779898423906304)) 「学力」の経済学
+- ([2015](https://twitter.com/nhiroki_/status/677873722678632452)) アイビーリーグの入り方 ― アメリカ大学入試の知られざる実態と名門大学の合格基準
+
+# その他
+
 - (途中) ソシュールと言語学 ― コトバはなぜ通じるのか
 - ([途中](https://twitter.com/nhiroki_/status/836243094353793024)) アメリカの小学生が学ぶ歴史教科書
 - ([途中](https://twitter.com/nhiroki_/status/706852600105213953)) <s>音楽の基礎</s>
 
-- ([2017](https://twitter.com/nhiroki_/status/864853180806332416)) 頭がいい子の家のリビングには必ず「辞書」「地図」「図鑑」がある
 - <s>(2016) コンテナ物語</s>
 - ([2016](https://twitter.com/nhiroki_/status/796904195425087488)) 日本人の知らないワンランク上のビジネス英語術 ― エール大学厳選 30 講
 - ([2016](https://twitter.com/nhiroki_/status/699595851669176322)) 新・観光立国論
-- ([2015](https://twitter.com/nhiroki_/status/672779898423906304)) 「学力」の経済学
-- ([2015](https://twitter.com/nhiroki_/status/677873722678632452)) アイビーリーグの入り方 ― アメリカ大学入試の知られざる実態と名門大学の合格基準
 - ([2015](https://twitter.com/nhiroki_/status/676024810011512832)) メイカーズ進化論 ― 本当の勝者は IoT で決まる
 - ([2015](https://twitter.com/nhiroki_/status/667384037179174912)) ネットがつながらなかったので仕方なく本を 1000 冊読んで考えた そしたら意外に役立った
 - ([2015](https://twitter.com/nhiroki_/status/659051328161869824)) はじめての構造主義

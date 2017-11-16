@@ -117,11 +117,10 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
+    color: $text-color;
+    border: 1px dashed $grey-color;
+    padding: $spacing-unit / 2;
     font-size: $base-font-size;
-    letter-spacing: -1px;
     font-style: italic;
 
     > :last-child {

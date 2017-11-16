@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/11/16
+date: 2017/11/17
 permalink: /books/
 ---
 
@@ -256,6 +256,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/836243094353793024)) アメリカの小学生が学ぶ歴史教科書
 - ([途中](https://twitter.com/nhiroki_/status/706852600105213953)) <s>音楽の基礎</s>
 
+- ([2017](https://twitter.com/nhiroki_/status/915502376429031424)) シリコンバレー式 最強の育て方 ― 人材マネジメントの新しい常識 1 on 1 ミーティング
 - <s>(2016) コンテナ物語</s>
 - ([2016](https://twitter.com/nhiroki_/status/796904195425087488)) 日本人の知らないワンランク上のビジネス英語術 ― エール大学厳選 30 講
 - ([2016](https://twitter.com/nhiroki_/status/699595851669176322)) 新・観光立国論

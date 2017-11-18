@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/11/17
+date: 2017/11/18
 permalink: /books/
 ---
 
@@ -196,8 +196,8 @@ permalink: /books/
 
 # ゲーム
 
-- Game Programming Patterns ― ソフトウェア開発の問題解決メニュー
 - ゲームエンジン・アーキテクチャ
+- ([途中](https://twitter.com/nhiroki_/status/931692391626502144)) Game Programming Patterns ― ソフトウェア開発の問題解決メニュー
 
 - ([2016](https://twitter.com/nhiroki_/status/779116461033873408)) デジタルゲームの教科書
 

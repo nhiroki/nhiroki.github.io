@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/11/18
+date: 2017/11/22
 permalink: /books/
 ---
 
@@ -163,6 +163,7 @@ permalink: /books/
 
 # ウェブ
 
+- 超速! Web ページ速度改善ガイド ― 使いやすさは「速さ」から始まる
 - ブラウザハック
 
 - ([2017](/2017/08/10/book-real-world-http)) Real World HTTP ― 歴史とコードに学ぶインターネットとウェブ技術
@@ -175,6 +176,7 @@ permalink: /books/
 
 # 機械学習/人工知能
 
+- 人工知能の作り方 ― 「おもしろい」ゲーム AI はいかにして動くのか
 - ([途中](https://twitter.com/nhiroki_/status/808263006656217088)) ゼロから作る Deep Learning
 - (途中) はじめてのパターン認識
 

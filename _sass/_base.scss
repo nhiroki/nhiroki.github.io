@@ -69,6 +69,23 @@ figcaption {
 
 
 /**
+ * Tables
+ */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: $spacing-unit / 2;
+}
+
+th, td {
+    border: solid 1px $text-color;
+    padding: $spacing-unit / 3;
+}
+
+
+
+/**
  * Lists
  */
 ul, ol {

@@ -3,6 +3,7 @@ layout: post
 title: "Chromium のソースコードの歩き方"
 date: 2017-12-01 00:00:00 +09:00
 tags: codereading web
+image: /images/chromium-sourcecode-codesearch.png
 ---
 
 これは [Chromium Browser アドベントカレンダー](https://qiita.com/advent-calendar/2017/chromium)の一日目の記事です。初日ということで、本記事では Chromium のソースコードを読む上で役に立つであろう、プロジェクトのディレクトリ構成やファイル構成を紹介します。

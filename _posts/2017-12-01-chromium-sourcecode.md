@@ -8,6 +8,8 @@ image: /images/chromium-sourcecode-codesearch.png
 
 これは [Chromium Browser アドベントカレンダー](https://qiita.com/advent-calendar/2017/chromium)の一日目の記事です。初日ということで、本記事では Chromium のソースコードを読む上で役に立つであろう、プロジェクトのディレクトリ構成やファイル構成を紹介します。
 
+- (2017/12/01) ディレクトリ構成について追記しました。
+
 # Chromium とは？
 
 [Chromium](https://www.chromium.org/) とはオープンソースのウェブブラウザです。Chrome や Opera などは Chromium をベースにして作られています。主に C++ 言語で書かれています。
@@ -108,6 +110,11 @@ src/
     - WebKit/
   - v8/
 ```
+
+**追記 (2017/12/01)**
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">まさにその通りで、説明の都合上雑然としてる部分をざっくり削ってしまった上に「見事に切り分けられている」と書いてしまいちょっと反省 :p 例えば一部の Storage API は src/storage、Compositor は src/cc、PPAPI は src/ppapi にいたりします <a href="https://t.co/yChaoZ2CmS">https://t.co/yChaoZ2CmS</a></p>&mdash; nhiroki (@nhiroki_) <a href="https://twitter.com/nhiroki_/status/936449768426897408?ref_src=twsrc%5Etfw">2017年12月1日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # 各ディレクトリ内のファイル構成
 

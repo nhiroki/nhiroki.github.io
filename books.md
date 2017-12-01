@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/11/22
+date: 2017/12/01
 permalink: /books/
 ---
 
@@ -251,9 +251,13 @@ permalink: /books/
 - ([2017](https://twitter.com/nhiroki_/status/864853180806332416)) 頭がいい子の家のリビングには必ず「辞書」「地図」「図鑑」がある
 - ([2015](https://twitter.com/nhiroki_/status/672779898423906304)) 「学力」の経済学
 - ([2015](https://twitter.com/nhiroki_/status/677873722678632452)) アイビーリーグの入り方 ― アメリカ大学入試の知られざる実態と名門大学の合格基準
+- (2015) 3 歳までの子育ての教科書
+- (2015) 赤ちゃんの脳を育む本
+- (2015) 新しいパパの教科書
 
 # その他
 
+- 渋滞学
 - (途中) ソシュールと言語学 ― コトバはなぜ通じるのか
 - ([途中](https://twitter.com/nhiroki_/status/836243094353793024)) アメリカの小学生が学ぶ歴史教科書
 - ([途中](https://twitter.com/nhiroki_/status/706852600105213953)) <s>音楽の基礎</s>

@@ -200,7 +200,7 @@ permalink: /books/
 - 人工知能の作り方 ― 「おもしろい」ゲーム AI はいかにして動くのか
 - ゲームエンジン・アーキテクチャ
 
-- ([2017](https://twitter.com/nhiroki_/status/931692391626502144)) Game Programming Patterns ― ソフトウェア開発の問題解決メニュー
+- ([2017](https://twitter.com/nhiroki_/status/931299658793607169)) Game Programming Patterns ― ソフトウェア開発の問題解決メニュー
 - ([2016](https://twitter.com/nhiroki_/status/779116461033873408)) デジタルゲームの教科書
 
 # その他

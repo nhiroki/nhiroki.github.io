@@ -6,11 +6,11 @@ tags: blog
 image: /images/astro-test-2nd-grade-textbook.jpg
 ---
 
-10 月に第 7 回「[天文宇宙検定](http://www.astro-test.org/)」の二級を受けて合格しました。点数は 81/100 でした。
+10 月に第 7 回「[天文宇宙検定](http://www.astro-test.org/)」の二級を受けて合格しました。本記事はその受験記です。
 
 ![合格証](/images/astro-test-2nd-grade-certificate.jpg)
 
-メーテルと鉄郎の可愛い合格証書をもらいました。
+メーテルと鉄郎の可愛い合格証書をもらいました。点数は 81/100 でした。
 
 # 宇宙天文検定とは
 

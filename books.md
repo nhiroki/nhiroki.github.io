@@ -53,6 +53,7 @@ permalink: /books/
 - コンパイラの構成と最適化
 - 最新コンパイラ構成技法（タイガーブック）
 - Linkers and Loaders
+- コンパイラ 作りながら学ぶ
 
 - ([途中](https://twitter.com/nhiroki_/status/834200033511698432)) Programming Rust
 - (途中) すごい Haskell たのしく学ぼう！
@@ -116,6 +117,7 @@ permalink: /books/
 - インサイド Windows 下巻
 - 新装改訂版 Linux のブートプロセスをみる
 - Linux デバイスドライバ
+- ふつうの Linux プログラミング (第 2 版) ― Linux の仕組みから学べる gcc プログラミングの王道
 
 - (途中) Unix 考古学 Truth of the Legend
   - 出版記念イベントに参加しました（[感想](https://twitter.com/nhiroki_/status/730029907426746368)）

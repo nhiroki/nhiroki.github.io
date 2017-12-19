@@ -10,6 +10,11 @@ image: /images/javascript-parallel-processing-opg-image.png
 
 本記事を書くにあたり、[yuki3](https://qiita.com/yuki3) さんに多くのコメントをいただき、議論に付き合っていただきました。ありがとうございました。なお、文責はすべて私 (nhiroki) にあります。誤りや補足、質問などは気軽に [GitHub Issue](https://github.com/nhiroki/nhiroki.github.io/issues) もしくは [Twitter](https://twitter.com/nhiroki_) へお寄せください。
 
+**更新履歴**
+
+- 2017/12/20 Async DOM 関係の試み (WorkerNode や DOM Worklets) について注釈に追記。
+- 2017/12/10 初稿公開。
+
 # 目次
 
 1. [レンダリングエンジンと JavaScript の実行モデル](#1-レンダリングエンジンと-javascript-の実行モデル)
@@ -164,7 +169,7 @@ Worker は計算処理やストレージアクセス、リソースフェッチ�
 | WorkerGlobalScope | 不可 | 同期もしくは非同期 | 同期もしくは非同期 |
 | WorkletGlobalScope | 不可 | 不可 | 不可 |
 
-[^off-main-thread-dom]: 例えば、メインスレッド上の DOM 処理との実行順序の決め方や同期をどうするか考える必要があります。解決策の一つに Worker 側に DOM オブジェクトへの Proxy を提供し、実際の DOM への反映はメインスレッドで行うという方法が考えられますが、あらゆる DOM オブジェクトに対して Proxy を定義する必要があり、一筋縄ではいきません。
+[^off-main-thread-dom]: 例えば、メインスレッド上の DOM 処理との実行順序の決め方や同期をどうするか考える必要があります。解決策の一つに Worker 側に DOM オブジェクトへの Proxy を提供し、実際の DOM への反映はメインスレッドで行うという方法が考えられますが、あらゆる DOM オブジェクトに対して Proxy を定義する必要があり、一筋縄ではいきません。**(2017/12/20 追記) Async DOM 関係の試みとして [WorkerNode](https://github.com/drufball/worker-node/blob/master/EXPLAINER.md) や DOM Worklets といった話題が挙がっている (["New async DOM effort / list" - blink-dev](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/kMlBLNv0uwM))**
 
 ## Worker の種類とプロセスモデル
 

@@ -12,8 +12,8 @@ image: /images/javascript-parallel-processing-opg-image.png
 
 **更新履歴**
 
-- 2017/12/20 Async DOM 関係の試み (WorkerNode や DOM Worklets) について注釈に追記。
-- 2017/12/10 初稿公開。
+- 2017/12/20 Async DOM 関係の試み (WorkerNode や DOM Worklets) について注釈に追記
+- 2017/12/10 公開
 
 # 目次
 

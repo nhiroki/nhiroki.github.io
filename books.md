@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/12/20
+date: 2017/12/26
 permalink: /books/
 ---
 
@@ -223,6 +223,7 @@ permalink: /books/
 - 惑星形成の物理 ― 太陽系と系外惑星系の形成論入門
 - ([途中](https://twitter.com/nhiroki_/status/785470001981431809)) スタンフォード物理学再入門　力学
 
+- ([2017](https://twitter.com/nhiroki_/status/945645386844086273)) 宇宙の大地図帳
 - ([2017](https://twitter.com/nhiroki_/status/916095616366891008)) パラレルワールド ― 11 次元の宇宙から超空間へ
 - ([2017](https://twitter.com/nhiroki_/status/883742870422798336)) 天文宇宙検定公式問題集 2 級 (2016-2017 年版)
 - ([2017](https://twitter.com/nhiroki_/status/883742870422798336)) 天文宇宙検定公式テキスト 2 級 (2017 - 2018 年版)

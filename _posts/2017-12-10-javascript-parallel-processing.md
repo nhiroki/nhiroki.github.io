@@ -12,6 +12,7 @@ image: /images/javascript-parallel-processing-opg-image.png
 
 **更新履歴**
 
+- 2017/12/27 Audio Worklet の解説記事へのリンクを追加
 - 2017/12/20 Async DOM 関係の試み (WorkerNode や DOM Worklets) について注釈に追記
 - 2017/12/10 公開
 
@@ -476,6 +477,8 @@ Worklet はあくまでもベースとなる実行環境であり、それ単体
 - [Compositor Worklet evolves into Animation Worklet!](https://dassur.ma/things/animworklet/)
 - AudioWorklet :: What, Why and How ([slide](https://docs.google.com/presentation/d/11OZyHyWRTWOCETW4x7m5gCPNSdSl9HevCQ1aiR_0xFE/edit?usp=sharing), [video](https://www.youtube.com/watch?v=g1L4O1smMC0))
   - Chromium での AudioWorklet の実装者 (Hongchan さん) による発表。
+- [Enter AudioWorklet](https://developers.google.com/web/updates/2017/12/audio-worklet) **(2017/12/27 追加)** 
+  - [AudioWorkletの導入 (日本語訳)](https://qiita.com/ryoyakawai/items/1160586653330ccbf4a4)
 
 ## Worklet のサンプルコード (Paint Worklet)
 

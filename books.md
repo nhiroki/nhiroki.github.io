@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/12/26
+date: 2017/12/28
 permalink: /books/
 ---
 
@@ -186,6 +186,7 @@ permalink: /books/
 
 # ソフトウェア工学
 
+- Clean Architecture: A Craftsman's Guide to Software Structure and Design
 - エリック・エヴァンスのドメイン駆動設計
 - マイクロサービスアーキテクチャ
 - API デザインケーススタディ ~Rubyの実例から学ぶ。問題に即したデザインと普遍の考え方

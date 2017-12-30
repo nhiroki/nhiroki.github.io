@@ -4,6 +4,8 @@ book:
   name: book
 essay:
   name: essay
+diary:
+  name: diary
 linux:
   name: linux
 codereading:

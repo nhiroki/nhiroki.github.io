@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2017/12/28
+date: 2018/01/05
 permalink: /books/
 ---
 
@@ -42,6 +42,7 @@ permalink: /books/
 
 # プログラミング・言語処理系
 
+- Go ならわかるシステムプログラミング
 - 7 つの言語 7 つの世界
 - Optimized C++
 - プログラミング言語 Go

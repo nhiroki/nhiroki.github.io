@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/01/05
+date: 2018/01/14
 permalink: /books/
 ---
 
@@ -252,6 +252,7 @@ permalink: /books/
 
 - (途中) レジリエンスの鍛え方
 
+- ([2018](https://twitter.com/nhiroki_/status/952538735446343680)) 3男1女 東大理III合格百発百中 絶対やるべき勉強法
 - ([2017](https://twitter.com/nhiroki_/status/919538261877391360)) 世界のトップ 1% に育てる親の習慣ベスト 45
 - ([2017](https://twitter.com/nhiroki_/status/864853180806332416)) 頭がいい子の家のリビングには必ず「辞書」「地図」「図鑑」がある
 - ([2015](https://twitter.com/nhiroki_/status/672779898423906304)) 「学力」の経済学

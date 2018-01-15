@@ -12,6 +12,7 @@ image: /images/javascript-parallel-processing-opg-image.png
 
 **更新履歴**
 
+- 2018/01/15 Layout Worklet の実装が始まったので追記
 - 2017/12/27 Audio Worklet の解説記事へのリンクを追加
 - 2017/12/20 Async DOM 関係の試み (WorkerNode や DOM Worklets) について注釈に追記
 - 2017/12/10 公開
@@ -468,7 +469,7 @@ V8 の実行コンテキストのスタートアップコストを削るため�
 
 [^houdini-worklet]: [Worklet](https://drafts.css-houdini.org/worklets/) の仕様を見て気づかれた方もいるかもしれませんが、Worklet は CSS を拡張可能にするプロジェクト [CSS Houdini](https://github.com/w3c/css-houdini-drafts/wiki) の一部として仕様が策定されています。しかし、CSS 専用の機能ではありません。これは元々 Worklet が CSS Paint API のカスタムスクリプトの実行環境として作られたという歴史的な理由によるもので、他の用途でも使われるようになった現在でもそのまま Houdini の仕様として残っています。
 
-Worklet はあくまでもベースとなる実行環境であり、それ単体では使用することはできません。Worklet を拡張してカスタムスクリプトを提供している API には、[Paint Worklet](https://drafts.css-houdini.org/css-paint-api-1/)、[Animation Worklet](https://wicg.github.io/animation-worklet/)、そして [Audio Worklet](https://webaudio.github.io/web-audio-api/#AudioWorklet) があります。どの API も Chrome Canary (本記事公開時点ではバージョン 64) 上でフラグを有効にすると試すことができます。Paint Worklet は[まもなくデフォルトで有効化](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/Jex3idOld48/rKUrV8JfAAAJ)され、Audio Worklet は[試験的に有効化](https://groups.google.com/a/chromium.org/d/msg/blink-dev/oeBf3websgM/Smi7gQxjAQAJ)する段階です。実はもう一つ [Layout Worklet](https://drafts.css-houdini.org/css-layout-api/#layout-worklet) というものがありますが、まだ実装が始まっていません。
+Worklet はあくまでもベースとなる実行環境であり、それ単体では使用することはできません。Worklet を拡張してカスタムスクリプトを提供している API には、[Paint Worklet](https://drafts.css-houdini.org/css-paint-api-1/)、[Animation Worklet](https://wicg.github.io/animation-worklet/)、そして [Audio Worklet](https://webaudio.github.io/web-audio-api/#AudioWorklet) があります。どの API も Chrome Canary (本記事公開時点ではバージョン 64) 上でフラグを有効にすると試すことができます。Paint Worklet は[まもなくデフォルトで有効化](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/Jex3idOld48/rKUrV8JfAAAJ)され、Audio Worklet は[試験的に有効化](https://groups.google.com/a/chromium.org/d/msg/blink-dev/oeBf3websgM/Smi7gQxjAQAJ)する段階です。実はもう一つ [Layout Worklet](https://drafts.css-houdini.org/css-layout-api/#layout-worklet) というものがありますが、まだ実装が始まっていません。**(2018/01/15 追記) Chromium で Layout Worklet の実装が始まりました ([CL](https://chromium-review.googlesource.com/c/chromium/src/+/862986))。**
 
 まだ少数ですが、Worklet に関して紹介している資料がいくつかあるので紹介しておきます。
 

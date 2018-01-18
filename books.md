@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/01/15
+date: 2018/01/18
 permalink: /books/
 ---
 
@@ -42,6 +42,7 @@ permalink: /books/
 
 # プログラミング・言語処理系
 
+- 低レベルプログラミング
 - Go ならわかるシステムプログラミング
 - 7 つの言語 7 つの世界
 - Optimized C++
@@ -179,6 +180,7 @@ permalink: /books/
 
 # 機械学習/人工知能
 
+- 仕事ではじめる機械学習
 - ([途中](https://twitter.com/nhiroki_/status/808263006656217088)) ゼロから作る Deep Learning
 - (途中) はじめてのパターン認識
 

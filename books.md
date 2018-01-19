@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/01/18
+date: 2018/01/19
 permalink: /books/
 ---
 
@@ -19,6 +19,7 @@ permalink: /books/
 
 # 情報科学全般
 
+- プログラマの数学 第2版
 - 純粋関数型データ構造
 - Understanding Compression
 - 型システム入門 ― プログラミング言語と型の理論
@@ -255,6 +256,7 @@ permalink: /books/
 
 - (途中) レジリエンスの鍛え方
 
+- ([2018](https://twitter.com/nhiroki_/status/954335991136903168)) なぜ、東大生の3人に1人が公文式なのか？
 - ([2018](https://twitter.com/nhiroki_/status/952538735446343680)) 3男1女 東大理III合格百発百中 絶対やるべき勉強法
 - ([2017](https://twitter.com/nhiroki_/status/919538261877391360)) 世界のトップ 1% に育てる親の習慣ベスト 45
 - ([2017](https://twitter.com/nhiroki_/status/864853180806332416)) 頭がいい子の家のリビングには必ず「辞書」「地図」「図鑑」がある

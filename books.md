@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/01/25
+date: 2018/01/27
 permalink: /books/
 ---
 
@@ -105,6 +105,7 @@ permalink: /books/
 - (途中) コンピュータアーキテクチャ　定量的アプローチ（ヘネパタ）
   - ヘネパタ読書会に参加していた
 
+- ([2018](https://twitter.com/nhiroki_/status/957242155763826688)) 量子コンピュータが人工知能を加速する
 - ([2017](/2017/09/04/book-gpu-technology)) GPU を支える技術 ― 超並列ハードウェアの快進撃［技術基礎］
 - ([2016](https://twitter.com/nhiroki_/status/704459368830382080)) ディジタル回路設計とコンピュータアーキテクチャ
 - ([2015](https://twitter.com/nhiroki_/status/676549761395068928)) はじめて読む486 - 32ビットコンピュータをやさしく語る

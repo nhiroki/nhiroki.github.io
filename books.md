@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/01/27
+date: 2018/01/31
 permalink: /books/
 ---
 
@@ -116,6 +116,7 @@ permalink: /books/
 
 # オペレーティングシステム
 
+- [試して理解] Linux のしくみ ― 実験と図解で学ぶ OS とハードウェアの基礎知識
 - Android を支える技術 II ― 新のマルチタスクに挑んだモバイル OS の心臓部
 - 詳解 システム・パフォーマンス
 - インサイド Windows 下巻
@@ -246,6 +247,7 @@ permalink: /books/
 
 # 経済
 
+- ([2018](https://twitter.com/nhiroki_/status/958356246406488065)) はじめての確定拠出年金投資
 - <del>ブロックチェーンの衝撃</del>
 - ([2016](https://twitter.com/nhiroki_/status/724609052592902145)) 日本銀行
 - ([2016](https://twitter.com/nhiroki_/status/706850504043724801)) 海外 ETF と REIT で始めるインカムゲイン投資の教科書

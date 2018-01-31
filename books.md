@@ -260,6 +260,7 @@ permalink: /books/
 
 - (途中) レジリエンスの鍛え方
 
+- ([2018](https://twitter.com/nhiroki_/status/958616887394426880)) 言うこと聞かない！落ち着きない！ 男の子のしつけに悩んだら読む本
 - ([2018](https://twitter.com/nhiroki_/status/955455901464342529)) ルポ塾歴社会　日本のエリート教育を牛耳る「鉄緑会」と「サピックス」の正体
 - ([2018](https://twitter.com/nhiroki_/status/954335991136903168)) なぜ、東大生の3人に1人が公文式なのか？
 - ([2018](https://twitter.com/nhiroki_/status/952538735446343680)) 3男1女 東大理III合格百発百中 絶対やるべき勉強法

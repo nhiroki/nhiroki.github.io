@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/01/31
+date: 2018/02/12
 permalink: /books/
 ---
 
@@ -227,6 +227,7 @@ permalink: /books/
 
 # 理工学
 
+- ([2018](https://twitter.com/nhiroki_/status/963051916082126849)) クェーサーの謎 ― 宇宙でもっともミステリアスな天体
 - 惑星形成の物理 ― 太陽系と系外惑星系の形成論入門
 - ([途中](https://twitter.com/nhiroki_/status/785470001981431809)) スタンフォード物理学再入門　力学
 - ([途中](https://twitter.com/nhiroki_/status/956181469285658624)) 超・宇宙を解く―現代天文学演習

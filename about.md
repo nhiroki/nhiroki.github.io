@@ -114,6 +114,3 @@ Chrome OS の文字入力変換ウィンドウの UI 改善。Chromium とか iB
 
 * ACM/ICPC Asia Regional Contest 2008 in Aizu / Participation
 * ACM/ICPC Asia Regional Contest 2007 in Tokyo / The 17th place
-
-
-<a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>

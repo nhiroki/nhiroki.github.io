@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/02/12
+date: 2018/02/18
 permalink: /books/
 ---
 
@@ -19,6 +19,7 @@ permalink: /books/
 
 # 情報科学全般
 
+- クラウドを支えるこれからの暗号技術 ([PDF](http://herumi.github.io/ango/))
 - プログラマの数学 第2版
 - 純粋関数型データ構造
 - Understanding Compression
@@ -142,6 +143,8 @@ permalink: /books/
 
 # 並列並行プログラミング・分散システム
 
+- 並行コンピューティング技法 ― 実践マルチコア/マルチスレッドプログラミング
+- 構造化並列プログラミング ― 効率良い計算を行うためのパターン
 - SRE サイトリライアビリティエンジニアリング ― Google の信頼性を支えるエンジニアリングチーム
 - Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
 - ビッグデータを支える技術 ― 刻々とデータが脈打つ自動化の世界
@@ -261,6 +264,7 @@ permalink: /books/
 
 - (途中) レジリエンスの鍛え方
 
+- ([2018](https://twitter.com/nhiroki_/status/965207950666039296)) ほんとうに頭がよくなる世界最高の子ども英語
 - ([2018](https://twitter.com/nhiroki_/status/958616887394426880)) 言うこと聞かない！落ち着きない！ 男の子のしつけに悩んだら読む本
 - ([2018](https://twitter.com/nhiroki_/status/955455901464342529)) ルポ塾歴社会　日本のエリート教育を牛耳る「鉄緑会」と「サピックス」の正体
 - ([2018](https://twitter.com/nhiroki_/status/954335991136903168)) なぜ、東大生の3人に1人が公文式なのか？

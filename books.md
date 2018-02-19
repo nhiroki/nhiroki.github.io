@@ -19,7 +19,6 @@ permalink: /books/
 
 # 情報科学全般
 
-- クラウドを支えるこれからの暗号技術 ([PDF](http://herumi.github.io/ango/))
 - プログラマの数学 第2版
 - 純粋関数型データ構造
 - Understanding Compression
@@ -28,6 +27,7 @@ permalink: /books/
 - 計算機プログラムの構造と解釈
 - 正規表現技術入門 ― 最新エンジン実装と理論的背景
 
+- ([途中](https://twitter.com/nhiroki_/status/965602401838186496)) クラウドを支えるこれからの暗号技術
 - (途中) アンダースタンディング コンピュテーション ― 単純な機械から不可能なプログラムまで
 - ([途中](https://twitter.com/nhiroki_/status/902273093782999040)) ガベージコレクション ― 自動的メモリ管理を構成する理論と実装
 
@@ -209,8 +209,9 @@ permalink: /books/
 
 # ゲーム
 
-- 人工知能の作り方 ― 「おもしろい」ゲーム AI はいかにして動くのか
 - ゲームエンジン・アーキテクチャ
+
+- ([途中](https://twitter.com/nhiroki_/status/943848416131420160)) 人工知能の作り方 ― 「おもしろい」ゲーム AI はいかにして動くのか
 
 - ([2017](/2017/12/18/book-game-programming-patterns)) Game Programming Patterns ― ソフトウェア開発の問題解決メニュー
 - ([2016](https://twitter.com/nhiroki_/status/779116461033873408)) デジタルゲームの教科書

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/02/18
+date: 2018/02/19
 permalink: /books/
 ---
 
@@ -264,6 +264,7 @@ permalink: /books/
 
 - (途中) レジリエンスの鍛え方
 
+- ([2018](https://twitter.com/nhiroki_/status/965583549544845312)) 自分からどんどん勉強する子になる方法
 - ([2018](https://twitter.com/nhiroki_/status/965207950666039296)) ほんとうに頭がよくなる世界最高の子ども英語
 - ([2018](https://twitter.com/nhiroki_/status/958616887394426880)) 言うこと聞かない！落ち着きない！ 男の子のしつけに悩んだら読む本
 - ([2018](https://twitter.com/nhiroki_/status/955455901464342529)) ルポ塾歴社会　日本のエリート教育を牛耳る「鉄緑会」と「サピックス」の正体

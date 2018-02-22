@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/02/19
+date: 2018/02/23
 permalink: /books/
 ---
 
@@ -117,7 +117,6 @@ permalink: /books/
 
 # オペレーティングシステム
 
-- [試して理解] Linux のしくみ ― 実験と図解で学ぶ OS とハードウェアの基礎知識
 - Android を支える技術 II ― 新のマルチタスクに挑んだモバイル OS の心臓部
 - 詳解 システム・パフォーマンス
 - インサイド Windows 下巻
@@ -125,6 +124,7 @@ permalink: /books/
 - Linux デバイスドライバ
 - ふつうの Linux プログラミング (第 2 版) ― Linux の仕組みから学べる gcc プログラミングの王道
 
+- ([途中](https://twitter.com/nhiroki_/status/966696424241967104)) [試して理解] Linux のしくみ ― 実験と図解で学ぶ OS とハードウェアの基礎知識
 - (途中) Unix 考古学 Truth of the Legend
   - 出版記念イベントに参加しました（[感想](https://twitter.com/nhiroki_/status/730029907426746368)）
 - (途中) インサイド Windows 上巻

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/02/23
+date: 2018/02/26
 permalink: /books/
 ---
 
@@ -285,6 +285,8 @@ permalink: /books/
 - (途中) ソシュールと言語学 ― コトバはなぜ通じるのか
 - ([途中](https://twitter.com/nhiroki_/status/836243094353793024)) アメリカの小学生が学ぶ歴史教科書
 - ([途中](https://twitter.com/nhiroki_/status/706852600105213953)) <s>音楽の基礎</s>
+
+- ([途中](https://twitter.com/nhiroki_/status/967952328362934272)) 世にもおもしろい英語 ― あなたの知識と感性の領域を広げる英語表現
 
 - ([2017](https://twitter.com/nhiroki_/status/915502376429031424)) シリコンバレー式 最強の育て方 ― 人材マネジメントの新しい常識 1 on 1 ミーティング
 - <s>(2016) コンテナ物語</s>

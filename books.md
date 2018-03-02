@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/02/26
+date: 2018/03/02
 permalink: /books/
 ---
 
@@ -124,11 +124,11 @@ permalink: /books/
 - Linux デバイスドライバ
 - ふつうの Linux プログラミング (第 2 版) ― Linux の仕組みから学べる gcc プログラミングの王道
 
-- ([途中](https://twitter.com/nhiroki_/status/966696424241967104)) [試して理解] Linux のしくみ ― 実験と図解で学ぶ OS とハードウェアの基礎知識
 - (途中) Unix 考古学 Truth of the Legend
   - 出版記念イベントに参加しました（[感想](https://twitter.com/nhiroki_/status/730029907426746368)）
 - (途中) インサイド Windows 上巻
 
+- ([2018](https://twitter.com/nhiroki_/status/966696424241967104)) [試して理解] Linux のしくみ ― 実験と図解で学ぶ OS とハードウェアの基礎知識
 - ([2017](/2017/07/11/book-android)) Android を支える技術 I - 60 fps を達成するモダンな GUI システム
 - ([2017](https://twitter.com/nhiroki_/status/749190068376440832)) Linux プログラミングインタフェース
 - (2013) はじめての OS コードリーディング ― UNIX V6 で学ぶカーネルのしくみ
@@ -187,6 +187,7 @@ permalink: /books/
 # 機械学習/人工知能
 
 - 仕事ではじめる機械学習
+- (途中) TensorFlow ではじめる DeepLearning 実装入門
 - ([途中](https://twitter.com/nhiroki_/status/808263006656217088)) ゼロから作る Deep Learning
 - (途中) はじめてのパターン認識
 

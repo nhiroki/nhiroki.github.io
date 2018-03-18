@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2018/03/12
+date: 2018/03/18
 permalink: /about/
 ---
 
@@ -38,10 +38,11 @@ Hiroki Nakagawa (nhiroki)
 
 ウェブブラウザ Chrome の開発。Chrome のオープンソースプロジェクト Blink / Chromium のコミッター。主に以下のことをしていました。
 
-* ES6 Modules for Worklet の設計と実装
-* [Worker](https://html.spec.whatwg.org/multipage/workers.html#workers) / [Worklet](https://drafts.css-houdini.org/worklets/) API のスレッディング基盤の設計と実装
+* ES Modules for Workers API の設計と実装
+* [Worklets API]((https://drafts.css-houdini.org/worklets/)) の設計と実装
+* [Workers](https://html.spec.whatwg.org/multipage/workers.html#workers) / [Worklets](https://drafts.css-houdini.org/worklets/) API のスレッディング基盤の設計と実装
 * [CacheStorage API](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#cache-objects) の実装
-* [ServiceWorker](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/) の設計と実装
+* [ServiceWorker API](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/) の設計と実装
 * [chrome.syncFileSystem API](https://developer.chrome.com/apps/syncFileSystem) の設計と実装
 * PPAPI 用 FileSystem API の設計と実装
 * [FileSystem API](https://www.w3.org/TR/file-system-api/) / [QuotaManagement API](http://w3c.github.io/quota-api/) のメンテナンス

@@ -4,6 +4,7 @@ description: "このブログで述べられている内容はすべて私の個
 twitter_username: "nhiroki_"
 github_username:  "nhiroki"
 lang: ja_JP
+timezone: Asia/Tokyo
 
 # Post settings
 permalink: /:year/:month/:day/:title

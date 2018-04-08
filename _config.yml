@@ -6,6 +6,9 @@ github_username:  "nhiroki"
 lang: ja_JP
 timezone: Asia/Tokyo
 
+url: https://nhiroki.jp
+enforce_ssl: nhiroki.jp
+
 # Post settings
 permalink: /:year/:month/:day/:title
 

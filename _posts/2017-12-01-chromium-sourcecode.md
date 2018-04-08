@@ -8,7 +8,11 @@ image: /images/chromium-sourcecode-codesearch.png
 
 これは [Chromium Browser アドベントカレンダー](https://qiita.com/advent-calendar/2017/chromium)の一日目の記事です。初日ということで、本記事では Chromium のソースコードを読む上で役に立つであろう、プロジェクトのディレクトリ構成やファイル構成を紹介します。
 
-- (2017/12/01) ディレクトリ構成について追記しました。
+- **(2018/04/09) "The Great Blink mv"[^the-great-blink-mv] プロジェクトによってついに WebKit ディレクトリが blink ディレクトリにリネームされました。それに伴い本記事の内容を更新しました。差分は以下の通りです。**
+  - third_party/WebKit/Source を third_party/blink/renderer に置換。
+  - blink/ 内のファイル名の命名規約を Bar.{cpp,h} から bar.{cc,h} に置換。
+  - 置換に伴う説明文の修正。
+- **(2017/12/01) ディレクトリ構成について追記しました。**
 
 # Chromium とは？
 
@@ -39,6 +43,7 @@ src/
     - renderer/
   - third_party/
     - WebKit/
+    - blink/
   - v8/
 ```
 
@@ -48,7 +53,7 @@ src/
 
 ページフレームをラップし、さらに Chrome 独自の機能 (ブラウザ拡張とかプロファイルの同期機能など) を実装しているのが Chrome モジュールです。Chrome モジュールは chrome/ ディレクトリにまとめられています。ブラウザ拡張の API 実装が見たい場合はこのディレクトリ以下を探すことになります。
 
-Chromium が依存しているライブラリは third_party/ 以下に配置されます。このディレクトリには[動画処理ライブラリ FFmpeg](https://ja.wikipedia.org/wiki/FFmpeg) や[グラフィックスライブラリ Skia](https://ja.wikipedia.org/wiki/Skia)、[シリアライザの Protocol Buffers](https://ja.wikipedia.org/wiki/Protocol_Buffers) など、様々なライブラリが含まれています。その中でもとりわけ重要なのは Blink モジュールでしょう。Blink は Chromium のレンダリングエンジンです。レンダリングエンジンという名前ですが、実際にはレンダリング以外にも JavaScript を実行したり、JavaScript と C++ のバインディングを提供したりします。Blink は Chromium プロジェクトの一部で現在は同じリポジトリ内で開発されていますが、WebKit からフォークされた ([公式ブログ記事](https://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html)) という歴史的な経緯により third_party/ ディレクトリに配置されていて、さらにディレクトリ名も WebKit のままになっています[^the-great-blink-mv]。
+Chromium が依存しているライブラリは third_party/ 以下に配置されます。このディレクトリには[動画処理ライブラリ FFmpeg](https://ja.wikipedia.org/wiki/FFmpeg) や[グラフィックスライブラリ Skia](https://ja.wikipedia.org/wiki/Skia)、[シリアライザの Protocol Buffers](https://ja.wikipedia.org/wiki/Protocol_Buffers) など、様々なライブラリが含まれています。その中でもとりわけ重要なのは Blink モジュールでしょう。Blink は Chromium のレンダリングエンジンです。レンダリングエンジンという名前ですが、実際にはレンダリング以外にも JavaScript を実行したり、JavaScript と C++ のバインディングを提供したりします。Blink は Chromium プロジェクトの一部で現在は同じリポジトリ内で開発されていますが、WebKit からフォークされた ([公式ブログ記事](https://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html)) という歴史的な経緯により third_party/ ディレクトリに配置されていて、さらにディレクトリ名も WebKit のままになっています[^the-great-blink-mv] **(2018/04/09 追記: WebKit ディレクトリ内の大部分のファイルが新しい blink ディレクトリに移動されました。しかし LayoutTests など一部のファイルは依然として WebKit ディレクトリに残っています)**。
 
 [^blink-fork]: [Blink: A rendering engine for the Chromium project - Chromium Blog](https://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html)
 [^the-great-blink-mv]: WebKit/ ディレクトリを blink/ にリネームする提案がされています / [The Great Blink mv](https://docs.google.com/document/d/1l3aPv1Wx__SpRkdOhvJz8ciEGigNT3wFKv78XiuW0Tw/edit?pli=1)
@@ -73,12 +78,15 @@ browser や renderer といったプロセスごとのディレクトリの下�
 
 **Blink 内のディレクトリ分け (core / modules)**
 
-Blink はシングルプロセスで動くため、browser / renderer といったディレクトリはありません。しかし、別の観点によるディレクトリ分けが行われています。
+~~Blink はシングルプロセスで動くため、browser / renderer といったディレクトリはありません。しかし、別の観点によるディレクトリ分けが行われています。~~
+
+**2018/04/09 追記: Blink は renderer プロセス内でのみ使われているため、renderer ディレクトリはありますが browser ディレクトリはありません。renderer ディレクトリ内はさらにコンポーネント毎にディレクトリ分けされています。blink ディレクトリ内のファイルは以前は WebKit ディレクトリにありましたが、"The Great Blink mv"[^the-great-blink-mv] というプロジェクトによって blink ディレクトリに移動されました。現在は WebKit ディレクトリにはテストファイルやツールのみが残されています。**
 
 ```
 WebKit/
   - LayoutTests/
-  - Source/
+blink/
+  - renderer/
     - bindings/
     - core/
     - modules/
@@ -108,6 +116,7 @@ src/
     - renderer/
   - third_party/
     - WebKit/
+    - blink/
   - v8/
 ```
 
@@ -118,7 +127,7 @@ src/
 
 # 各ディレクトリ内のファイル構成
 
-各ディレクトリには大まかに以下のようなファイルが含まれています。Blink と Chromium は元々別プロジェクトだったため、ファイルの命名規約などが微妙に異なっています[^the-great-blink-mv2]。
+各ディレクトリには大まかに以下のようなファイルが含まれています。~~Blink と Chromium は元々別プロジェクトだったため、ファイルの命名規約などが微妙に異なっています[^the-great-blink-mv2]。~~ **(2018/04/09 追記: Chromium と Blink で命名規則が統一されました)**
 
 [^the-great-blink-mv2]: Blink と Chromium で命名規則を統一する作業が行われています / [The Great Blink mv](https://docs.google.com/document/d/1l3aPv1Wx__SpRkdOhvJz8ciEGigNT3wFKv78XiuW0Tw/edit?pli=1)
 
@@ -129,10 +138,10 @@ Chromium 内 (content/, chrome/ など)
 - foo_browsertest.cc : インテグレーションテスト (プロセスをまたぐテスト)
 - foo_messages.h : Legacy Chrome IPC メッセージの定義ファイル
 
-Blink 内 (third_party/WebKit/Source/)
-- Bar.{cpp,h} : 実装
-- BarTest.cpp : ユニットテスト
-- Bar.idl : JavaScript API のインタフェースの定義ファイル（WebIDL）
+Blink 内 (third_party/blink/renderer/)
+- bar.{cc,h} : 実装
+- bar_test.cpp : ユニットテスト
+- bar.idl : JavaScript API のインタフェースの定義ファイル（WebIDL）
 
 Chromium / Blink 共通
 - BUILD.gn : ソースファイルの一覧やビルド方法を記述したファイル（Makefile みたいなもの）
@@ -145,7 +154,7 @@ Chromium / Blink 共通
 
 ソースコードを読み進める上で特に重要なファイルは WebIDL（*.idl）ファイルです。これは JavaScript API のインタフェースの定義を行うファイルで、これを元にコンパイル時にコードジェネレーターが JavaScript と C++ のバインディングコードを生成します。特定の JavaScript API の実装を読み進める時は、まずこのファイルを探すと良いでしょう。
 
-WebIDL は各 API の仕様で定義されています。例えば、Web Storage API の場合は、[Storage という WebIDL がその仕様に定義](https://html.spec.whatwg.org/multipage/webstorage.html#the-storage-interface)されていて、Blink 内ではこれを [WebKit/Source/modules/storage/Storage.idl](https://chromium.googlesource.com/chromium/src/+/45146fc8a1ca4c58272b2c7a5d945c35db35f14d/third_party/WebKit/Source/modules/storage/Storage.idl) というファイルでほぼそのまま定義しています。インタフェースの実装は同一ディレクトリ内の Storage.{cpp,h} で行われています。
+WebIDL は各 API の仕様で定義されています。例えば、Web Storage API の場合は、[Storage という WebIDL がその仕様に定義](https://html.spec.whatwg.org/multipage/webstorage.html#the-storage-interface)されていて、Blink 内ではこれを [blink/renderer/modules/storage/storage.idl](https://chromium.googlesource.com/chromium/src/+/5020baea3c8279cca2d17bea4ab10364fc937222/third_party/blink/renderer/modules/storage/storage.idl) というファイルでほぼそのまま定義しています。インタフェースの実装は同一ディレクトリ内の storage.{cc,h} で行われています。
 
 ```
 // https://html.spec.whatwg.org/multipage/webstorage.html#the-storage-interface
@@ -161,7 +170,7 @@ interface Storage {
 
 **OWNERS**
 
-[OWNERS ファイル](https://chromium.googlesource.com/chromium/src/+/master/docs/code_reviews.md#owners-files)はコードのオーナーを記述したファイルです。例えば [Web Worker](https://developer.mozilla.org/ja/docs/Web/API/Web_Workers_API/Using_web_workers) の実装がある WebKit/Source/core/workers/ の OWNERS ファイルには次のように書かれています。
+[OWNERS ファイル](https://chromium.googlesource.com/chromium/src/+/master/docs/code_reviews.md#owners-files)はコードのオーナーを記述したファイルです。例えば [Web Worker](https://developer.mozilla.org/ja/docs/Web/API/Web_Workers_API/Using_web_workers) の実装がある blink/renderer/core/workers/ の OWNERS ファイルには次のように書かれています。
 
 ```
 nhiroki@chromium.org

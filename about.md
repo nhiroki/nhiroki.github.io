@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2018/03/18
+date: 2018/04/12
 permalink: /about/
 ---
 
@@ -49,9 +49,11 @@ Hiroki Nakagawa (nhiroki)
 
 私が加えた変更の一覧は[こちら (2017 年 6 月以降)](https://chromium-review.googlesource.com/q/owner:nhiroki%2540chromium.org)と[こちら (2017 年 5 月以前)](https://codereview.chromium.org/search?closed=1&owner=nhiroki%40chromium.org&reviewer=&cc=&repo_guid=&base=&project=&private=1&commit=1&created_before=&created_after=&modified_before=&modified_after=&order=&format=html&keys_only=False&with_messages=False&cursor=&limit=200)で見ることができます。また、上記コンポーネントの[コードオーナーシップ](https://www.chromium.org/developers/owners-files)を持っています。主な使用言語は C++ / JavaScript です。
 
+グーグルに新卒入社してから 6 年間の出来事を記事にまとめました: 「[就職して 6 年過ぎた](/2018/04/06/six-years-reflection)」
+
 **2011.02 -- 2012.03　アシアル株式会社 / プログラマー、システムエンジニア (アルバイト)**
 
-HTML5 ハイブリッドアプリ開発プラットフォーム [Monaca](https://ja.monaca.io/) の開発チームで、iOS 用のリモートコンパイル環境の構築、リモートデバッガ・テンプレートエンジン・UI フレームワークの実装などをしました。使用言語は Objective-C です
+HTML5 ハイブリッドアプリ開発プラットフォーム [Monaca](https://ja.monaca.io/) の開発チームで、iOS 用のリモートコンパイル環境の構築、リモートデバッガ・テンプレートエンジン・UI フレームワークの実装などをしました。使用言語は Objective-C です。
 
 * 2012.02.06 [xcodebuild コマンドで iOS アプリの自動ビルド](http://blog.asial.co.jp/953)
 * 2011.11.26 [Monaca デバッグログ機能で快適デバッグ](http://blog.asial.co.jp/942)

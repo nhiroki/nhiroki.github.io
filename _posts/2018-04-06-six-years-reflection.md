@@ -79,7 +79,7 @@ Filesystem API チームでは他に [Quota Management API](http://w3c.github.io
 
 # Progressive Web Apps の幕開け - Service Worker API
 
-次に [Service Worker API](https://w3c.github.io/ServiceWorker/) の実装に関わりました。Service Worker は今でこそ [Progressive Web Apps (PWA)](https://developers.google.com/web/progressive-web-apps/) の基盤として様々な使われ方をしていますが、初期の頃は「俺の考えた最強の Application Cache」という雰囲気で、私自身そういうものだと思ってたので、後々こんなに広く使われるようになるとは思いませんでした。このプロジェクトを引っ張ってきたテックリードの先見の明はすごい。Service Worker の位置づけの変化については「[イベント駆動型サービス実行基盤としての Service Worker](https://qiita.com/nhiroki/items/65efc9e41ec1d928afcd)」という記事に書きました。
+次に [Service Worker API](https://w3c.github.io/ServiceWorker/) の実装に関わりました。Service Worker は今でこそ [Progressive Web Apps (PWA)](https://developers.google.com/web/progressive-web-apps/) の基盤として様々な使われ方をしていますが、初期の頃は「俺の考えた最強の Application Cache」という雰囲気で、私自身そういうものだと思ってたので、後々こんなに広く使われるようになるとは思いませんでした。[このプロジェクトを引っ張ってきたテックリードの先見の明はすごい](https://www.slideshare.net/kinukox/how-to-run-a-bigger-project-as-a-swe-manager)。Service Worker の位置づけの変化については「[イベント駆動型サービス実行基盤としての Service Worker](https://qiita.com/nhiroki/items/65efc9e41ec1d928afcd)」という記事に書きました。
 
 ![イベント駆動型サービス実行基盤としての Service Worker](/images/six-years-reflection-service-worker.png)
 

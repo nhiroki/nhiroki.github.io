@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/03/02
+date: 2018/04/17
 permalink: /books/
 ---
 
@@ -201,6 +201,7 @@ permalink: /books/
 - マイクロサービスアーキテクチャ
 - API デザインケーススタディ ~Rubyの実例から学ぶ。問題に即したデザインと普遍の考え方
 
+- ([2018](https://twitter.com/nhiroki_/status/979147598190624768)) エンジニアリング組織論への招待 ― 不確実性に向き合う思考と組織のリファクタリング
 - ([2017](/2017/10/04/book-principles-of-programming)) プリンシプル オブ プログラミング ― 3 年目までに身につけたい 一生役立つ 101 の原理原則
 - (2014) GitHub 実践入門 ― Pull Request による開発の変革
 - (2012) リーダブルコード　より良いコードを書くためのシンプルで実践的なテクニック
@@ -287,6 +288,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/836243094353793024)) アメリカの小学生が学ぶ歴史教科書
 - ([途中](https://twitter.com/nhiroki_/status/706852600105213953)) <s>音楽の基礎</s>
 
+- ([途中](https://twitter.com/nhiroki_/status/975904460047175681)) 異文化理解力 ― 相手と自分の真意がわかる ビジネスパーソン必須の教養
 - ([途中](https://twitter.com/nhiroki_/status/967952328362934272)) 世にもおもしろい英語 ― あなたの知識と感性の領域を広げる英語表現
 
 - ([2017](https://twitter.com/nhiroki_/status/915502376429031424)) シリコンバレー式 最強の育て方 ― 人材マネジメントの新しい常識 1 on 1 ミーティング

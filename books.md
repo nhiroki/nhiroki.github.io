@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/04/17
+date: 2018/04/21
 permalink: /books/
 ---
 
@@ -158,6 +158,7 @@ permalink: /books/
 
 # ネットワーク
 
+- ([2018](https://twitter.com/nhiroki_/status/987631119918030848)) アカマイ ― 知られざるインターネットの巨人
 - (2009) UNIX ネットワークプログラミング (Vol.2) IPC: プロセス間通信
 - (2009) UNIX ネットワークプログラミング (Vol.1) ネットワーク API: ソケットと XTI
 - (2009) Computer Networking: A Top-Down Approach (4th Edition)

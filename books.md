@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/04/21
+date: 2018/04/23
 permalink: /books/
 ---
 
@@ -292,6 +292,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/975904460047175681)) 異文化理解力 ― 相手と自分の真意がわかる ビジネスパーソン必須の教養
 - ([途中](https://twitter.com/nhiroki_/status/967952328362934272)) 世にもおもしろい英語 ― あなたの知識と感性の領域を広げる英語表現
 
+- ([2018](https://twitter.com/nhiroki_/status/988216848943480832)) LIFE〈ライフ〉人間が知らない生き方
 - ([2017](https://twitter.com/nhiroki_/status/915502376429031424)) シリコンバレー式 最強の育て方 ― 人材マネジメントの新しい常識 1 on 1 ミーティング
 - <s>(2016) コンテナ物語</s>
 - ([2016](https://twitter.com/nhiroki_/status/796904195425087488)) 日本人の知らないワンランク上のビジネス英語術 ― エール大学厳選 30 講

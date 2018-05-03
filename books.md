@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/04/23
+date: 2018/05/03
 permalink: /books/
 ---
 
@@ -59,6 +59,7 @@ permalink: /books/
 - Linkers and Loaders
 - コンパイラ 作りながら学ぶ
 
+- ([途中](https://twitter.com/nhiroki_/status/988224420186476545)) 江添亮の詳説 C++17
 - ([途中](https://twitter.com/nhiroki_/status/834200033511698432)) Programming Rust
 - (途中) すごい Haskell たのしく学ぼう！
 
@@ -188,7 +189,7 @@ permalink: /books/
 # 機械学習/人工知能
 
 - 仕事ではじめる機械学習
-- (途中) TensorFlow ではじめる DeepLearning 実装入門
+- ([途中](https://twitter.com/nhiroki_/status/969573565338013696)) TensorFlow ではじめる DeepLearning 実装入門
 - ([途中](https://twitter.com/nhiroki_/status/808263006656217088)) ゼロから作る Deep Learning
 - (途中) はじめてのパターン認識
 

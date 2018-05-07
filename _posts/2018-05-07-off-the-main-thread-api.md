@@ -6,8 +6,6 @@ tags: web
 image: /images/off-the-main-thread-api-blinkon9.jpg
 ---
 
-# 1. はじめに
-
 ウェブブラウザにおいてメインスレッドはとても重要なリソースです。なるべくメインスレッドを使える状態にしておくことが滑らかな UI/UX を実現する上で重要になります。しかし、実際には多くの処理が実装上の理由やブラウザ仕様の不足によりメインスレッドでしか動かせないため、メインスレッドは忙しくなりがちです。特にページロード時は JavaScript の実行やリソース読み込みなどでとても忙しくなります。
 
 ![とあるページの perf プロファイル](/images/off-the-main-thread-api-perf-profile.png)
@@ -16,7 +14,7 @@ image: /images/off-the-main-thread-api-blinkon9.jpg
 
 これを解消するために、ブラウザの処理をメインスレッド以外 (off-the-main-thread) でも実行できるようにする試みが行われています。
 
-# 2. Off-the-main-thread とは
+# 1. Off-the-main-thread とは
 
 メインスレッド以外のスレッドに処理を委譲することを off-the-main-thread と呼んでいます。Off-the-main-thread は multi-thread とも言えますが、ここでは複数スレッドにすることよりも、メインスレッド以外で処理をすることが重要なので off-the-main-thread と呼んでいます。
 
@@ -26,7 +24,7 @@ Off-the-main-thread の実現には大雑把に二つの方法があります。
 
 [^unship-off-the-main-thread]: 内部処理の off-the-main-thread 化は必ずしもうまくいくものではありません。例えば、HTML のパーサーの一部処理は長らく off-the-main-thread で実行されていましたが、スレッド間通信のコストや実装の複雑さに対して得られる性能向上が少ないことから、メインスレッドで実行されるように変更されました。詳しくは「[HTMLParser Redesign](https://docs.google.com/document/d/1PC-Q2zHmC6C3QZw6dhULPS4xhy_pV5ec6i429opLJSo/edit?usp=sharing)」を読んでください。
 
-# 3. Off-the-main-thread API
+# 2. Off-the-main-thread API
 
 Off-the-main-thread API の筆頭は Web Worker です。前述の通り、Web Worker は JavaScript の実行環境をまるごとメインスレッド以外 (ワーカースレッド) で動かす機能です。Web Worker は DOM に触れなかったり[^dom-on-worker]、一部のブラウザ API が使えなかったり[^browser-api-on-worker]しますが、基本的には汎用的な処理を行うことができます。
 
@@ -38,7 +36,7 @@ Web Worker 以外には、特定用途に特化した off-the-main-thread API �
 
 なぜ Web Worker ではなく Worklet というものを作ったのか。これは求められる実行モデルの違いによるのですが、その辺りの経緯は「[JavaScript のスレッド並列実行環境](/2017/12/10/javascript-parallel-processing#6-worklet)」という記事で詳しく紹介したのでそちらを参照してください。
 
-# 4. Off-the-main-thread API の未来
+# 3. Off-the-main-thread API の未来
 
 Off-the-main-thread 処理は Blink 開発者の中でホットなトピックとなりつつあります。先日行われた Blink 開発者が集まるカンファレンス [BlinkOn 9](https://bit.ly/blinkon9-info) では、off-the-main-thread に関するセッションが行われ、様々なアイディアが議論されました。
 
@@ -46,11 +44,11 @@ Off-the-main-thread 処理は Blink 開発者の中でホットなトピック�
 
 ![BlinkOn 9](/images/off-the-main-thread-api-blinkon9.jpg)
 
-## 4.1. 論点の整理
+## 3.1. 論点の整理
 
 Off-the-main-thread 周りの議論は、様々なユースケースや問題意識によって混沌とした状況になっています。BlinkOn 9 でのディスカッションを踏まえ、私なりに論点を整理してみます。
 
-### 4.1.1. 並列処理の目的と現状
+### 3.1.1. 並列処理の目的と現状
 
 本記事では off-the-main-thread の視点からウェブの並列処理を見てきましたが、高性能な計算環境のための multi-thread という視点からの議論もあります。両者のモチベーションと現時点での手段をざっくりまとめると以下のようになります。
 
@@ -62,7 +60,7 @@ Off-the-main-thread 周りの議論は、様々なユースケースや問題意
 - ハイパフォーマンスな並列計算処理環境の実現 (multi-thread)
   - **計算処理**: 機械学習やビットコインマイニング、マルチメディア処理など、ウェブはアプリケーションプラットフォームに留まらず、コンピューティングプラットフォームとしての側面も強くなっている。JavaScript エンジンの高速化や WebAssembly によるネイティブコードの実行によってシングルスレッドでの性能は向上しているが、並列処理環境としてはどうあるべきか？
 
-### 4.1.2. Web Worker の不便な点や足りない点は何か？
+### 3.1.2. Web Worker の不便な点や足りない点は何か？
 
 ウェブでスレッドを使った処理をしたい場合、現在の選択肢は Web Worker ほぼ一択です。では Web Worker で前述の処理を行う上で不便な点や足りない点は何でしょうか？
 
@@ -74,7 +72,7 @@ Off-the-main-thread 周りの議論は、様々なユースケースや問題意
 
 通信機構やワーカープールについては、以前 [Tasklets について書いた記事](/2017/12/10/javascript-parallel-processing#tasklets-api)でも紹介しました。
 
-### 4.1.3. 新しく API を作るとしたらどういったモデルにすべきか？
+### 3.1.3. 新しく API を作るとしたらどういったモデルにすべきか？
 
 個別の問題に対応していくことも重要ですが、ウェブ全体としてどのような一貫したプログラミングモデルを提供するべきかというメタな視点からの議論も重要です。
 
@@ -85,11 +83,11 @@ Off-the-main-thread 周りの議論は、様々なユースケースや問題意
 
 この辺りは既に並列処理をサポートしている言語・処理系、例えば Android のバックグラウンドタスクや C# の並列処理機構などの知見を活かしたいと考えています。
 
-## 4.2. 個人的な考え
+## 3.2. 個人的な考え
 
 off-the-main-thread 処理用の実行環境 (ワーカープール) と multi-thread (並列計算) 処理用の実行環境 (スレッド専有) をそれぞれ用意し、DOM を扱う API やメディア向け API などをそれらの上に適宜実装していくことになるのかなぁ、と思っています。記法に関しては JS blocks に期待。API によってはそもそもメインスレッド上では定義せず、ワーカープールやワーカースレッドで使うことを前提にして UI ジャンクが起こらないようにするかもしれません。
 
-# 5. おわりに
+# 4. おわりに
 
 本記事では off-the-main-thread とは何か、現在使える off-the-main-thread API、そして未来の off-the-main-thread / multi-thread API について紹介しました。
 

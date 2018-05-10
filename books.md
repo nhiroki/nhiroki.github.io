@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/05/03
+date: 2018/05/11
 permalink: /books/
 ---
 
@@ -59,10 +59,10 @@ permalink: /books/
 - Linkers and Loaders
 - コンパイラ 作りながら学ぶ
 
-- ([途中](https://twitter.com/nhiroki_/status/988224420186476545)) 江添亮の詳説 C++17
 - ([途中](https://twitter.com/nhiroki_/status/834200033511698432)) Programming Rust
 - (途中) すごい Haskell たのしく学ぼう！
 
+- ([2018](https://twitter.com/nhiroki_/status/988224420186476545)) 江添亮の詳説 C++17
 - ([2016](https://twitter.com/nhiroki_/status/722209128060362752)) Effective Modern C++ ― C++11/14 プログラムを進化させる 42 項目
 - ([2013](https://twitter.com/nhiroki_/status/342092676574887937)) コーディングを支える技術
 - (2013) ls を読まずにプログラマを名乗るな！

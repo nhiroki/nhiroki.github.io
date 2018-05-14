@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/05/11
+date: 2018/05/14
 permalink: /books/
 ---
 
@@ -46,7 +46,6 @@ permalink: /books/
 
 - 低レベルプログラミング
 - Go ならわかるシステムプログラミング
-- 7 つの言語 7 つの世界
 - Optimized C++
 - プログラミング言語 Go
 - プログラミング Elixir
@@ -59,6 +58,8 @@ permalink: /books/
 - Linkers and Loaders
 - コンパイラ 作りながら学ぶ
 
+
+- ([途中](https://twitter.com/nhiroki_/status/996003002832977920)) 7 つの言語 7 つの世界
 - ([途中](https://twitter.com/nhiroki_/status/834200033511698432)) Programming Rust
 - (途中) すごい Haskell たのしく学ぼう！
 

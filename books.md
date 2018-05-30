@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/05/14
+date: 2018/05/31
 permalink: /books/
 ---
 
@@ -48,7 +48,6 @@ permalink: /books/
 - Go ならわかるシステムプログラミング
 - Optimized C++
 - プログラミング言語 Go
-- プログラミング Elixir
 - C++ のための API デザイン
 - C++ テンプレートテクニック（第二版）
 - The Architecture of Open Source Applications - Volume II: Structure, Scale, and a Few More Fearless Hacks
@@ -58,11 +57,10 @@ permalink: /books/
 - Linkers and Loaders
 - コンパイラ 作りながら学ぶ
 
-
-- ([途中](https://twitter.com/nhiroki_/status/996003002832977920)) 7 つの言語 7 つの世界
 - ([途中](https://twitter.com/nhiroki_/status/834200033511698432)) Programming Rust
 - (途中) すごい Haskell たのしく学ぼう！
 
+- ([2018](https://twitter.com/nhiroki_/status/996003002832977920)) 7 つの言語 7 つの世界
 - ([2018](https://twitter.com/nhiroki_/status/988224420186476545)) 江添亮の詳説 C++17
 - ([2016](https://twitter.com/nhiroki_/status/722209128060362752)) Effective Modern C++ ― C++11/14 プログラムを進化させる 42 項目
 - ([2013](https://twitter.com/nhiroki_/status/342092676574887937)) コーディングを支える技術

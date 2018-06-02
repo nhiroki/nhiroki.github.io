@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/05/31
+date: 2018/06/03
 permalink: /books/
 ---
 
@@ -44,6 +44,7 @@ permalink: /books/
 
 # プログラミング・言語処理系
 
+- Go 言語でつくるインタプリタ
 - 低レベルプログラミング
 - Go ならわかるシステムプログラミング
 - Optimized C++
@@ -143,12 +144,12 @@ permalink: /books/
 
 # 並列並行プログラミング・分散システム
 
-- 並行コンピューティング技法 ― 実践マルチコア/マルチスレッドプログラミング
 - 構造化並列プログラミング ― 効率良い計算を行うためのパターン
 - SRE サイトリライアビリティエンジニアリング ― Google の信頼性を支えるエンジニアリングチーム
 - Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
 - ビッグデータを支える技術 ― 刻々とデータが脈打つ自動化の世界
 
+- ([途中](https://twitter.com/nhiroki_/status/1002361216138805248)) 並行コンピューティング技法 ― 実践マルチコア/マルチスレッドプログラミング
 - ([途中](https://twitter.com/nhiroki_/status/798189186457026560)) Shared Memory Application Programming
 
 - (2011) The Art of Multiprocessor Programming ― 並行プログラミングの原理から実践まで
@@ -157,6 +158,8 @@ permalink: /books/
 - ([2008](http://d.hatena.ne.jp/sternheller/20080331)) Google を支える技術
 
 # ネットワーク
+
+- ソースコードで体感するネットワークの仕組み ― 手を動かしながら基礎から TCP/IP の実装までがわかる
 
 - ([2018](https://twitter.com/nhiroki_/status/987631119918030848)) アカマイ ― 知られざるインターネットの巨人
 - (2009) UNIX ネットワークプログラミング (Vol.2) IPC: プロセス間通信
@@ -174,6 +177,7 @@ permalink: /books/
 
 # ウェブ
 
+- 体系的に学ぶ 安全な Web アプリケーションの作り方 (第 2 版) ― 脆弱性が生まれる原理と対策の実践
 - ブラウザハック
 
 - ([2017](https://twitter.com/nhiroki_/status/938933691279015936)) 超速! Web ページ速度改善ガイド ― 使いやすさは「速さ」から始まる

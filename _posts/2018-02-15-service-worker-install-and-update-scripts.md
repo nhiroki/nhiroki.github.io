@@ -10,6 +10,10 @@ image: /images/service-worker-install-and-update-scripts-updateViaCache.png
 
 この記事は Service Worker スクリプトを少しでも手書きして動かしたことがある人を想定読者にしています。Service Worker について全く知らない人はまず別の入門記事を参照してください。また、細かいことを気にせずに Service Worker を使いたい人は [Workbox](https://developers.google.com/web/tools/workbox/) といったライブラリやフレームワークの利用をおすすめします。
 
+**更新履歴**
+
+- 2018/06/07: [Chrome 68 から updateViaCache が使用可能](https://www.chromestatus.com/feature/6059838387781632)になりました。これに伴い Service Worker スクリプトの更新確認のデフォルト挙動が変更されています。それについて加筆しました。
+
 # はじめに
 
 Service Worker スクリプトはオフラインでも動作できるようにインストールされ、定期的に更新確認されます。[Workbox](https://developers.google.com/web/tools/workbox/) などのライブラリやフレームワーク経由で Service Worker を使っている場合はそれらが更新処理を隠蔽するので、その仕組みを意識する必要はほとんどありません。一方、Service Worker を手書きする場合は Service Worker スクリプトの更新に伴うリソースファイルの更新などを自前で行う必要があるので、更新処理がどのように行われるのかしっかり理解しておく必要があるでしょう。
@@ -107,7 +111,10 @@ enum ServiceWorkerUpdateViaCache {
 };
 ```
 
-> **CAUTION:** updateViaCache は比較的最近仕様に追加された機能であり、Chrome 64 時点ではまだ開発中の状態です ([Issue 675540](https://bugs.chromium.org/p/chromium/issues/detail?id=675540))。以前の仕様では Service Worker スクリプトに対する更新確認は必ずブラウザキャッシュを経由するようになっていたため、[Chrome 64 時点での実装はそのようになっています](https://www.chromestatus.com/feature/5897293530136576) (もちろん24 時間以上経過している場合はキャッシュをバイパスします)。この古い仕様において常になるべく新しい Service Worker スクリプトを使わせたい場合は、Service Worker スクリプトの Cache-Control ヘッダに no-store や max-age=0 を指定するというテクニックが使われていました。これをより柔軟に操作できるように導入されたのが updateViaCache オプションです ([Spec Issue](https://github.com/w3c/ServiceWorker/issues/893))。
+> **UPDATED(2018/06/07):** [Chrome 68 から updateViaCache が使用可能](https://www.chromestatus.com/feature/6059838387781632)になりました。これに伴いデフォルトの更新確認の挙動が変更されています。Chrome 68 以前の更新確認は必ずブラウザキャッシュを経由する ```all``` でした。Chrome 68 以降はインポートされたスクリプトの更新確認はブラウザキャッシュを経由しますが、メインスクリプトの更新確認はブラウザキャッシュを経由せずに直接サーバに問い合わせる ```imports``` になります。詳しくは Google が公開している「[
+Fresher service workers, by default](https://developers.google.com/web/updates/2018/06/fresher-sw)」という記事を参照してください。
+>
+> **CAUTION(2018/02/15):** updateViaCache は比較的最近仕様に追加された機能であり、Chrome 64 時点ではまだ開発中の状態です ([Issue 675540](https://bugs.chromium.org/p/chromium/issues/detail?id=675540))。以前の仕様では Service Worker スクリプトに対する更新確認は必ずブラウザキャッシュを経由するようになっていたため、[Chrome 64 時点での実装はそのようになっています](https://www.chromestatus.com/feature/5897293530136576) (もちろん24 時間以上経過している場合はキャッシュをバイパスします)。この古い仕様において常になるべく新しい Service Worker スクリプトを使わせたい場合は、Service Worker スクリプトの Cache-Control ヘッダに no-store や max-age=0 を指定するというテクニックが使われていました。これをより柔軟に操作できるように導入されたのが updateViaCache オプションです ([Spec Issue](https://github.com/w3c/ServiceWorker/issues/893))。
 
 ブラウザキャッシュを確認する場合はキャッシュされたレスポンスの Cache-Control ヘッダの値に従います。前述の通り、ブラウザは適当なタイミングで Service Worker スクリプトの更新確認を行いますが、これがサーバ負荷の原因となることがあります。その場合は updateViaCache オプションと Cache-Control ヘッダを適切に指定することで、サーバへの確認頻度を下げることができます。
 

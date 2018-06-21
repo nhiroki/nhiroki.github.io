@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/06/03
+date: 2018/06/21
 permalink: /books/
 ---
 
@@ -149,9 +149,9 @@ permalink: /books/
 - Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
 - ビッグデータを支える技術 ― 刻々とデータが脈打つ自動化の世界
 
-- ([途中](https://twitter.com/nhiroki_/status/1002361216138805248)) 並行コンピューティング技法 ― 実践マルチコア/マルチスレッドプログラミング
 - ([途中](https://twitter.com/nhiroki_/status/798189186457026560)) Shared Memory Application Programming
 
+- ([2018](https://twitter.com/nhiroki_/status/1002361216138805248)) 並行コンピューティング技法 ― 実践マルチコア/マルチスレッドプログラミング (The Art of Concurrency)
 - (2011) The Art of Multiprocessor Programming ― 並行プログラミングの原理から実践まで
 - (2009) Pthreads プログラミング
 - (2009) Distributed Systems: Principles and Paradigms (2nd Edition)

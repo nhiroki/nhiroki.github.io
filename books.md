@@ -1,11 +1,11 @@
 ---
 layout: page
 title: 本棚
-date: 2018/06/21
+date: 2018/06/23
 permalink: /books/
 ---
 
-2008 年頃（大学三年生頃）以降に読んだ/読みたい/気になる/積んでいる本のリスト。何を読んだかすぐに忘れるので作りました。冊数が多いので小説と漫画は除外しています。
+2008 年頃（大学三年生頃）以降に読んだ/読みたい/気になる/積んでいる本のリスト。何を読んだかすぐに忘れるので作りました。冊数が多いので小説と漫画と子ども向けの本は除外しています。
 
 読書ログは [#nhbk ハッシュタグをつけて Twitter](https://twitter.com/search?f=tweets&vertical=default&q=%23nhbk%20from%3Anhiroki_&l=ja&src=typd&lang=ja) に流しています。
 
@@ -146,9 +146,9 @@ permalink: /books/
 
 - 構造化並列プログラミング ― 効率良い計算を行うためのパターン
 - SRE サイトリライアビリティエンジニアリング ― Google の信頼性を支えるエンジニアリングチーム
-- Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
 - ビッグデータを支える技術 ― 刻々とデータが脈打つ自動化の世界
 
+- ([途中](https://twitter.com/nhiroki_/status/1009972198482866178)) Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
 - ([途中](https://twitter.com/nhiroki_/status/798189186457026560)) Shared Memory Application Programming
 
 - ([2018](https://twitter.com/nhiroki_/status/1002361216138805248)) 並行コンピューティング技法 ― 実践マルチコア/マルチスレッドプログラミング (The Art of Concurrency)

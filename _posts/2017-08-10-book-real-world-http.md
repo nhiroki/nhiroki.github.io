@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "「Real World HTTP」読了"
+title: "『Real World HTTP』読了"
 date: 2017-08-10 00:00:00 +09:00
 tags: book
 ---
 
-「[Real World HTTP ― 歴史とコードに学ぶインターネットとウェブ技術](https://www.oreilly.co.jp/books/9784873118048/)」を読み終わった。
+『[Real World HTTP ― 歴史とコードに学ぶインターネットとウェブ技術](https://www.oreilly.co.jp/books/9784873118048/)』を読み終わった。
 
 # 感想
 

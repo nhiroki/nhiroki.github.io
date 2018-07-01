@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "「DBMS / Chapter 8 - Overview of Storage and Indexing」読了"
+title: "『DBMS / Chapter 8 - Overview of Storage and Indexing』読了"
 date: 2017-08-25 00:00:00 +09:00
 tags: book
 image: /images/book-database-management-systems.jpg
 ---
 
-システムソフトウェア周りだと、オペレーティングシステム・ファイルシステム・言語処理系なんかはそれなりに知識があるけれど、データベース周りは全く分からないことが長年気がかりで、意を決してデータベースシステムの本を読むことにしました。同僚に相談したところ、古典的な教科書だと「[Database Management Systems](http://amzn.to/2w85FJY)」がおすすめとのことで、これの第三版をちまちま読み進めています。
+システムソフトウェア周りだと、オペレーティングシステム・ファイルシステム・言語処理系なんかはそれなりに知識があるけれど、データベース周りは全く分からないことが長年気がかりで、意を決してデータベースシステムの本を読むことにしました。同僚に相談したところ、古典的な教科書だと『[Database Management Systems](http://amzn.to/2w85FJY)』がおすすめとのことで、これの第三版をちまちま読み進めています。
 
 ![Database Management Systems](/images/book-database-management-systems.jpg)
 

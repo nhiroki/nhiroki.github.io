@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "「Game Programming Patterns」読了"
+title:  "『Game Programming Patterns』読了"
 date: 2017-12-18 00:00:00 +09:00
 tags: book
 image: /images/book-game-programming-patterns-overview.png
 ---
 
-「Game Programming Patterns ― ソフトウェア開発の問題解決メニュー」を読み終わったのでその感想とメモです。
+『Game Programming Patterns ― ソフトウェア開発の問題解決メニュー』を読み終わったのでその感想とメモです。
 
 <div style="text-align: center;">
 <a href="https://www.amazon.co.jp/dp/4844338900//ref=as_li_ss_il?ie=UTF8&linkCode=li3&tag=nhiroki-22&linkId=c0500a70bfca93ba933bdeff879858b2" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4844338900&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=nhiroki-22" style="display: inline;"></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=nhiroki-22&l=li3&o=9&a=4844338900" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

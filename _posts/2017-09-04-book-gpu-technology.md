@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "「GPU を支える技術」読了"
+title: "『GPU を支える技術』読了"
 date: 2017-09-04 00:00:00 +09:00
 tags: book
 image: /images/book-gpu-technology.jpg
 ---
 
-「[GPU を支える技術 ― 超並列ハードウェアの快進撃 [技術基礎]](http://gihyo.jp/book/2017/978-4-7741-9056-3)」を読み終わった。
+『[GPU を支える技術 ― 超並列ハードウェアの快進撃 [技術基礎]](http://gihyo.jp/book/2017/978-4-7741-9056-3)』を読み終わった。
 
 ![GPU を支える技術](/images/book-gpu-technology.jpg)
 

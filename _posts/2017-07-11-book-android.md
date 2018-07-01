@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "「Android を支える技術 I」読了"
+title: "『Android を支える技術 I』読了"
 date: 2017-07-11 00:00:00 +09:00
 tags: book
 ---
 
-「[Android を支える技術 I ― 60 fps を達成するモダンな GUI システム](http://gihyo.jp/book/2017/978-4-7741-8759-4)」を読み終わった。
+『[Android を支える技術 I ― 60 fps を達成するモダンな GUI システム](http://gihyo.jp/book/2017/978-4-7741-8759-4)』を読み終わった。
 
 # 感想
 

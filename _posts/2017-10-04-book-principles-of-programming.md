@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "「プリンシプル オブ プログラミング」読了"
+title: "『プリンシプル オブ プログラミング』読了"
 date: 2017-10-04 00:00:00 +09:00
 tags: book
 image: /images/book-principles-of-programming.jpg
 ---
 
-「[プリンシプル オブ プログラミング ― 3 年目までに身につけたい 一生役立つ 101 の原理原則](http://www.shuwasystem.co.jp/products/7980html/4614.html)」を読み終わったのでその感想とメモです。
+『[プリンシプル オブ プログラミング ― 3 年目までに身につけたい 一生役立つ 101 の原理原則](http://www.shuwasystem.co.jp/products/7980html/4614.html)』を読み終わったのでその感想とメモです。
 
 ![プリンシプル オブ プログラミング](/images/book-principles-of-programming.jpg)
 

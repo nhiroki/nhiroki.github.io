@@ -2,7 +2,7 @@
 layout: post
 title: "Chrome 44 の Service Worker の変更点"
 date: 2015-07-21 00:00:00
-tags: serviceworker
+tags: web
 ---
 
 本記事は Chrome 44 の Service Worker のリリースノートを日本語に意訳したものです。原文は service-worker-discuss グループで読むことができます。

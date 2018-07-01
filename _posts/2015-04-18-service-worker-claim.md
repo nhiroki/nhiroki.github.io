@@ -2,7 +2,7 @@
 layout: post
 title: "Service Worker の claim()"
 date: 2015-04-18 00:00:00
-tags: serviceworker
+tags: web
 ---
 
 - **2016/04/26 : ready イベントの使い方にミスがあったため修正しました。[Jxck](https://twitter.com/Jxck_) さんに指摘していただきました。ありがとうございます。**

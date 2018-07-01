@@ -2,25 +2,15 @@ blog:
   name: blog
 book:
   name: book
-essay:
-  name: essay
-diary:
-  name: diary
-linux:
-  name: linux
 codereading:
   name: codereading
-serviceworker:
-  name: serviceworker
-event:
-  name: event
+diary:
+  name: diary
+essay:
+  name: essay
+linux:
+  name: linux
 reading:
   name: reading
-ruby:
-  name: ruby
-javascript:
-  name: javascript
-programming:
-  name: programming
 web:
   name: web

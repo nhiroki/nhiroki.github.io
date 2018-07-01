@@ -2,7 +2,7 @@
 layout: post
 title:  "Chrome 46 に Cache.addAll() を実装した"
 date:   2015-09-02 00:00:00
-tags: serviceworker
+tags: web
 ---
 
 Chrome 46 に CacheStorage API の Cache.addAll() を実装したのでその紹介です。

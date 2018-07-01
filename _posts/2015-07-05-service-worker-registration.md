@@ -2,7 +2,7 @@
 layout: post
 title: "Service Worker の Registration"
 date: 2015-07-05 00:00:00
-tags: serviceworker
+tags: web
 ---
 
 今回は Service Worker の中で最も重要なオブジェクトであろう ServiceWorkerRegistration について詳しく紹介します。なお、この記事は 2015/07/05 時点での仕様に基づいており、Chrome 45 で動作確認を行っています。

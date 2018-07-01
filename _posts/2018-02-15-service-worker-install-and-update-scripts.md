@@ -2,7 +2,7 @@
 layout: post
 title:  "Service Worker スクリプトのインストールと更新処理"
 date: 2018-02-15 00:00:00 +09:00
-tags: web serviceworker
+tags: web
 image: /images/service-worker-install-and-update-scripts-updateViaCache.png
 ---
 

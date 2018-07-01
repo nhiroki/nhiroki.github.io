@@ -2,7 +2,7 @@
 layout: post
 title: "Service Worker の update()"
 date: 2015-06-22 00:00:00
-tags: serviceworker
+tags: web
 ---
 
 - **2018/02/15 : 仕様や実装の変更に伴い新たに「[Service Worker スクリプトのインストールと更新処理](/2018/02/15/service-worker-install-and-update-scripts)」という記事を公開しました。本記事の内容は既に古いので、新しい記事を参照するようにしてください。**

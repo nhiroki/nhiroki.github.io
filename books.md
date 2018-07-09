@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/06/26
+date: 2018/07/09
 permalink: /books/
 ---
 
@@ -44,6 +44,7 @@ permalink: /books/
 
 # プログラミング・言語処理系
 
+- More Effective C# 6.0/7.0
 - Go 言語でつくるインタプリタ
 - 低レベルプログラミング
 - Go ならわかるシステムプログラミング

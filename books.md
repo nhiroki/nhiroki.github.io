@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/07/09
+date: 2018/07/17
 permalink: /books/
 ---
 
@@ -19,6 +19,7 @@ permalink: /books/
 
 # 情報科学全般
 
+- みんなのデータ構造
 - プログラマの数学 第2版
 - 純粋関数型データ構造
 - Understanding Compression

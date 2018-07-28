@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/07/17
+date: 2018/07/29
 permalink: /books/
 ---
 
@@ -203,7 +203,8 @@ permalink: /books/
 
 # ソフトウェア工学
 
-- Clean Architecture: A Craftsman's Guide to Software Structure and Design
+- 進化的アーキテクチャ ― 絶え間ない変化を支える
+- Clean Architecture 達人に学ぶソフトウェアの構造と設計
 - エリック・エヴァンスのドメイン駆動設計
 - マイクロサービスアーキテクチャ
 - API デザインケーススタディ ~Rubyの実例から学ぶ。問題に即したデザインと普遍の考え方
@@ -227,6 +228,7 @@ permalink: /books/
 
 # その他
 
+- エンジニアの知的生産術 ― 効率的に学び、整理し、アウトプットする
 - セキュリティコンテストのための CTF 問題集
 - セキュリティコンテストチャレンジブック ― CTF で学ぼう! 情報を守るための戦い方
 

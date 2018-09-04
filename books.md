@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/09/02
+date: 2018/09/04
 permalink: /books/
 ---
 
@@ -209,8 +209,7 @@ permalink: /books/
 - マイクロサービスアーキテクチャ
 - API デザインケーススタディ ~Rubyの実例から学ぶ。問題に即したデザインと普遍の考え方
 
-- ([途中](https://twitter.com/nhiroki_/status/1036231110823358465)) サイバー攻撃 ― ネット世界の裏側で起きていること
-
+- ([2018](/2018/09/04/book-cyber-attack)) サイバー攻撃 ― ネット世界の裏側で起きていること
 - ([2018](https://twitter.com/nhiroki_/status/979147598190624768)) エンジニアリング組織論への招待 ― 不確実性に向き合う思考と組織のリファクタリング
 - ([2017](/2017/10/04/book-principles-of-programming)) プリンシプル オブ プログラミング ― 3 年目までに身につけたい 一生役立つ 101 の原理原則
 - (2014) GitHub 実践入門 ― Pull Request による開発の変革

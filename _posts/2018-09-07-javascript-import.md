@@ -156,7 +156,9 @@ try {
 
 Classic Script と Module Script でスクリプトのインポート方法が違うことを説明しました。最後にその違いを表にまとめてみました。
 
-| | classic script | classic worker script | module script | module worker script |
+
+
+| | classic | classic worker | module | module worker |
 | :--- | :--- | :--- | :--- | :--- |
 | static import | x | x | o | o |
 | dynamic import | o | o | o | o |

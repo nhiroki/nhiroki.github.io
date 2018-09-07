@@ -31,7 +31,7 @@ const classic_worker = new Worker('worker.js', { type: 'classic' });
 const module_worker = new Worker('worker.js', { type: 'module' });
 ```
 
-[Module Worker は Chrome 69 の時点で実装済みですが、まだデフォルトで有効化されていません](https://www.chromestatus.com/feature/5761300827209728)。実行するには chrome://flags から --enable-experimental-web-platform-features フラグを有効にする必要があります。
+[Module Worker は Chrome 69 の時点で実装済みですが、まだデフォルトで有効化されていません](https://www.chromestatus.com/feature/5761300827209728)。試すには chrome://flags から --enable-experimental-web-platform-features フラグを有効にする必要があります。
 
 Service Worker の場合は register オプションの type で指定します。type を省略した場合は Classic Service Worker になります。[Module Service Worker は Chrome 70 の時点では未実装の機能](https://bugs.chromium.org/p/chromium/issues/detail?id=824647)です。
 
@@ -48,7 +48,7 @@ const reg2 = await navigator.serviceWorker.register('sw.js', { type: 'module' })
 
 ## Static import
 
-Static import は Module Script のインポートを静的に行います。トップレベルモジュールスクリプトのロード時にそれに含まれるすべての static import 文が列挙され、モジュールグラフを構築します。このグラフ内のスクリプトがすべてロードされた時点でトップレベルスクリプトの実行が行われます。実行前にすべてのモジュールの解決を行うため static import と呼ばれています。
+Static import は Module Script のインポートを静的に行います。トップレベルモジュールスクリプトのロード時にそれに含まれるすべての static import 文が列挙され、モジュールグラフを構築します。このグラフ内のスクリプトがすべてロードされた時点でトップレベルスクリプトを実行します。実行前にすべてのモジュールの解決を行うため static import と呼ばれています。
 
 ```html
 <!-- index.html -->
@@ -79,7 +79,7 @@ export function Baz() { ... };
 
 ## Dynamic import
 
-Dynamic import は Module Script のインポートを行う関数ライクな演算子です。[Chrome ではバージョン 63 からサポート](https://www.chromestatus.com/feature/5684934484164608)しています。スクリプトの実行中に Module Script を動的にインポートしたいときに使います。Dynamic import は Module オブジェクトで解決される Promise を返します。
+Dynamic import は Module Script のインポートを行う関数ライクな仕組みです。[Chrome ではバージョン 63 からサポート](https://www.chromestatus.com/feature/5684934484164608)しています。スクリプトの実行中に Module Script を動的にインポートしたいときに使います。Dynamic import は Module オブジェクトで解決される Promise を返します。
 
 ```html
 <!-- index.html -->
@@ -101,11 +101,11 @@ import * as module2 from './descendant5.js';
 export function Hoge() { ... };
 ```
 
-Dynamic import はスクリプトをを新しいトップレベルモジュールスクリプトとして読み込みます。インポートされたスクリプト内の全ての static import 文を列挙して新しくモジュールグラフを構築し、全スクリプトがロードされた時点で実行が行われます。
+Dynamic import はスクリプトを新しいトップレベルモジュールスクリプトとして読み込みます。インポートされたスクリプト内の全ての static import 文を列挙して新しくモジュールグラフを構築し、全スクリプトがロードされた時点で実行します。
 
 ![dynamic import](/images/javascript-import-dynamic-import.png)
 
-Dynamic import は Classic Script でも使うことができます。
+Dynamic import は Classic Script でも使えます。
 
 ```html
 <!-- index.html -->

@@ -42,6 +42,11 @@ const reg2 = await navigator.serviceWorker.register('sw.js', { type: 'module' })
 
 \<script\> タグや new Worker() によって読み込まれたスクリプトはトップレベルスクリプトと呼ばれます。
 
+追記 (2018/09/07)
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">Worklet について書き忘れてた。Worklet は module script オンリーなので、type を指定する方法はないです。もちろん importScripts も使えません。</p>&mdash; nhiroki (@nhiroki_) <a href="https://twitter.com/nhiroki_/status/1038066788422959108?ref_src=twsrc%5Etfw">2018年9月7日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 # インポート方法の違い
 
 スクリプトをインポートする方法は三つあります。

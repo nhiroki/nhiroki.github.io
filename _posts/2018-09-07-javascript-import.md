@@ -156,17 +156,16 @@ try {
 
 Classic Script と Module Script でスクリプトのインポート方法が違うことを説明しました。最後にその違いを表にまとめてみました。
 
-
-
-| | classic | classic worker | module | module worker |
-| :--- | :--- | :--- | :--- | :--- |
-| static import | x | x | o | o |
-| dynamic import | o | o | o | o |
-| importScripts | x | o | x | x |
+| | static import | dynamic import | importScripts |
+| :--- | :--- | :---| :--- |
+| classic | x | o | x |
+| classic worker | x | o | o |
+| module | o | o | x |
+| module worker | o | o | x |
 
 - Classic Script では dynamic import が使えます。また Classic Worker Script であれば importScripts も使えます。
 - Module Script では static import と dynamic import が使えます。Module Worker Script では importScripts は使えません。
 
 # まとめ
 
-本記事では JavaScript のスクリプトインポートについてまとめました。スクリプトインポートには static import, dynamic import, importScripts がありますが、それぞれ挙動 (静的 or 動的) や使える場面 (ドキュメント or ワーカー) が異なります。状況に応じて適切なものを使いましょう。
+本記事では JavaScript のスクリプトインポートについてまとめました。スクリプトインポートには static import, dynamic import, importScripts がありますが、それぞれ挙動 (static or dynamic) や使える場面 (Document or Worker) が異なります。状況に応じて適切なものを使いましょう。

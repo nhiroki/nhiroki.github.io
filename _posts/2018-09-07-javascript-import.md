@@ -8,6 +8,12 @@ image: /images/profile.png
 
 JavaScript の文脈で「スクリプトをインポートする」といった場合、色々な可能性が考えられます。現場での混乱を避けるためにも用語を正しく使い分ける必要があります。そこで本記事では JavaScript のスクリプトインポートについて整理します。
 
+**更新履歴**
+
+- 2018/09/08
+  - Worklet の type とその上での dynamic import について追記しました。
+  - Service Worker 上での importScripts について追記しました。
+
 # Classic Script と Module Script
 
 スクリプトインポートを理解するには、スクリプトについて正確に理解する必要があります。HTML の仕様では、[スクリプト](https://html.spec.whatwg.org/multipage/webappapis.html#concept-script)には [Classic Script](https://html.spec.whatwg.org/multipage/webappapis.html#classic-script) と [Module Script](https://html.spec.whatwg.org/multipage/webappapis.html#module-script) の二種類があると定義されています。Classic Script は従来型のスクリプトで、Module Script は ES Modules のことです。ES Modules については詳しく解説した記事がたくさんあるので、本記事では特に説明しません。
@@ -40,15 +46,13 @@ const reg1 = await navigator.serviceWorker.register('sw.js', { type: 'classic' }
 const reg2 = await navigator.serviceWorker.register('sw.js', { type: 'module' });
 ```
 
-\<script\> タグや new Worker() によって読み込まれたスクリプトはトップレベルスクリプトと呼ばれます。
+Worklet は Module Script オンリーの機能なため、type を指定する方法はありません。[Chrome ではバージョン 65 から (Paint) Worklet をサポート](https://www.chromestatus.com/feature/5275637463908352)しています。
 
-追記 (2018/09/07)
+```js
+const result = CSS.paintWorklet.addModule('worklet.js');
+```
 
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">Worklet について書き忘れてた。Worklet は module script オンリーなので、type を指定する方法はないです。もちろん importScripts も使えません。</p>&mdash; nhiroki (@nhiroki_) <a href="https://twitter.com/nhiroki_/status/1038066788422959108?ref_src=twsrc%5Etfw">2018年9月7日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">Worklet についてもう一つ書き忘れてた。Worklet 上では不確定性のある機能が無効化されていて、例えば dynamic import を含む一切のネットワーク API が使えません。static import は実行前に解決されるので使えます。その理由は以前の記事で書いたのでそっちを見てください <a href="https://t.co/5PyzKKTyhr">https://t.co/5PyzKKTyhr</a></p>&mdash; nhiroki (@nhiroki_) <a href="https://twitter.com/nhiroki_/status/1038362477392621568?ref_src=twsrc%5Etfw">2018年9月8日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+\<script\> タグや new Worker() などによって読み込まれたスクリプトはトップレベルスクリプトと呼ばれます。
 
 # インポート方法の違い
 
@@ -122,6 +126,8 @@ import('./top-level.js').then(module => module.DoSomething());
 </script>
 ```
 
+Worklet は Module Script として動作しますが、dynamic import を使うことはできません。Worklet では不確定性のある機能が無効化されていて、dynamic import を含む一切のネットワーク API が使えません。static import は実行前に解決されるので使えます。その理由は以前「[JavaScript のスレッド並列実行環境 ― Worklet の実行モデル](https://nhiroki.jp/2017/12/10/javascript-parallel-processing#6-worklet)」という記事で紹介したのでそちらを見てください。
+
 ## importScripts
 
 importScripts は Classic Worker 上で Classic Script をインポートする機能です。Worker 上では \<script\> タグが使えないため、そのかわりに importScripts によるスクリプト読み込みがサポートされています。
@@ -160,6 +166,8 @@ try {
 }
 ```
 
+Classic Service Worker では importScripts を呼べるタイミングに制限があります。詳しくは「[Service Worker 上での未インストールスクリプトに対する importScripts()](/2018/08/15/service-worker-import-scripts-after-installation)」という記事を見てください。
+
 # スクリプト種別毎の利用可能なインポート
 
 Classic Script と Module Script でスクリプトのインポート方法が違うことを説明しました。最後にその違いを表にまとめてみました。
@@ -170,9 +178,11 @@ Classic Script と Module Script でスクリプトのインポート方法が�
 | classic worker | x | o | o |
 | module | o | o | x |
 | module worker | o | o | x |
+| module worklet | o | x | x |
 
 - Classic Script では dynamic import が使えます。また Classic Worker Script であれば importScripts も使えます。
 - Module Script では static import と dynamic import が使えます。Module Worker Script では importScripts は使えません。
+- Worklet は Module Script として動作しますが、その実行モデルの制限により dynamic import は使えません。
 
 # まとめ
 

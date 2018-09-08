@@ -47,6 +47,9 @@ const reg2 = await navigator.serviceWorker.register('sw.js', { type: 'module' })
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">Worklet について書き忘れてた。Worklet は module script オンリーなので、type を指定する方法はないです。もちろん importScripts も使えません。</p>&mdash; nhiroki (@nhiroki_) <a href="https://twitter.com/nhiroki_/status/1038066788422959108?ref_src=twsrc%5Etfw">2018年9月7日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">Worklet についてもう一つ書き忘れてた。Worklet 上では不確定性のある機能が無効化されていて、例えば dynamic import を含む一切のネットワーク API が使えません。static import は実行前に解決されるので使えます。その理由は以前の記事で書いたのでそっちを見てください <a href="https://t.co/5PyzKKTyhr">https://t.co/5PyzKKTyhr</a></p>&mdash; nhiroki (@nhiroki_) <a href="https://twitter.com/nhiroki_/status/1038362477392621568?ref_src=twsrc%5Etfw">2018年9月8日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 # インポート方法の違い
 
 スクリプトをインポートする方法は三つあります。

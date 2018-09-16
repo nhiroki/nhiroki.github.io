@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/09/13
+date: 2018/09/16
 permalink: /books/
 ---
 
@@ -222,6 +222,7 @@ permalink: /books/
 
 # ゲーム
 
+- クラウドゲームをつくる技術 ― マルチプレイゲーム開発の新戦力 
 - ゲームエンジン・アーキテクチャ
 
 - ([途中](https://twitter.com/nhiroki_/status/943848416131420160)) 人工知能の作り方 ― 「おもしろい」ゲーム AI はいかにして動くのか

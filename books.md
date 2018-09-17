@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/09/16
+date: 2018/09/17
 permalink: /books/
 ---
 
@@ -251,8 +251,8 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/785470001981431809)) スタンフォード物理学再入門　力学
 - ([途中](https://twitter.com/nhiroki_/status/956181469285658624)) 超・宇宙を解く―現代天文学演習
 - ([途中](https://twitter.com/nhiroki_/status/952900695413305344)) 天文宇宙検定公式問題集 1 級 (2016-2017 年版)
-- ([途中](https://twitter.com/nhiroki_/status/1038068185159761920)) 天文の世界史
 
+- ([2018](/2018/09/17/book-the-world-history-of-astronomy)) 天文の世界史
 - ([2018](https://twitter.com/nhiroki_/status/963051916082126849)) クェーサーの謎 ― 宇宙でもっともミステリアスな天体
 - ([2017](https://twitter.com/nhiroki_/status/945645386844086273)) 宇宙の大地図帳
 - ([2017](https://twitter.com/nhiroki_/status/916095616366891008)) パラレルワールド ― 11 次元の宇宙から超空間へ

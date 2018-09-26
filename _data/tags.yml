@@ -10,7 +10,7 @@ essay:
   name: essay
 linux:
   name: linux
-reading:
-  name: reading
+paper:
+  name: paper
 web:
   name: web

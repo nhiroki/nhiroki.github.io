@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[論文] ZMap: Fast Internet-Wide Scanning and its Security Applications (2013)"
+title: "論文「ZMap: Fast Internet-Wide Scanning and its Security Applications」(2013)"
 date: 2017-06-27 00:00:00 +09:00
 tags: paper
 ---

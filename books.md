@@ -252,6 +252,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/956181469285658624)) 超・宇宙を解く―現代天文学演習
 - ([途中](https://twitter.com/nhiroki_/status/952900695413305344)) 天文宇宙検定公式問題集 1 級 (2016-2017 年版)
 
+- ([2018](/2018/10/01/book-cosmic-microwave-background)) 宇宙背景放射 ― 「ビッグバン以前」の痕跡を探る
 - ([2018](/2018/09/17/book-the-world-history-of-astronomy)) 天文の世界史
 - ([2018](https://twitter.com/nhiroki_/status/963051916082126849)) クェーサーの謎 ― 宇宙でもっともミステリアスな天体
 - ([2017](https://twitter.com/nhiroki_/status/945645386844086273)) 宇宙の大地図帳

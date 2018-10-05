@@ -28,8 +28,10 @@ VFS はファイルシステムの管理ツールのための API を提供し�
 - ファイルシステムに依存しない 4 種類のオブジェクトを定義
   - files or directories, blocks or extents, directory entries, file-system wide settings (block size, file system size, label)
   - なぜこれらオブジェクトをインタフェース定義したのか、そのユースケースとあわせて論文内で説明されている。
-- ファイルシステムの変換ツールを実装
-  - extent-based Ext4 file system から log-structured F2FS file system へ変換。
+- 各ファイルシステムで eVFS のインタフェースを実装
+  - 本研究では extent-based Ext4 file system と log-structured F2FS file system に実装。
+- ファイルシステムの変換ツールを実装して評価
+  - Ext4 から F2FS へ変換。
   - オフラインでのみ利用できる（アンマウント状態で排他的にアクセスできる）。
   - 可能であればファイルシステムを in-place で変換する。メタデータを書き換えるだけで、データのコピーをしないので高速。既存ツールでもあるが、実装が困難で一般的ではないらしい。
 - ユーザランドでのジャーナリング手法を色々工夫

@@ -15,7 +15,7 @@ layout: default
         <ul class="post-list">
       {% endif %}
       <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><span class="post-meta">{{ post.date | date: "%m/%d" }}</span>
+        - <span class="post-meta">{{ post.date | date: "%m/%d" }}</span> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
   {% endfor %}
 

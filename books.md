@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/10/08
+date: 2018/10/20
 permalink: /books/
 ---
 
@@ -251,9 +251,9 @@ permalink: /books/
 - 惑星形成の物理 ― 太陽系と系外惑星系の形成論入門
 - ([途中](https://twitter.com/nhiroki_/status/785470001981431809)) スタンフォード物理学再入門　力学
 - ([途中](https://twitter.com/nhiroki_/status/1048394714334945280)) 超・宇宙を解く―現代天文学演習
-- ([途中](https://twitter.com/nhiroki_/status/1048213827131596800)) 天文宇宙検定公式問題集 1 級 (2018-2019 年版)
-- ([途中](https://twitter.com/nhiroki_/status/952900695413305344)) 天文宇宙検定公式問題集 1 級 (2016-2017 年版)
 
+- ([2018](https://twitter.com/nhiroki_/status/1048213827131596800)) 天文宇宙検定公式問題集 1 級 (2018-2019 年版)
+- ([2018](https://twitter.com/nhiroki_/status/952900695413305344)) 天文宇宙検定公式問題集 1 級 (2016-2017 年版)
 - ([2018](/2018/10/01/book-cosmic-microwave-background)) 宇宙背景放射 ― 「ビッグバン以前」の痕跡を探る
 - ([2018](/2018/09/17/book-the-world-history-of-astronomy)) 天文の世界史
 - ([2018](https://twitter.com/nhiroki_/status/963051916082126849)) クェーサーの謎 ― 宇宙でもっともミステリアスな天体

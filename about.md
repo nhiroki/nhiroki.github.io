@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2018/04/12
+date: 2018/10/24
 permalink: /about/
 ---
 
@@ -38,6 +38,7 @@ Hiroki Nakagawa (nhiroki)
 
 ウェブブラウザ Chrome の開発。Chrome のオープンソースプロジェクト Blink / Chromium のコミッター。主に以下のことをしていました。
 
+* Off-the-main-thread リソースローディングの設計と実装
 * ES Modules for Workers API の設計と実装
 * [Worklets API]((https://drafts.css-houdini.org/worklets/)) の設計と実装
 * [Workers](https://html.spec.whatwg.org/multipage/workers.html#workers) / [Worklets](https://drafts.css-houdini.org/worklets/) API のスレッディング基盤の設計と実装
@@ -69,6 +70,12 @@ Chrome OS の文字入力変換ウィンドウの UI 改善。Chromium とか iB
 ウェブクローラーの開発 (Perl / PHP)、Drupal を使った社内ポータルサイトの構築 (PHP)、OpenLDAP / OpenAM を使ったシングルサインオン環境の構築と SNS への組み込み (PHP)、E-Learning アプリケーションの開発 (Ruby on Rails) などをしていました。その他に二年ほど高校生の家庭教師をしていました。
 
 # 勉強会などでの発表
+
+**インタビュー**
+
+* 2018.10.24 「[Chromium から見る Web の未来](/2018/10/24/webdb-press-107-interview)」 (WEB+DB PRESS Vol. 107)
+
+**発表**
 
 * 2017.03.21 「[論文紹介] The Linux Scheduler: A Decade of Wasted Cores (EuroSys 2016)」([システム系輪講会](https://connpass.com/event/52323/)) ([slide](https://docs.google.com/presentation/d/1B9lC6uPxHBzWm9Elhn8cvvQXy7ykIe7EPgFe0i0hAYk/pub?start=false&loop=false&slide=id.p))
 * 2016.02.06 「IoT 時代の Web エンジニア」 (IT 分科会 #2) (slide)

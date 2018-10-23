@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "「WEB+DB PRESS Vol. 107」にインタビュー記事が載りました"
+title: "「WEB+DB PRESS Vol. 107」にインタビュー記事が掲載されました"
 date: 2018-10-24 00:00:00 +09:00
 tags: blog
 image: /images/webdb-press-107-interview-article-header.jpg
 ---
 
-本日発売の [WEB+DB PRESS vol. 107](https://gihyo.jp/magazine/wdpress/archive/2018/vol107) にインタビュー記事が載りました。
+本日発売の [WEB+DB PRESS vol. 107](https://gihyo.jp/magazine/wdpress/archive/2018/vol107) にインタビュー記事が掲載されました。
 
 ![magazine cover](/images/webdb-press-107-interview-magazine-cover.jpg)
 

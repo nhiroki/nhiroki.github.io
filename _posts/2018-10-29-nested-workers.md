@@ -69,7 +69,7 @@ Web Worker を使う際の一般的な注意点として、Worker を作りす�
 
 私は 2017 年に Worklet の実装を行いつつ、Nested Workers を目指した Worker インフラの再設計を進めていました (see: "[Worker infrastructure roadmap 2017 - Google Docs](https://docs.google.com/document/d/1RIMCo_xejzvm0BlJdhAg2nfpdOE7xy_ijHVXk6kPHws/edit?usp=sharing)")。しかし、その新設計の実装が一段落ついた段階でも Nested Workers が本当に実現可能か不透明な部分が多く、二の足を踏んでいる状態でした。
 
-一方その頃、幸運にも一人のスーパーエンジニアが Worker チームに加わり、彼の抜群の実装力によってあっさり実現できてしまいました。その結果 Chrome 69 で無事ローンチすることができました。
+しかし 2018 年に入り、幸運にも一人のスーパーエンジニアが Worker チームに加わり、彼の抜群の実装力によってあっさり実現できてしまいました。その結果 Chrome 69 で無事ローンチすることができました。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">同僚のパッチ書く速度が異次元過ぎるし、既存実装がどんなに難解であってもそれを突き抜けてくる突破力のようなものを感じる</p>&mdash; nhiroki (@nhiroki_) <a href="https://twitter.com/nhiroki_/status/989700852666417157?ref_src=twsrc%5Etfw">2018年4月27日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

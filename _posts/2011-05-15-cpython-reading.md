@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CPython 3.2 ソースコードリーディング 第2回"
+title: "CPython 3.2 ソースコードリーディング 第 2 回"
 date: 2011-05-15 04:02:00 +09:00
 tasg: event codereading
 image: /images/profile.png

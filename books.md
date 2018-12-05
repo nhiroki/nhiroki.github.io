@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/11/22
+date: 2018/12/05
 permalink: /books/
 ---
 
@@ -146,11 +146,11 @@ permalink: /books/
 
 # 並列並行プログラミング・分散システム
 
-- Go 言語による並行処理
 - 構造化並列プログラミング ― 効率良い計算を行うためのパターン
 - SRE サイトリライアビリティエンジニアリング ― Google の信頼性を支えるエンジニアリングチーム
 - ビッグデータを支える技術 ― 刻々とデータが脈打つ自動化の世界
 
+- ([途中](https://twitter.com/nhiroki_/status/1070116480941879297)) Go 言語による並行処理
 - ([途中](https://twitter.com/nhiroki_/status/1009972198482866178)) Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
 - ([途中](https://twitter.com/nhiroki_/status/798189186457026560)) Shared Memory Application Programming
 

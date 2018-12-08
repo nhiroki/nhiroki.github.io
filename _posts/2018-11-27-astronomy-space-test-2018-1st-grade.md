@@ -6,7 +6,7 @@ tags: diary
 image: /images/astronomy-space-test-2018-1st-grade-signboard.jpg
 ---
 
-10 月 21 日に第 8 回「[天文宇宙検定](http://www.astro-test.org/)」の一級を受けました。正式な結果通知は 12 月ですが、自己採点で 33/100 だったため不合格です。本記事はその受験記になります。
+10 月 21 日に第 8 回「[天文宇宙検定](http://www.astro-test.org/)」の一級を受けました。正式な結果通知は 12 月ですが、自己採点で 33/100 だったため不合格です (12 月 8 日追記: 正式な点数は 39/100 でした)。本記事はその受験記になります。
 
 ![看板](/images/astronomy-space-test-2018-1st-grade-signboard.jpg)
 
@@ -69,7 +69,7 @@ image: /images/astronomy-space-test-2018-1st-grade-signboard.jpg
 - [宇宙ビジネスの衝撃 ― 21 世紀の黄金をめぐる新時代のゴールドラッシュ](/2018/08/31/book-impact-of-aerospace-business)
 - [クェーサーの謎 ― 宇宙でもっともミステリアスな天体](/2018/02/12/book-mystery-of-quaser)
 
-# 敗因分析と来年に向けた勉強
+# 敗因と来年に向けた勉強
 
 2018-2019 年版問題集は今年出版されたということもあって何問かはここから出題されるだろうと思い、答えを覚えるレベルで何度も解いたんですが、結果としては同じ問題はおろか類題もほぼ出題されませんでした。つらい。
 

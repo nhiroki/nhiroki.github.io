@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/12/05
+date: 2018/12/09
 permalink: /books/
 ---
 
@@ -311,6 +311,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/975904460047175681)) 異文化理解力 ― 相手と自分の真意がわかる ビジネスパーソン必須の教養
 - ([途中](https://twitter.com/nhiroki_/status/967952328362934272)) 世にもおもしろい英語 ― あなたの知識と感性の領域を広げる英語表現
 
+- ([2018](/2018/12/09/book-what-every-pianist-needs-to-know-about-the-body)) ピアニストならだれでも知っておきたい「からだ」のこと
 - ([2018](/2018/11/14/book-founders-of-google)) Google をつくった 3 人の男
 - ([2018](/2018/08/31/book-impact-of-aerospace-business)) 宇宙ビジネスの衝撃 ― 21 世紀の黄金をめぐる新時代のゴールドラッシュ
 - ([2018](https://twitter.com/nhiroki_/status/988216848943480832)) LIFE〈ライフ〉人間が知らない生き方

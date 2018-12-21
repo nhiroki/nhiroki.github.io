@@ -8,6 +8,8 @@ image: /images/webdb-press-107-interview-article-header.jpg
 
 本日発売の [WEB+DB PRESS vol. 107](https://gihyo.jp/magazine/wdpress/archive/2018/vol107) にインタビュー記事が掲載されました。
 
+**UPDATE(2018/12/21):** 技術評論社のサイトで [Web 版](https://gihyo.jp/dev/serial/01/at-the-front/0001)が公開されました。
+
 ![magazine cover](/images/webdb-press-107-interview-magazine-cover.jpg)
 
 本号から [mizchi](https://twitter.com/mizchi) さんがホストを務める「at the front - 前線にて」という連載インタビュー企画がスタートしたのですが、その第 1 回ゲストとしてインタビューしていただきました。

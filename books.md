@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/12/09
+date: 2018/12/23
 permalink: /books/
 ---
 
@@ -192,14 +192,16 @@ permalink: /books/
 - (2010) Web 開発者のための大規模サービス技術入門 ― データ構造、メモリ、OS、DB、サーバ/インフラ
 - (2008) 24 時間 365 日 サーバ/インフラを支える技術 ― スケーラビリティ、ハイパフォーマンス、省力運用
 
-# 機械学習/人工知能
+# 統計学/機械学習/人工知能
 
 - 仕事ではじめる機械学習
 - ([途中](https://twitter.com/nhiroki_/status/1037339295403532289)) 作って動かす ALife
 - ([途中](https://twitter.com/nhiroki_/status/969573565338013696)) TensorFlow ではじめる DeepLearning 実装入門
 - ([途中](https://twitter.com/nhiroki_/status/808263006656217088)) ゼロから作る Deep Learning
 - (途中) はじめてのパターン認識
+- ([途中](https://twitter.com/nhiroki_/status/1076492818984497152)) 統計検定 3 級対応「データの分析」
 
+- ([2018](https://twitter.com/nhiroki_/status/1071403140035923969)) 統計検定 4 級対応「資料の活用」
 - ([2016](https://twitter.com/nhiroki_/status/700320801665339393)) 人工知能は人間を超えるか
 - (2008) 人工知能の基礎
 

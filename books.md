@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/12/23
+date: 2018/12/25
 permalink: /books/
 ---
 
@@ -254,6 +254,7 @@ permalink: /books/
 - 惑星形成の物理 ― 太陽系と系外惑星系の形成論入門
 - ([途中](https://twitter.com/nhiroki_/status/785470001981431809)) スタンフォード物理学再入門　力学
 - ([途中](https://twitter.com/nhiroki_/status/1048394714334945280)) 超・宇宙を解く―現代天文学演習
+- ([途中](https://twitter.com/nhiroki_/status/1077195018203348992)) ブラックホールと時空の方程式 ― 15 歳からの一般相対論
 
 - ([2018](https://twitter.com/nhiroki_/status/1048213827131596800)) 天文宇宙検定公式問題集 1 級 (2018-2019 年版)
 - ([2018](https://twitter.com/nhiroki_/status/952900695413305344)) 天文宇宙検定公式問題集 1 級 (2016-2017 年版)

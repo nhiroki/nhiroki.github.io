@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/12/25
+date: 2018/12/26
 permalink: /books/
 ---
 
@@ -63,8 +63,8 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/834200033511698432)) Programming Rust
 - (途中) すごい Haskell たのしく学ぼう！
 
-- ([2018](https://twitter.com/nhiroki_/status/996003002832977920)) 7 つの言語 7 つの世界
-- ([2018](https://twitter.com/nhiroki_/status/988224420186476545)) 江添亮の詳説 C++17
+- ([2018](/2018/05/29/book-seven-languages-seven-worlds)) 7 つの言語 7 つの世界
+- ([2018](/2018/05/10/book-cpp17)) 江添亮の詳説 C++17
 - ([2016](https://twitter.com/nhiroki_/status/722209128060362752)) Effective Modern C++ ― C++11/14 プログラムを進化させる 42 項目
 - ([2013](https://twitter.com/nhiroki_/status/342092676574887937)) コーディングを支える技術
 - (2013) ls を読まずにプログラマを名乗るな！
@@ -109,7 +109,7 @@ permalink: /books/
 - (途中) コンピュータアーキテクチャ　定量的アプローチ（ヘネパタ）
   - ヘネパタ読書会に参加していた
 
-- ([2018](https://twitter.com/nhiroki_/status/957242155763826688)) 量子コンピュータが人工知能を加速する
+- ([2018](/2018/01/27/book-quantum-annealer-accelerates-artificial-intelligence)) 量子コンピュータが人工知能を加速する
 - ([2017](/2017/09/04/book-gpu-technology)) GPU を支える技術 ― 超並列ハードウェアの快進撃［技術基礎］
 - ([2016](https://twitter.com/nhiroki_/status/704459368830382080)) ディジタル回路設計とコンピュータアーキテクチャ
 - ([2015](https://twitter.com/nhiroki_/status/676549761395068928)) はじめて読む486 - 32ビットコンピュータをやさしく語る
@@ -131,7 +131,7 @@ permalink: /books/
   - 出版記念イベントに参加しました（[感想](https://twitter.com/nhiroki_/status/730029907426746368)）
 - (途中) インサイド Windows 上巻
 
-- ([2018](https://twitter.com/nhiroki_/status/966696424241967104)) [試して理解] Linux のしくみ ― 実験と図解で学ぶ OS とハードウェアの基礎知識
+- ([2018](/2018/03/02/book-mechanism-of-linux)) [試して理解] Linux のしくみ ― 実験と図解で学ぶ OS とハードウェアの基礎知識
 - ([2017](/2017/07/11/book-android)) Android を支える技術 I - 60 fps を達成するモダンな GUI システム
 - ([2017](https://twitter.com/nhiroki_/status/749190068376440832)) Linux プログラミングインタフェース
 - (2013) はじめての OS コードリーディング ― UNIX V6 で学ぶカーネルのしくみ
@@ -154,7 +154,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/1009972198482866178)) Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
 - ([途中](https://twitter.com/nhiroki_/status/798189186457026560)) Shared Memory Application Programming
 
-- ([2018](https://twitter.com/nhiroki_/status/1002361216138805248)) 並行コンピューティング技法 ― 実践マルチコア/マルチスレッドプログラミング (The Art of Concurrency)
+- ([2018](/2018/06/21/book-the-art-of-concurrency)) 並行コンピューティング技法 ― 実践マルチコア/マルチスレッドプログラミング (The Art of Concurrency)
 - (2011) The Art of Multiprocessor Programming ― 並行プログラミングの原理から実践まで
 - (2009) Pthreads プログラミング
 - (2009) Distributed Systems: Principles and Paradigms (2nd Edition)
@@ -164,7 +164,7 @@ permalink: /books/
 
 - ソースコードで体感するネットワークの仕組み ― 手を動かしながら基礎から TCP/IP の実装までがわかる
 
-- ([2018](https://twitter.com/nhiroki_/status/987631119918030848)) アカマイ ― 知られざるインターネットの巨人
+- ([2018](/2018/04/21/book-akamai)) アカマイ ― 知られざるインターネットの巨人
 - (2009) UNIX ネットワークプログラミング (Vol.2) IPC: プロセス間通信
 - (2009) UNIX ネットワークプログラミング (Vol.1) ネットワーク API: ソケットと XTI
 - (2009) Computer Networking: A Top-Down Approach (4th Edition)
@@ -215,7 +215,7 @@ permalink: /books/
 
 - ([2018](/2018/11/21/book-the-managers-path)) エンジニアのためのマネジメントキャリアパス ― テックリードから CTO までマネジメントスキル向上ガイド
 - ([2018](/2018/09/04/book-cyber-attack)) サイバー攻撃 ― ネット世界の裏側で起きていること
-- ([2018](https://twitter.com/nhiroki_/status/979147598190624768)) エンジニアリング組織論への招待 ― 不確実性に向き合う思考と組織のリファクタリング
+- ([2018](/2018/04/17/book-engineering-organization-theory)) エンジニアリング組織論への招待 ― 不確実性に向き合う思考と組織のリファクタリング
 - ([2017](/2017/10/04/book-principles-of-programming)) プリンシプル オブ プログラミング ― 3 年目までに身につけたい 一生役立つ 101 の原理原則
 - (2014) GitHub 実践入門 ― Pull Request による開発の変革
 - (2012) リーダブルコード　より良いコードを書くためのシンプルで実践的なテクニック
@@ -253,9 +253,9 @@ permalink: /books/
 
 - 惑星形成の物理 ― 太陽系と系外惑星系の形成論入門
 - ([途中](https://twitter.com/nhiroki_/status/785470001981431809)) スタンフォード物理学再入門　力学
-- ([途中](https://twitter.com/nhiroki_/status/1048394714334945280)) 超・宇宙を解く―現代天文学演習
 - ([途中](https://twitter.com/nhiroki_/status/1077195018203348992)) ブラックホールと時空の方程式 ― 15 歳からの一般相対論
 
+- ([2018](https://twitter.com/nhiroki_/status/1048394714334945280)) 超・宇宙を解く―現代天文学演習
 - ([2018](https://twitter.com/nhiroki_/status/1048213827131596800)) 天文宇宙検定公式問題集 1 級 (2018-2019 年版)
 - ([2018](https://twitter.com/nhiroki_/status/952900695413305344)) 天文宇宙検定公式問題集 1 級 (2016-2017 年版)
 - ([2018](/2018/10/01/book-cosmic-microwave-background)) 宇宙背景放射 ― 「ビッグバン以前」の痕跡を探る
@@ -289,12 +289,12 @@ permalink: /books/
 
 - (途中) レジリエンスの鍛え方
 
-- ([2018](https://twitter.com/nhiroki_/status/965583549544845312)) 自分からどんどん勉強する子になる方法
-- ([2018](https://twitter.com/nhiroki_/status/965207950666039296)) ほんとうに頭がよくなる世界最高の子ども英語
-- ([2018](https://twitter.com/nhiroki_/status/958616887394426880)) 言うこと聞かない！落ち着きない！ 男の子のしつけに悩んだら読む本
-- ([2018](https://twitter.com/nhiroki_/status/955455901464342529)) ルポ塾歴社会　日本のエリート教育を牛耳る「鉄緑会」と「サピックス」の正体
-- ([2018](https://twitter.com/nhiroki_/status/954335991136903168)) なぜ、東大生の3人に1人が公文式なのか？
-- ([2018](https://twitter.com/nhiroki_/status/952538735446343680)) 3男1女 東大理III合格百発百中 絶対やるべき勉強法
+- ([2018](/2018/02/18/book-child-self-study)) 自分からどんどん勉強する子になる方法
+- ([2018](/2018/02/18/book-child-english)) ほんとうに頭がよくなる世界最高の子ども英語
+- ([2018](/2018/01/27/book-how-to-bring-up-boys)) 言うこと聞かない！落ち着きない！ 男の子のしつけに悩んだら読む本
+- ([2018](/2018/01/23/book-tetsuryokukai-and-sapix)) ルポ塾歴社会　日本のエリート教育を牛耳る「鉄緑会」と「サピックス」の正体
+- ([2018](/2018/01/19/book-kumon)) なぜ、東大生の3人に1人が公文式なのか？
+- ([2018](/2018/01/14/book-ut-risan)) 3男1女 東大理III合格百発百中 絶対やるべき勉強法
 - ([2017](https://twitter.com/nhiroki_/status/919538261877391360)) 世界のトップ 1% に育てる親の習慣ベスト 45
 - ([2017](https://twitter.com/nhiroki_/status/864853180806332416)) 頭がいい子の家のリビングには必ず「辞書」「地図」「図鑑」がある
 - ([2015](https://twitter.com/nhiroki_/status/672779898423906304)) 「学力」の経済学

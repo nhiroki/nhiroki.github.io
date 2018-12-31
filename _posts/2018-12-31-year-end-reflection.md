@@ -3,7 +3,7 @@ layout: post
 title:  "2018 年の振り返り"
 date: 2018-12-31 00:00:00 +09:00
 tags: diary
-image: /images/profile.png
+image: /images/paternity-leave-fingers.jpg
 ---
 
 2018 年の雑多な振り返りです。今年で 32 歳になりました。

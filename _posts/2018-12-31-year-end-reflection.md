@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2018 年の振り返り"
-date: 2018-12-25 00:00:00 +09:00
+date: 2018-12-31 00:00:00 +09:00
 tags: diary
 image: /images/profile.png
 ---

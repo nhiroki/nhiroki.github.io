@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2018/12/26
+date: 2019/01/03
 permalink: /books/
 ---
 
@@ -45,6 +45,7 @@ permalink: /books/
 
 # プログラミング・言語処理系
 
+- Modern C++ チャレンジ ― C++17 プログラミング力を鍛える 100 問
 - More Effective C# 6.0/7.0
 - Go 言語でつくるインタプリタ
 - 低レベルプログラミング

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2019/01/03
+date: 2019/01/09
 permalink: /books/
 ---
 
@@ -275,6 +275,14 @@ permalink: /books/
 - (2010) 量子重力理論とはなにか ― 二重相対論からかいま見る究極の時空理論
 - ([2008](http://d.hatena.ne.jp/sternheller/20080329)) 宇宙物理学入門 ― 宇宙の誕生と進化の謎を解き明かす
 
+# 語学
+
+- ([途中](https://twitter.com/nhiroki_/status/1082663438474727430)) 究極の英単語 SVL Vol.2 中級の 3000 語
+- ([途中](https://twitter.com/nhiroki_/status/1011604756593340416)) 50 トピックでトレーニング ― 英語で意見を言ってみる
+- ([途中](https://twitter.com/nhiroki_/status/967952328362934272)) 世にもおもしろい英語 ― あなたの知識と感性の領域を広げる英語表現
+
+- ([2016](https://twitter.com/nhiroki_/status/796904195425087488)) 日本人の知らないワンランク上のビジネス英語術 ― エール大学厳選 30 講
+
 # 経済
 
 - ([2018](https://twitter.com/nhiroki_/status/958356246406488065)) はじめての確定拠出年金投資
@@ -311,9 +319,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/836243094353793024)) アメリカの小学生が学ぶ歴史教科書
 - ([途中](https://twitter.com/nhiroki_/status/706852600105213953)) <s>音楽の基礎</s>
 
-- ([途中](https://twitter.com/nhiroki_/status/1011604756593340416)) 50 トピックでトレーニング ― 英語で意見を言ってみる
 - ([途中](https://twitter.com/nhiroki_/status/975904460047175681)) 異文化理解力 ― 相手と自分の真意がわかる ビジネスパーソン必須の教養
-- ([途中](https://twitter.com/nhiroki_/status/967952328362934272)) 世にもおもしろい英語 ― あなたの知識と感性の領域を広げる英語表現
 
 - ([2018](/2018/12/09/book-what-every-pianist-needs-to-know-about-the-body)) ピアニストならだれでも知っておきたい「からだ」のこと
 - ([2018](/2018/11/14/book-founders-of-google)) Google をつくった 3 人の男
@@ -321,7 +327,6 @@ permalink: /books/
 - ([2018](https://twitter.com/nhiroki_/status/988216848943480832)) LIFE〈ライフ〉人間が知らない生き方
 - ([2017](https://twitter.com/nhiroki_/status/915502376429031424)) シリコンバレー式 最強の育て方 ― 人材マネジメントの新しい常識 1 on 1 ミーティング
 - <s>(2016) コンテナ物語</s>
-- ([2016](https://twitter.com/nhiroki_/status/796904195425087488)) 日本人の知らないワンランク上のビジネス英語術 ― エール大学厳選 30 講
 - ([2016](https://twitter.com/nhiroki_/status/699595851669176322)) 新・観光立国論
 - ([2015](https://twitter.com/nhiroki_/status/676024810011512832)) メイカーズ進化論 ― 本当の勝者は IoT で決まる
 - ([2015](https://twitter.com/nhiroki_/status/667384037179174912)) ネットがつながらなかったので仕方なく本を 1000 冊読んで考えた そしたら意外に役立った

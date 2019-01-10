@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2018/10/24
+date: 2019/01/11
 permalink: /about/
 ---
 
@@ -28,7 +28,7 @@ Hiroki Nakagawa (nhiroki)
 **その他のこと**
 
 - 二児の父親です (2015 年と 2018 年生まれの男の子)。
-- 音ゲー (beatmania IIDX) 好きです。CANNON BALLERS で [SP 皆伝](https://twitter.com/nhiroki_/status/970581926699388928) / [DP 九段](https://twitter.com/nhiroki_/status/957232810103775237)でした。
+- 音ゲー (beatmania IIDX) 好きです。Rootage で [SP 皆伝](https://twitter.com/nhiroki_/status/1083281177174106113) / [DP 九段](https://twitter.com/nhiroki_/status/1070987997351276544)でした。
 - 大学では学園祭実行委員会に所属していました。イベント運営とか好きです。
 - 中学高校では陸上競技部に所属していました。専門は短距離 (200m, 400m) でした。もう走れません。
 

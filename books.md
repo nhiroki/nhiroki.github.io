@@ -201,9 +201,9 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/969573565338013696)) TensorFlow ではじめる DeepLearning 実装入門
 - ([途中](https://twitter.com/nhiroki_/status/808263006656217088)) ゼロから作る Deep Learning
 - (途中) はじめてのパターン認識
-- ([途中](https://twitter.com/nhiroki_/status/1076492818984497152)) 統計検定 3 級対応「データの分析」
 
-- ([2018](https://twitter.com/nhiroki_/status/1071403140035923969)) 統計検定 4 級対応「資料の活用」
+- ([2019](/2019/01/12/book-japan-statistical-society-certificate-3rd-grade-textbook)) 統計検定 3 級対応「データの分析」
+- ([2018](/2018/12/22/book-japan-statistical-society-certificate-4th-grade-textbook)) 統計検定 4 級対応「資料の活用」
 - ([2016](https://twitter.com/nhiroki_/status/700320801665339393)) 人工知能は人間を超えるか
 - (2008) 人工知能の基礎
 

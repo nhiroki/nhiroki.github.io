@@ -12,12 +12,12 @@ image: /images/book-japan-statistical-society-certificate-3rd-grade-textbook.jpg
 
 # 感想
 
-- [第 4 級のテキスト](/2018/12/22/book-japan-statistical-society-certificate-4th-grade-textbook)と比べるとだいぶ難易度が上がる。高校数学の知識が必要。
+- [4 級のテキスト](/2018/12/22/book-japan-statistical-society-certificate-4th-grade-textbook)と比べるとだいぶ難易度が上がる。高校数学の知識が必要。
 - 最後の「実践問題」は凡ミスを多くしてしまった。三級を受けるつもりはないんだけど、別の問題集を解いて少しは練習しないと。問題を解く上で文章の読解力が重要だと感じました。
 
 # 読書ログ
 
-第 1 章から第 6 章くらいまでは[第 4 級のテキスト](/2018/12/22/book-japan-statistical-society-certificate-4th-grade-textbook)とオーバーラップしている部分が多い。
+第 1 章から第 6 章くらいまでは [4 級のテキスト](/2018/12/22/book-japan-statistical-society-certificate-4th-grade-textbook)とオーバーラップしている部分が多い。
 
 - 第 1 章「調査項目の種類と集計方法」
   - 質的変数と量的変数の集計とグラフ化、クロス集計、など。

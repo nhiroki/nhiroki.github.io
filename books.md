@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2019/01/12
+date: 2019/01/28
 permalink: /books/
 ---
 
@@ -197,6 +197,7 @@ permalink: /books/
 # 統計学/機械学習/人工知能
 
 - 仕事ではじめる機械学習
+- ([途中](https://twitter.com/nhiroki_/status/1089532299748683776)) これならわかる深層学習入門
 - ([途中](https://twitter.com/nhiroki_/status/1037339295403532289)) 作って動かす ALife
 - ([途中](https://twitter.com/nhiroki_/status/969573565338013696)) TensorFlow ではじめる DeepLearning 実装入門
 - ([途中](https://twitter.com/nhiroki_/status/808263006656217088)) ゼロから作る Deep Learning

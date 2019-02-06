@@ -61,7 +61,7 @@ onpush = e => { ... };
 
 # どう変わるのか？
 
-廃止前は importScripts() を任意のタイミングで呼び出すことができました。ただし、Service Worker スクリプトの一部としてインストールされるのは InstallEvent までにインポートされたスクリプトのみです。
+修正前は importScripts() を任意のタイミングで呼び出すことができました。ただし、Service Worker スクリプトの一部としてインストールされるのは InstallEvent までにインポートされたスクリプトのみです。
 
 具体例を見てみましょう。次のコードの場合、installed-1.js と installed-2.js は Service Worker スクリプトとしてインストールされるのでオフライン時にもインポートできます。一方、not-installed-1.js と not-installed-2.js は InstallEvent 後に呼ばれているためインポートはされますがインストールはされません。そのため、オフライン時は not-installed-1.js と not-installed-2.js のインポートに失敗します。
 
@@ -81,7 +81,7 @@ onactivate = e => importScripts('not-installed-1.js');
 onfetch = e => importScripts('not-installed-2.js');
 ```
 
-廃止後は InstallEvent 後の importScripts() は NetworkError を返すようになります。
+修正後は InstallEvent 後の importScripts() は NetworkError を返すようになります。
 
 ```js
 // [service-worker.js]

@@ -6,13 +6,17 @@ tags: web
 image: /images/profile.png
 ---
 
-Chrome 69 時点での Service Worker 実装では、InstallEvent 後にインストールされていないスクリプトに対して importScripts() を呼ぶことができますが、これは仕様に沿っていません。そこで、そのような呼び出しを廃止しようという提案が Blink の開発者メーリングリストに出されています。
+Chrome 69 時点での Service Worker は、InstallEvent 後にインストールされていないスクリプトに対して importScripts() を呼ぶことができますが、これは仕様に沿っていません。そこで、これを廃止しようという提案が Blink の開発者メーリングリストに出されています。
 
 - [Intent to Deprecate and Remove: importScripts() of new scripts after service worker installation](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/a6P-niHWgF4)
 
 Firefox と Edge は既に仕様通りに実装されており、未インストールスクリプトに対する importScripts() はエラーを返すようになっています。一方、Safari は Chrome と同じ挙動をしています ([Bug Issue](https://bugs.webkit.org/show_bug.cgi?id=188495))。
 
 本記事では、この変更がどのような背景で行われ、どのような影響を及ぼすのかざっくり解説します。
+
+**更新履歴**
+
+- 2019/02/06: Chrome 71 で廃止されました ([Remove importScripts() of new scripts after service worker installation](https://www.chromestatus.com/feature/5748516353736704))。
 
 # 前提知識
 

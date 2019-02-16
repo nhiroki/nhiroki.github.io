@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2019/02/01
+date: 2019/02/17
 permalink: /books/
 ---
 
@@ -204,6 +204,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/808263006656217088)) ゼロから作る Deep Learning
 - (途中) はじめてのパターン認識
 
+- ([2019](/2019/02/17/book-japan-statistical-society-certificate-3rd-and-4th-grade-questions)) 統計検定 3 級 • 4 級 公式問題集 (2015-2017 年)
 - ([2019](/2019/01/12/book-japan-statistical-society-certificate-3rd-grade-textbook)) 統計検定 3 級対応「データの分析」
 - ([2018](/2018/12/22/book-japan-statistical-society-certificate-4th-grade-textbook)) 統計検定 4 級対応「資料の活用」
 - ([2016](https://twitter.com/nhiroki_/status/700320801665339393)) 人工知能は人間を超えるか

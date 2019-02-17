@@ -197,6 +197,7 @@ permalink: /books/
 # 統計学/機械学習/人工知能
 
 - 仕事ではじめる機械学習
+- ([途中](https://twitter.com/nhiroki_/status/1097125763369693184)) 統計検定 2 級対応「統計学基礎」
 - ([途中](https://twitter.com/nhiroki_/status/1091000742612066305)) 統計学入門
 - ([途中](https://twitter.com/nhiroki_/status/1089532299748683776)) これならわかる深層学習入門
 - ([途中](https://twitter.com/nhiroki_/status/1037339295403532289)) 作って動かす ALife

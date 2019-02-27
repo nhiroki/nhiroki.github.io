@@ -84,7 +84,7 @@ MESH はマルチスレッド対応のメモリアロケータであり、コン
 
 ![ShuffleVector for span-a](/images/paper-mesh-compacting-memory-management-shuffle-vector.png)
 
-<p class='caption'>図: span-a (page-a) の ShuffleVecotr の例。この span に対する次のメモリ割り当て要求は offset 番号 13 の位置にある object によって行われる。</p>
+<p class='caption'>図: span-a (page-a) の ShuffleVector の例。この span に対する次のメモリ割り当て要求は offset 番号 13 の位置にある object によって行われる。</p>
 
 オブジェクト割り当て時に配列の先頭から順番に offset 番号を取り出し、それに対応する object を割り当てる。これにより object の割り当てをランダムな offset 順で行える。ShuffleVector は未使用の object の先頭位置 (インデックス) を覚えておき、オブジェクト解放時にはそのインデックスを一つ前にずらして、解放された object の offset 番号を再度格納する。さらに配列内の別の未使用 offset 番号と適当にスワップすることでランダム性を維持する。各 span が割り当てる object の順番がランダムになることで、span 間の重なりが生じにくくなる。
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2019/04/02
+date: 2019/04/03
 permalink: /about/
 ---
 
@@ -12,6 +12,11 @@ Hiroki Nakagawa (nhiroki)
 シニアソフトウェアエンジニア @ グーグル。Blink / Chromium (Chrome) 開発者。父親。
 
 ---
+
+**振り返り**
+
+* 大学入学から大学院卒業までの話: 「[新卒のソフトウェアエンジニアになるまで](/2019/04/02/how-i-became-a-software-engineer)」
+* グーグルに新卒入社してから 6 年間の話: 「[就職して 6 年過ぎた](/2018/04/06/six-years-reflection)」
 
 **興味のあること**
 
@@ -49,8 +54,6 @@ Hiroki Nakagawa (nhiroki)
 * [FileSystem API](https://www.w3.org/TR/file-system-api/) / [QuotaManagement API](http://w3c.github.io/quota-api/) のメンテナンス
 
 私が加えた変更の一覧は[こちら (2017 年 6 月以降)](https://chromium-review.googlesource.com/q/owner:nhiroki%2540chromium.org)と[こちら (2017 年 5 月以前)](https://codereview.chromium.org/search?closed=1&owner=nhiroki%40chromium.org&reviewer=&cc=&repo_guid=&base=&project=&private=1&commit=1&created_before=&created_after=&modified_before=&modified_after=&order=&format=html&keys_only=False&with_messages=False&cursor=&limit=200)で見ることができます。また、上記コンポーネントの[コードオーナーシップ](https://www.chromium.org/developers/owners-files)を持っています。主な使用言語は C++ / JavaScript です。
-
-グーグルに新卒入社してから 6 年間の出来事を記事にまとめました: 「[就職して 6 年過ぎた](/2018/04/06/six-years-reflection)」
 
 **2011.02 -- 2012.03　アシアル株式会社 / プログラマー、システムエンジニア (アルバイト)**
 

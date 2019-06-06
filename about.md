@@ -45,7 +45,7 @@ Hiroki Nakagawa (nhiroki)
 
 * Off-the-main-thread リソースローディングの設計と実装
 * ES Modules for Workers API の設計と実装
-* [Worklets API]((https://drafts.css-houdini.org/worklets/)) の設計と実装
+* [Worklets API](https://drafts.css-houdini.org/worklets/) の設計と実装
 * [Workers](https://html.spec.whatwg.org/multipage/workers.html#workers) / [Worklets](https://drafts.css-houdini.org/worklets/) API のスレッディング基盤の設計と実装
 * [CacheStorage API](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#cache-objects) の実装
 * [ServiceWorker API](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/) の設計と実装

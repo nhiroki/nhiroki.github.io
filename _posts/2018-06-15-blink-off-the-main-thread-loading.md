@@ -29,7 +29,7 @@ Web Worker 上でありながらメインスレッドに依存する処理の代
 | Fetch API | 済 ([Issue 443374](https://bugs.chromium.org/p/chromium/issues/detail?id=443374)) |
 | XMLHttpRequest | 済 ([Issue 706331](https://bugs.chromium.org/p/chromium/issues/detail?id=706331)) |
 | WebSocket | 済 ([Issue 825740](https://bugs.chromium.org/p/chromium/issues/detail?id=825740)) |
-| Worker classic script loading | 実装中 ([Issue 835717](https://crbug.com/835717)) |
+| Worker classic script loading | 実装中 ([Issue 835717](https://crbug.com/835717), [924041](https://crbug.com/924041), [924043](https://crbug.com/924043)) |
 | importScripts() | 済 ([Issue 706331](https://crbug.com/706331)) |
 | Worker module script loading | 済 ([Issue 680046](https://bugs.chromium.org/p/chromium/issues/detail?id=680046#c37)) |
 | Worklet module script loading | 済 ([Issue 846938](https://bugs.chromium.org/p/chromium/issues/detail?id=846938)) |
@@ -40,6 +40,8 @@ Web Worker 上でありながらメインスレッドに依存する処理の代
 # 未来
 
 ネットワーク処理の中でも特にスクリプトローディングの off-the-main-thread 化が実現することで、Web Worker の起動をメインスレッド非依存で行えるようになり、スケーラビリティの向上や Worker 起動にかかる遅延を抑えることができます。特に Service Worker の起動が早くなると、ナビゲーションからレスポンスを返すまでの時間を削減することができます (Service Worker の起動時間による影響は "[Speed up Service Worker with Navigation Preloads](https://developers.google.com/web/updates/2017/02/navigation-preload)" という記事が詳しいです)。さらに Web Worker から Web Worker を作る [nested workers](https://bugs.chromium.org/p/chromium/issues/detail?id=31666) など、従来のアーキテクチャだと実装が困難だった機能が実現できるようになります。
+
+**追記**: Chrome 69 から nested workers が使えるようになりました。詳しくは「[Chrome 69 で Web Worker から Web Worker を作れるようになった話](/2018/10/29/nested-workers)」を見てください。
 
 # (おまけ) 実装のざっくりした話
 

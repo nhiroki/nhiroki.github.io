@@ -13,7 +13,7 @@ image: /images/book-japan-statistical-society-certificate-2nd-grade-textbook.jpg
 # 感想
 
 - [4 級テキスト](/2018/12/22/book-japan-statistical-society-certificate-4th-grade-textbook)や [3 級テキスト](/2019/01/12/book-japan-statistical-society-certificate-3rd-grade-textbook)と比べて圧倒的に難しい。3 級までは公式テキストだけで出題範囲を十分理解できますが、この 2 級テキストで統計学を学び始めるのは無謀です。私は事前に『[統計学入門](/2019/03/20/book-introduction-to-statistics)』を読み切っていましたが、それでも途中で挫折しました。
-- 流し読みで試験範囲やポイントだけ確認して、別の本でしっかりと勉強した方が良いです。私は『[意味がわかる統計解析](https://twitter.com/nhiroki_/status/1127558849223749633)』をメインに読みつつ[公式問題集](https://twitter.com/nhiroki_/status/1125899284920934400)を解き、それではカバーしきれない部分は本書を読むようにしていました。
+- 流し読みで試験範囲やポイントだけ確認して、別の本でしっかりと勉強した方が良いです。私は『[意味がわかる統計解析](/2019/06/11/book-understanding-statistical-analysis)』をメインに読みつつ[公式問題集](https://twitter.com/nhiroki_/status/1125899284920934400)を解き、それではカバーしきれない部分は本書を読むようにしていました。
 - 統計的推測や仮説検定なんも分からん。
 
 # 読書ログ

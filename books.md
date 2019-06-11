@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2019/05/24
+date: 2019/06/11
 permalink: /books/
 ---
 
@@ -198,13 +198,13 @@ permalink: /books/
 # 統計学/機械学習/人工知能
 
 - 仕事ではじめる機械学習
-- ([途中](https://twitter.com/nhiroki_/status/1127558849223749633)) 意味がわかる統計解析
 - ([途中](https://twitter.com/nhiroki_/status/1089532299748683776)) これならわかる深層学習入門
 - ([途中](https://twitter.com/nhiroki_/status/1037339295403532289)) 作って動かす ALife
 - ([途中](https://twitter.com/nhiroki_/status/969573565338013696)) TensorFlow ではじめる DeepLearning 実装入門
 - ([途中](https://twitter.com/nhiroki_/status/808263006656217088)) ゼロから作る Deep Learning
 - (途中) はじめてのパターン認識
 
+- ([2019](/2019/06/11/book-understanding-statistical-analysis)) 意味がわかる統計解析
 - ([2019](/2019/05/24/book-japan-statistical-society-certificate-2nd-grade-textbook)) 統計検定 2 級対応「統計学基礎」
 - ([2019](/2019/03/20/book-introduction-to-statistics)) 統計学入門
 - ([2019](/2019/02/17/book-japan-statistical-society-certificate-3rd-and-4th-grade-questions)) 統計検定 3 級 • 4 級 公式問題集 (2015-2017 年)

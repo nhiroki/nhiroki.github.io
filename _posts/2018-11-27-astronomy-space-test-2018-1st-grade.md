@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「天文宇宙検定」一級受験期 (1st try)"
+title: "「天文宇宙検定」一級受験記 (1st try)"
 date: 2018-11-27 00:00:00 +09:00
 tags: diary
 image: /images/astronomy-space-test-2018-1st-grade-signboard.jpg

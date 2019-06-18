@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2019/06/11
+date: 2019/06/19
 permalink: /books/
 ---
 
@@ -204,6 +204,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/808263006656217088)) ゼロから作る Deep Learning
 - (途中) はじめてのパターン認識
 
+- ([2019](/2019/06/18/book-japan-statistical-society-certificate-2nd-grade-questions)) 統計検定 2 級 公式問題集 (2016-2018 年)
 - ([2019](/2019/06/11/book-understanding-statistical-analysis)) 意味がわかる統計解析
 - ([2019](/2019/05/24/book-japan-statistical-society-certificate-2nd-grade-textbook)) 統計検定 2 級対応「統計学基礎」
 - ([2019](/2019/03/20/book-introduction-to-statistics)) 統計学入門

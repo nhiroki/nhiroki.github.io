@@ -11,4 +11,7 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="author" href="http://www.hatena.ne.jp/sternheller/">
     {% seo %}
+    {% if page.math-expression %}
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    {% endif %}
 </head>

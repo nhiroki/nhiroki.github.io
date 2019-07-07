@@ -268,7 +268,7 @@ snmalloc は既存のメモリアロケータの特徴を活かしつつ、従�
 [^sasada-san]: ISMM 2019 の現地で発表を聞かれたそうです。ちなみに笹田さんは同学会で「[Gradual Write-Barrier Insertion into a Ruby Interpreter](https://conf.researchr.org/details/ismm-2019/ismm-2019-papers/9/Gradual-Write-Barrier-Insertion-into-a-Ruby-Interpreter)」という論文を発表されています。
 
 [^pony-queue]: "The queue for remote deallocations is a lock-free queue based on the Pony language runtime [3, 4] message queue. It allows multiple producers and a single consumer."
-[^pony-paper]: Sylvan Clebsch. 2018. Pony: co-designing a type system and a runtime. [https://spiral.imperial.ac.uk/handle/10044/1/65656](https://spiral.imperial.ac.uk/handle/10044/1/65656) PhD thesis, Imperial College London.
+[^pony-paper]: Sylvan Clebsch. 2018. Pony: co-designing a type system and a runtime. PhD thesis, Imperial College London.
 
 ところで Microsoft は ISMM 2019 の発表の裏で [mimalloc](https://github.com/microsoft/mimalloc) という別の汎用メモリアロケータを公開しました。比較対象に snmalloc も挙げられていてとても気になっています。mimalloc のテクニカルレポートを見ると謝辞に snmalloc の著者が挙げられているので、どうやら両チームは協力して開発しているようです。設計思想もだいぶ違うようなので、次はこのテクニカルレポートを読んでみようと思っています。
 

@@ -11,6 +11,11 @@ math-expression: true
 
 **免責** 読み間違えている可能性があります。正確な情報が欲しい方は必ず論文を読んでください。誤りの指摘や補足、議論などは [GitHub Issue](https://github.com/nhiroki/nhiroki.github.io/issues) や [Twitter](https://twitter.com/nhiroki_) へお願いします。
 
+**更新履歴**
+
+- 2019/07/08 bump pointer と free list の next entry pointer を判定する方法について追記
+- 2019/07/08 公開
+
 # 概要
 
 本論文ではマルチスレッドに対応したメモリアロケータ snmalloc の設計と実装について論じている。snmalloc はあるスレッドで割り当てられたオブジェクト[^object]を別スレッドで解放するようなワークロード (本論文では producer / consumer 型のワークロードと呼んでいる) に最適化したメモリアロケータである。
@@ -175,7 +180,7 @@ Small Slabs 内の未使用領域は Bump Pointer-Free Lists と呼ばれる仕�
 
 [^bump-pointer-allocation]: Bump Pointer Allocation について日本語で最もまとまっているのは『ガベージコレクション ― 自動的メモリ管理を構成する理論と実装』だと思います。むしろそれしか見つけられませんでした。本記事もこの本の「7.1 逐次割り付け」を参考にしました。
 
-**Bump Pointer Allocation**: あるメモリ領域を順番に割り当てていくことを考える。領域の範囲は「領域の先頭を指すポインタ」と「領域の最後を指すポインタ」の二つがあれば表現できる。この領域を素朴に順番に割り当てていくには、要求されたサイズ分だけ先頭ポインタをずらし、ずらす前の先頭ポインタを呼び出し元に返せば良い。このポインタをずらす操作を bump と呼び、空き領域の先頭を指すポインタを bump pointer という。この手法によるメモリ割り当てが Bump Pointer Allocation[^sequential-allocation] である。なお、領域の最後を指すポインタは limit pointer という。bump pointer allocation は実装が簡単で効率も良い反面、オブジェクトの解放処理を簡単には行えないという欠点がある。メモリを割り当てっぱなしにする場合や、まとめて解放するような場合には向くが、汎用的ではない。
+**Bump Pointer Allocation**: あるメモリ領域を順番に割り当てていくことを考える。領域の範囲は「領域の先頭を指すポインタ」と「領域の最後を指すポインタ」の二つがあれば表現できる。この領域を素朴に順番に割り当てていくには、要求されたサイズ分だけ先頭ポインタをずらし、ずらす前の先頭ポインタを呼び出し元に返せば良い。このポインタをずらす操作を bump と呼び、空き領域の先頭を指すポインタを bump pointer という。この手法によるメモリ割り当てが Bump Pointer Allocation[^sequential-allocation] である。なお、領域の最後を指すポインタは limit pointer という。bump pointer allocation は実装が簡単で効率も良い反面、オブジェクトの解放処理を簡単にできないという欠点がある。メモリを割り当てっぱなしにする場合や、まとめて解放するような場合には向くが、汎用的ではない。
 
 [^sequential-allocation]: Sequential Allocation とも呼ばれる。
 
@@ -189,19 +194,21 @@ Small Slabs 内の未使用領域は Bump Pointer-Free Lists と呼ばれる仕�
 
 次に割り当てられたオブジェクトを解放するときを考える。まず解放したオブジェクトを使って free list を構築する。free list の最後のエントリの指すポインタを bump pointer にし、Head が free list の先頭エントリを指すようにする。これにより、free list と bump pointer がシームレスに接続される。この手法により、free list と bump pointer がすべてスラブ内で管理され、それらを別途メタデータとして管理する場合に比べてメモリの使用効率が向上する。
 
+**2019.07.08 追記:** スラブからメモリを割り当てるとき、今見ているポインタが bump pointer なのか free list の next entry pointer なのかを判定する必要がある。これはポインタの下位ビット (タグ) でできる。ビットが立っていれば bump pointer である。ポインタが -1 の場合は free list の終わりで、かつ bump 領域が空であることを示す。
+
 次の図は、free list と bump poiner が混在した状況を示している。Head から伸びた赤矢印が free list の先頭エントリを指し、そこから伸びた緑矢印が free list の二つ目のエントリを指す。二つ目のエントリから伸びた緑矢印は bump pointer で、後半の未使用 bump 領域の先頭を指している。bump 領域の最後のエントリは doubly linked list のエントリとなっており、空き領域を持つ Small Slabs を繋げている。Link はこの doubly linked list エントリへのポインタを保持する。新たにオブジェクトを割り当てる場合は、Head が指す free list の最初のエントリが使われる。
 
 ![Bump Pointer Free Lists (mixed)](/images/paper-snmalloc-bump-pointer-free-lists-mixed.png)
 
 <p class='caption'>bump pointer-free lists において両者が混在している状態。論文より引用。</p>
 
-次の図は、bump 領域を使い切った状態を示している。Head から順に 3 つの free list エントリへポインタが連結している。最後のエントリは doubly linked list のエントリなっており、Link がそのアドレスを保持している。
+次の図は、bump 領域を使い切った状態を示している。Head から順に 3 つの free list エントリへポインタが連結している。最後のエントリは doubly linked list のエントリなっており、Link がそれへのポインタを保持している。
 
 ![Bump Pointer Free Lists (exhausted)](/images/paper-snmalloc-bump-pointer-free-lists-exhausted.png)
 
 <p class='caption'>bump pointer-free lists において bump 領域を使い切った状態。論文より引用。</p>
 
-Bump Pointer-Free Lists を使うことによって、メタデータとして bump pointer や doubly linked list のポインタを格納するよりメモリ使用量を抑えることができる。
+Bump Pointer-Free Lists によって、メタデータとして bump pointer や doubly linked list のポインタを格納するよりメモリ使用量を抑えることができる。
 
 ## 3. ポータビリティ
 

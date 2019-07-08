@@ -194,7 +194,7 @@ Small Slabs 内の未使用領域は Bump Pointer-Free Lists と呼ばれる仕�
 
 次に割り当てられたオブジェクトを解放するときを考える。まず解放したオブジェクトを使って free list を構築する。free list の最後のエントリの指すポインタを bump pointer にし、Head が free list の先頭エントリを指すようにする。これにより、free list と bump pointer がシームレスに接続される。この手法により、free list と bump pointer がすべてスラブ内で管理され、それらを別途メタデータとして管理する場合に比べてメモリの使用効率が向上する。
 
-**2019.07.08 追記:** スラブからメモリを割り当てるとき、今見ているポインタが bump pointer なのか free list の next entry pointer なのかを判定する必要がある。これはポインタの下位ビット (タグ) でできる。ビットが立っていれば bump pointer である。ポインタが -1 の場合は free list の終わりで、かつ bump 領域が空であることを示す。
+**2019/07/08 追記:** スラブからメモリを割り当てるとき、今見ているポインタが bump pointer なのか free list の next entry pointer なのかを判定する必要がある。これはポインタの下位ビット (タグ) でできる。ビットが立っていれば bump pointer である。ポインタが -1 の場合は free list の終わりで、かつ bump 領域が空であることを示す。
 
 次の図は、free list と bump poiner が混在した状況を示している。Head から伸びた赤矢印が free list の先頭エントリを指し、そこから伸びた緑矢印が free list の二つ目のエントリを指す。二つ目のエントリから伸びた緑矢印は bump pointer で、後半の未使用 bump 領域の先頭を指している。bump 領域の最後のエントリは doubly linked list のエントリとなっており、空き領域を持つ Small Slabs を繋げている。Link はこの doubly linked list エントリへのポインタを保持する。新たにオブジェクトを割り当てる場合は、Head が指す free list の最初のエントリが使われる。
 

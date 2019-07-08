@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2019/04/03
+date: 2019/07/08
 permalink: /about/
 ---
 
@@ -116,6 +116,7 @@ Chrome OS の文字入力変換ウィンドウの UI 改善。Chromium とか iB
 
 # 資格・検定
 
+* 2019 統計検定 2 級 ([受験記](/2019/06/21/japan-statistical-society-certificate-2nd-grade))
 * 2017 天文宇宙検定二級 ([受験記](/2017/12/13/astro-test-2nd-grade))
 * 2015 TOEIC 965
 * 2010 ネットワークスペシャリスト

@@ -71,7 +71,7 @@ Reaps は reapFree によってオブジェクトが個別に解放されるま�
 
 詳細は調べていないが、Reaps は HeapLayers[^heap-layers] と呼ばれる C++ テンプレートを使ったカスタムメモリアロケータインフラの上で実装されている。設計や実装はこの HeapLayers に依存しているので、細かいことが知りたい人は論文を読んでください。
 
-[^heap-layers]: 「Composing high-performance memory allocators (PLDI 2001)」
+[^heap-layers]: 「Composing high-performance memory allocators (PLDI 2001)」参照。本論文と同じ人達が発表している。
 
 # 評価
 

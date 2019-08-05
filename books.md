@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2019/07/17
+date: 2019/08/05
 permalink: /books/
 ---
 
@@ -266,6 +266,8 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/785470001981431809)) スタンフォード物理学再入門　力学
 - ([途中](https://twitter.com/nhiroki_/status/1077195018203348992)) ブラックホールと時空の方程式 ― 15 歳からの一般相対論
 
+- ([2019](/2019/08/05/book-yabai-uchu-zukan)) ヤバい宇宙図鑑
+- ([2019](/2019/07/01/book-space-rocket)) トコトンやさしい宇宙ロケットの本
 - ([2018](https://twitter.com/nhiroki_/status/1048394714334945280)) 超・宇宙を解く―現代天文学演習
 - ([2018](https://twitter.com/nhiroki_/status/1048213827131596800)) 天文宇宙検定公式問題集 1 級 (2018-2019 年版)
 - ([2018](https://twitter.com/nhiroki_/status/952900695413305344)) 天文宇宙検定公式問題集 1 級 (2016-2017 年版)

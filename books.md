@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2019/08/05
+date: 2019/08/08
 permalink: /books/
 ---
 
@@ -265,6 +265,7 @@ permalink: /books/
 - 惑星形成の物理 ― 太陽系と系外惑星系の形成論入門
 - ([途中](https://twitter.com/nhiroki_/status/785470001981431809)) スタンフォード物理学再入門　力学
 - ([途中](https://twitter.com/nhiroki_/status/1077195018203348992)) ブラックホールと時空の方程式 ― 15 歳からの一般相対論
+- ([途中](https://twitter.com/nhiroki_/status/1159146915491012609)) トコトンやさしいモータの本
 
 - ([2019](/2019/08/05/book-yabai-uchu-zukan)) ヤバい宇宙図鑑
 - ([2019](/2019/07/01/book-space-rocket)) トコトンやさしい宇宙ロケットの本

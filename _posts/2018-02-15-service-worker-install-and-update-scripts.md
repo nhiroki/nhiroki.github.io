@@ -12,6 +12,7 @@ image: /images/service-worker-install-and-update-scripts-updateViaCache.png
 
 **更新履歴**
 
+- 2019/09/24: [Chrome 78 から importScripts() も更新対象](https://blog.chromium.org/2019/09/chrome-78-beta-new-houdini-api-native.html)になりました。それについて加筆しました。
 - 2018/06/07: [Chrome 68 から updateViaCache が使用可能](https://www.chromestatus.com/feature/6059838387781632)になりました。これに伴い Service Worker スクリプトの更新確認のデフォルト挙動が変更されています。それについて加筆しました。
 
 # はじめに
@@ -72,6 +73,8 @@ self.registration.update();
 
 Service Worker スクリプトの更新チェックはスクリプトをバイト単位で比較して判定しています。1 バイトでも変更があれば「更新あり」と判定し、新たにインストールします。
 
+> **UPDATED(2019/09/24):** [Chrome 78 から importScripts() も更新対象](https://blog.chromium.org/2019/09/chrome-78-beta-new-houdini-api-native.html)になりました。これにより Service Worker のメインスクリプトとそれからインポートされたスクリプトすべてが更新チェックの対象になります。Chrome 77 以前では仕様に反して更新確認の対象外でした。詳しくは次の CAUTION を見てください。
+>
 > **CAUTION:** Chrome 64 時点では更新確認の実装に仕様に沿っていない部分があります。本来ならばバイト単位のチェックは Service Worker のメインスクリプトとそれからインポートされたスクリプトすべてについてそれぞれ行うべきですが、Chrome 64 の時点ではメインスクリプトしかバイト単位のチェックを行っていません ([Issue 648295](https://bugs.chromium.org/p/chromium/issues/detail?id=648295))。
 >
 > これにより、**importScripts() で読み込むスクリプトだけを更新する場合**には注意が必要です。例えば、次のような Service Worker スクリプト sw.js があるとします。このとき imported_script.js の中身だけ更新した場合、メインの sw.js はバイト単位で一致するため更新処理が走りません。

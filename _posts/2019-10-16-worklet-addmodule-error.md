@@ -79,6 +79,8 @@ Worklet はメインの実行コンテキスト[^execution-context]である Win
 
 Chrome 79 から Worklet.addModule() がより詳細なエラーを返すようになりました。Worklet を使ったアプリケーションを開発するときに役立つはずです。
 
+# 注釈
+
 [^worklet]: Worklet については「[JavaScript のスレッド並列実行環境 - 6. Worklet](/2017/12/10/javascript-parallel-processing#6-worklet)」を参照。
 [^addmodule-rejection]: addModule() が reject されるのは script fetch や parse の間にエラーが起きたときだけで、スクリプト評価時のエラー (たとえば dynamic import の失敗) などは addModule() を reject しません。
 [^execution-context]: 実行コンテキストについては「[JavaScript のスレッド並列実行環境 - 2. Web Worker](/2017/12/10/javascript-parallel-processing#2-web-worker)」を参照。

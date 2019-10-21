@@ -6,7 +6,7 @@ tags: diary
 image: /images/astronomy-space-test-2018-1st-grade-signboard.jpg
 ---
 
-10 月 21 日に第 8 回「[天文宇宙検定](http://www.astro-test.org/)」の一級を受けました。正式な結果通知は 12 月ですが、自己採点で 33/100 だったため不合格です (12 月 8 日追記：正式な点数は 39/100 でした)。本記事はその受験記になります。
+10 月 21 日に第 8 回「[天文宇宙検定](http://www.astro-test.org/)」の 1 級を受けました。正式な結果通知は 12 月ですが、自己採点で 33/100 だったため不合格です (12 月 8 日追記：正式な点数は 39/100 でした)。本記事はその受験記になります。
 
 ![看板](/images/astronomy-space-test-2018-1st-grade-signboard.jpg)
 

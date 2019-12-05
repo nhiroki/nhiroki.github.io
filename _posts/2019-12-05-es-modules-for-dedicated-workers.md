@@ -90,7 +90,7 @@ worker.onerror = e => {
 
 ## Module Script 内で importScripts() は使えますか？
 
-使えません。```importScripts()``` は Classic Script でのみ使えます。詳しくは「[JavaScript のスクリプトインポートを正しく使い分けようという話](/2018/09/07/javascript-import)」を見てください。
+使えません。```importScripts()``` は Classic Worker Script でのみ使えます。詳しくは「[JavaScript のスクリプトインポートを正しく使い分けようという話](/2018/09/07/javascript-import)」を見てください。
 
 ## modulepreload は使えますか？
 

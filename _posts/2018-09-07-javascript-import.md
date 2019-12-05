@@ -10,6 +10,8 @@ JavaScript の文脈で「スクリプトをインポートする」といった
 
 **更新履歴**
 
+- 2019/12/05
+  - Dedicated Worker に ES Modules サポートについて追記しました。
 - 2018/09/08
   - Worklet の type とその上での dynamic import について追記しました。
   - Service Worker 上での importScripts について追記しました。
@@ -37,7 +39,9 @@ const classic_worker = new Worker('worker.js', { type: 'classic' });
 const module_worker = new Worker('worker.js', { type: 'module' });
 ```
 
-[Module Worker は Chrome 69 の時点で実装済みですが、まだデフォルトで有効化されていません](https://www.chromestatus.com/feature/5761300827209728)。試すには chrome://flags から --enable-experimental-web-platform-features フラグを有効にする必要があります。
+<s>Module Worker は Chrome 69 の時点で実装済みですが、まだデフォルトで有効化されていません](https://www.chromestatus.com/feature/5761300827209728)。試すには chrome://flags から --enable-experimental-web-platform-features フラグを有効にする必要があります。</s> 
+
+**UPDATED(2019/12/05):** Chrome 80 から Dedicated Worker で Module Script が使えるようになりました。Shared Worker ではまだ使えません。詳しくは「[Chrome 80 から Web Worker (Dedicated Worker) で ES Modules が使えます](/2019/12/03/es-modules-for-dedicated-workers)」を見てください。
 
 Service Worker の場合は register オプションの type で指定します。type を省略した場合は Classic Service Worker になります。[Module Service Worker は Chrome 70 の時点では未実装の機能](https://bugs.chromium.org/p/chromium/issues/detail?id=824647)です。
 

@@ -33,7 +33,7 @@ Hiroki Nakagawa (nhiroki)
 **その他のこと**
 
 - 二児の父親です (2015 年と 2018 年生まれの男の子)。
-- 音ゲー (beatmania IIDX) 好きです。HERIOIC VERSE で [SP 皆伝](https://twitter.com/nhiroki_/status/1205076442502946817) / [DP 九段](https://twitter.com/nhiroki_/status/1202581879557259265)でした。
+- 音ゲー (beatmania IIDX) 好きです。HEROIC VERSE で [SP 皆伝](https://twitter.com/nhiroki_/status/1205076442502946817) / [DP 九段](https://twitter.com/nhiroki_/status/1202581879557259265)でした。
 - 大学では学園祭実行委員会に所属していました (副委員長)。イベント運営とか好きです。
 - 中学高校では陸上競技部に所属していました (部長)。専門は短距離 (200m, 400m) でした。もう走れません。
 

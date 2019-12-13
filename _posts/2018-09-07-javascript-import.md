@@ -11,7 +11,7 @@ JavaScript の文脈で「スクリプトをインポートする」といった
 **更新履歴**
 
 - 2019/12/05
-  - Dedicated Worker に ES Modules サポートについて追記しました。
+  - Dedicated Worker の ES Modules サポートについて追記しました。
 - 2018/09/08
   - Worklet の type とその上での dynamic import について追記しました。
   - Service Worker 上での importScripts について追記しました。

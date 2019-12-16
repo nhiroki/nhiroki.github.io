@@ -3,7 +3,7 @@ layout: post
 title: "読書『5G ワールドへようこそ！』"
 date: 2019-12-16 00:00:00 +09:00
 tags: book
-image: /images/book-yabai-uchu-zukan.jpg
+image: /images/book-welcome-to-5g-world.jpg
 ---
 
 『[5G ワールドへようこそ！](https://tech.nikkeibp.co.jp/atcl/nxt/books/18/00010/092000285/)』の読書メモです。

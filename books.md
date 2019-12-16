@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2019/12/16
+date: 2019/12/17
 permalink: /books/
 ---
 
@@ -177,6 +177,7 @@ permalink: /books/
 - (2009) UNIX ネットワークプログラミング (Vol.2) IPC: プロセス間通信
 - (2009) UNIX ネットワークプログラミング (Vol.1) ネットワーク API: ソケットと XTI
 - (2009) Computer Networking: A Top-Down Approach (4th Edition)
+- (2008) 図解通信ネットワークの基礎 (昭晃堂)
 
 # データベース
 
@@ -219,6 +220,7 @@ permalink: /books/
 - ([2018](/2018/12/22/book-japan-statistical-society-certificate-4th-grade-textbook)) 統計検定 4 級対応「資料の活用」
 - ([2016](https://twitter.com/nhiroki_/status/700320801665339393)) 人工知能は人間を超えるか
 - (2008) 人工知能の基礎
+- (2007) 確率過程 (培風館　　)
 
 # ソフトウェア工学
 
@@ -291,6 +293,10 @@ permalink: /books/
 - (2010) 相対性理論の世界 ― はじめて学ぶ人のために
 - (2010) 量子重力理論とはなにか ― 二重相対論からかいま見る究極の時空理論
 - ([2008](http://d.hatena.ne.jp/sternheller/20080329)) 宇宙物理学入門 ― 宇宙の誕生と進化の謎を解き明かす
+- (2008) ディジタル信号処理 (森北出版)
+- (2007) 詳しく学ぶ電気回路 ― 基礎と演習
+- (2007) ディジタル設計者のための電子回路 (改訂版)
+- (2007) 電子回路の基礎 (コロナ社)
 
 # 語学
 

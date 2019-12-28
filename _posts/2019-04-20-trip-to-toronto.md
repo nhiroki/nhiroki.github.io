@@ -20,6 +20,8 @@ image: /images/trip-to-toronto/toronto.jpg
 
 トロントの後はニューヨークに行きました。ニューヨークの話は別途書きます。
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">トロントの空港でタクシング中にアナウンスが流れて機体が停車。横にいた作業車が急に何かを散布し始めてびっくりした。当時は雪が降っていて、どうやら機体に除雪防氷用の液体をかけてたみたい。粘性のあるスライムみたいな液体で、こんなの付いたままちゃんと飛べるのかドキドキした✈️ <a href="https://t.co/mFk51KvnUC">pic.twitter.com/mFk51KvnUC</a></p>&mdash; nhiroki (@nhiroki_) <a href="https://twitter.com/nhiroki_/status/1117050500938178560?ref_src=twsrc%5Etfw">April 13, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## トロント市内まで
 
 トロント空港からトロント市内 (ユニオン駅) へは UP (Union Pearson) Express という電車で移動しました。チケットは駅の券売機で買えます。大人片道 12.35 カナダドル。自由席。荷物置き場あり。車内は綺麗でとても快適でした。

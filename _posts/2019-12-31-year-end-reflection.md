@@ -114,7 +114,7 @@ image: /images/profile.png
 
 ## 英語
 
-今年も週一でグループディスカッションのレッスンを受けました。集中的に英語アウトプットをする時間を作るためにもっとレッスンを取れると良いのですが、子どもの世話や他の勉強時間の確保などを考えると厳しい。
+今年も週一でグループディスカッションのレッスンを受けました。集中的に英語アウトプットをする時間を作るためにもっとレッスンを取れると良いのですが、子どもの世話や他の勉強時間の確保などを考えると厳しい。
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">グループディスカッションのコースなんだけど、人によって使う表現の癖みたいなものが違って勉強になるし、逆に自分が使った表現もすぐに他の人が真似してて面白い。</p>&mdash; nhiroki (@nhiroki_) <a href="https://twitter.com/nhiroki_/status/1167077307107831808?ref_src=twsrc%5Etfw">August 29, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -214,7 +214,7 @@ DP 上達のために以前よりも意識的に DP のプレイ頻度を上げ�
 
 ## アニメと映画
 
-アニメが好きなのでジムでのランニング中や夜に観ています。今年の新作で一通り観たアニメは次の通りでした。
+アニメが好きなのでジムでのランニング中や深夜に観ています。今年の新作で一通り観たアニメは次の通りでした。
 
 - 進撃の巨人 Season 3
 - ワンパンマン Season 2

@@ -11,7 +11,7 @@ image: /images/profile.png
 - [2018 年の振り返り](/2018/12/31/year-end-reflection)
 - [2017 年の振り返り](/2017/12/31/year-end-reflection)
 
-# ライフイベント
+# 出来事
 
 今年は大きな出来事もなく、わりと平穏な一年でした。
 
@@ -110,7 +110,7 @@ image: /images/profile.png
 
 同様にディープラーニング周りのシステム論文を読んでは力尽きるということを繰り返してました。
 
-# 趣味
+# 趣味活動
 
 ## 英語
 
@@ -153,7 +153,7 @@ image: /images/profile.png
 - [統計検定 3 級・4 級 公式問題集 (2015-2017 年)](/2019/02/17/book-japan-statistical-society-certificate-3rd-and-4th-grade-questions)
 - [統計検定 3 級対応「データの分析」](/2019/01/12/book-japan-statistical-society-certificate-3rd-grade-textbook)
 
-現在進行系で以下の本を読んでます。
+現在進行形で以下の本を読んでます。
 
 - [実践 Rust 入門](https://twitter.com/nhiroki_/status/1126868469503283201)
 - [驚異の量子コンピュータ ― 宇宙最強マシンへの挑戦](https://twitter.com/nhiroki_/status/1206445992574275584)
@@ -209,8 +209,6 @@ DP 上達のために以前よりも意識的に DP のプレイ頻度を上げ�
 ただし知識に偏りが生じています :p
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">長男、色々な鉱石を知ってるのに銅を知らなかったりする (銅はマイクラに出てこない)</p>&mdash; nhiroki (@nhiroki_) <a href="https://twitter.com/nhiroki_/status/1185516151675056128?ref_src=twsrc%5Etfw">October 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">長男、YouTube 動画を参考にレッドストーン回路を組んで隠し部屋とか作ってて楽しそう。この流れでプログラミングにも興味を持ってくれると良いな😁</p>&mdash; nhiroki (@nhiroki_) <a href="https://twitter.com/nhiroki_/status/1199298598350884864?ref_src=twsrc%5Etfw">November 26, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## アニメと映画
 

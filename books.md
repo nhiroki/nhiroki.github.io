@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2019/12/17
+date: 2020/01/02
 permalink: /books/
 ---
 
@@ -115,6 +115,7 @@ permalink: /books/
 - (途中) コンピュータアーキテクチャ　定量的アプローチ（ヘネパタ）
   - ヘネパタ読書会に参加していた
 
+- ([2020](/2020/01/02/book-quantum-computer)) 驚異の量子コンピュータ ― 宇宙最強マシンへの挑戦
 - ([2018](/2018/01/27/book-quantum-annealer-accelerates-artificial-intelligence)) 量子コンピュータが人工知能を加速する
 - ([2017](/2017/09/04/book-gpu-technology)) GPU を支える技術 ― 超並列ハードウェアの快進撃［技術基礎］
 - ([2016](https://twitter.com/nhiroki_/status/704459368830382080)) ディジタル回路設計とコンピュータアーキテクチャ

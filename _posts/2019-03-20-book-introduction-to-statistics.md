@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "『統計学入門』を読んだ"
+title: "読書｜統計学入門"
 date: 2019-03-20 00:00:00 +09:00
 tags: book
 image: /images/book-introduction-to-statistics.jpg

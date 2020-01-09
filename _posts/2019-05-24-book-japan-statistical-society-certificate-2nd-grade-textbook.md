@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "『統計検定 2 級対応「統計学基礎」』を読んだ"
+title: "読書｜統計検定 2 級対応「統計学基礎」"
 date: 2019-05-24 00:00:00 +09:00
 tags: book
 image: /images/book-japan-statistical-society-certificate-2nd-grade-textbook.jpg

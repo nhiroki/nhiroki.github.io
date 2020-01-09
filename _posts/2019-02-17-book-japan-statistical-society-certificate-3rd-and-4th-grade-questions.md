@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "『統計検定 3 級 • 4 級 公式問題集 (2015-2017 年)』を解いた"
+title: "演習｜統計検定 3 級 • 4 級 公式問題集 (2015-2017 年)"
 date: 2019-02-17 00:00:00 +09:00
 tags: book
 image: /images/book-japan-statistical-society-certificate-3rd-and-4th-grade-questions.jpg

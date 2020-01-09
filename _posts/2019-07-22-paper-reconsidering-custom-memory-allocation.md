@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "論文「Reconsidering Custom Memory Allocation」(OOPSLA 2002)"
+title: "論文｜Reconsidering Custom Memory Allocation (OOPSLA 2002)"
 date: 2019-07-22 00:00:00 +09:00
 tags: paper
 image: /images/paper-reaps-region-mode-and-heap-mode.png

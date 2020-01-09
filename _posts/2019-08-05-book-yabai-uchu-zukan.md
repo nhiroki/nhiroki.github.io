@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "『ヤバい宇宙図鑑』を読んだ"
+title: "読書｜ヤバい宇宙図鑑"
 date: 2019-08-05 00:00:00 +09:00
 tags: book
 image: /images/book-yabai-uchu-zukan.jpg

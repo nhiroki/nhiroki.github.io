@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "読書『驚異の量子コンピュータ ― 宇宙最強マシンへの挑戦』"
+title: "読書｜驚異の量子コンピュータ ― 宇宙最強マシンへの挑戦"
 date: 2020-01-02 00:00:00 +09:00
 tags: book
 image: /images/book-quantum-computer.jpg

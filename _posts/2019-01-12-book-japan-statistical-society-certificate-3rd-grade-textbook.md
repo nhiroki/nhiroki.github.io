@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "『統計検定 3 級対応「データの分析」』を読んだ"
+title: "読書｜統計検定 3 級対応「データの分析」"
 date: 2019-01-12 00:00:00 +09:00
 tags: book
 image: /images/book-japan-statistical-society-certificate-3rd-grade-textbook.jpg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "『意味がわかる統計解析』を読んだ"
+title: "読書｜意味がわかる統計解析"
 date: 2019-06-11 00:00:00 +09:00
 tags: book
 image: /images/book-understanding-statistical-analysis.jpg

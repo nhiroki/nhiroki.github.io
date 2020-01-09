@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "論文「snmalloc: A Message Passing Allocator」(ISMM 2019)"
+title: "論文｜snmalloc: A Message Passing Allocator (ISMM 2019)"
 date: 2019-07-08 00:00:00 +09:00
 tags: paper
 image: /images/paper-snmalloc-incoming-and-outgoing-queues.png

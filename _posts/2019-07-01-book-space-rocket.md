@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "『トコトンやさしい宇宙ロケットの本』を読んだ"
+title: "読書｜トコトンやさしい宇宙ロケットの本"
 date: 2019-07-01 00:00:00 +09:00
 tags: book
 image: /images/book-space-rocket.jpg

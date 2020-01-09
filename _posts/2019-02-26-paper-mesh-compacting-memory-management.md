@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "論文「MESH: Compacting Memory Management for C/C++ Applications」(PLDI 2019)"
+title: "論文｜MESH: Compacting Memory Management for C/C++ Applications (PLDI 2019)"
 date: 2019-02-26 00:00:00 +09:00
 tags: paper
 image: /images/paper-mesh-compacting-memory-management-meshed-pages.png

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2019/12/21
+date: 2020/01/11
 permalink: /about/
 ---
 
@@ -9,7 +9,7 @@ permalink: /about/
 
 Hiroki Nakagawa (nhiroki)
 
-シニアソフトウェアエンジニア @ グーグル。Blink / Chromium (Chrome) 開発者。父親。
+シニアソフトウェアエンジニア @ グーグル。ウェブブラウザ Chrome (Chromium) 開発者。情報理工学修士。2 児の父親。
 
 ---
 
@@ -41,7 +41,7 @@ Hiroki Nakagawa (nhiroki)
 
 **2012.04 -- 現在　グーグル合同会社（旧：グーグル株式会社） / シニアソフトウェアエンジニア**
 
-ウェブブラウザ Chrome の開発。Chrome のオープンソースプロジェクト Blink / Chromium のコミッター。主に以下のことをしていました。
+ウェブブラウザ Chrome の開発。Chrome のオープンソースプロジェクト Chromium のコミッター。主に以下のことをしていました。
 
 * Off-the-main-thread リソースローディングの設計と実装
   - [ネットワーク API のメインスレッド依存をなくす話](/2018/06/15/blink-off-the-main-thread-loading)
@@ -64,7 +64,7 @@ Hiroki Nakagawa (nhiroki)
 * PPAPI 用 FileSystem API の設計と実装
 * [FileSystem API](https://www.w3.org/TR/file-system-api/) / [QuotaManagement API](http://w3c.github.io/quota-api/) のメンテナンス
 
-私が加えた変更の一覧は[こちら (2017 年 6 月以降)](https://chromium-review.googlesource.com/q/owner:nhiroki%2540chromium.org)と[こちら (2017 年 5 月以前)](https://codereview.chromium.org/search?closed=1&owner=nhiroki%40chromium.org&reviewer=&cc=&repo_guid=&base=&project=&private=1&commit=1&created_before=&created_after=&modified_before=&modified_after=&order=&format=html&keys_only=False&with_messages=False&cursor=&limit=200)で見ることができます。また、上記コンポーネントと Blink Core コンポーネントの[コードオーナーシップ](https://www.chromium.org/developers/owners-files)を持っています。主な使用言語は C++ / JavaScript です。
+私が加えた変更の一覧は[こちら (2017 年 6 月以降)](https://chromium-review.googlesource.com/q/owner:nhiroki%2540chromium.org)と[こちら (2017 年 5 月以前)](https://codereview.chromium.org/search?closed=1&owner=nhiroki%40chromium.org&reviewer=&cc=&repo_guid=&base=&project=&private=1&commit=1&created_before=&created_after=&modified_before=&modified_after=&order=&format=html&keys_only=False&with_messages=False&cursor=&limit=200)で見ることができます。また、上記コンポーネントとレンダリングエンジン Blink の Core コンポーネントの[コードオーナーシップ](https://www.chromium.org/developers/owners-files)を持っています。主な使用言語は C++ / JavaScript です。
 
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">WHATWG の HTML Standard に投げた PR がマージされて、貢献者リストに名前を載せてもらった！何年もウェブブラウザ開発してて今更感あるけどすごく嬉しい :D <a href="https://t.co/6eJ72XcMUg">https://t.co/6eJ72XcMUg</a> <a href="https://twitter.com/hashtag/nhspec?src=hash&amp;ref_src=twsrc%5Etfw">#nhspec</a> <a href="https://t.co/JnnwTouPe5">pic.twitter.com/JnnwTouPe5</a></p>&mdash; nhiroki (@nhiroki_) <a href="https://twitter.com/nhiroki_/status/999107453282209793?ref_src=twsrc%5Etfw">2018年5月23日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

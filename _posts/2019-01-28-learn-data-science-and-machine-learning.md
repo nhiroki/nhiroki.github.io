@@ -2,7 +2,7 @@
 layout: post
 title: "2019 年は統計学と機械学習を頑張る"
 date: 2019-01-28 00:00:00 +09:00
-tags: diary
+tags: text
 image: /images/profile.png
 ---
 

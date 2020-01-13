@@ -2,7 +2,7 @@
 layout: post
 title: "日々の進捗の出し方"
 date: 2019-02-14 00:00:00 +09:00
-tags: essay
+tags: text
 image: /images/profile.png
 ---
 

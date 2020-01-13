@@ -4,18 +4,16 @@ book:
   name: book
 codereading:
   name: codereading
-database:
-  name: database
 diary:
   name: diary
-essay:
-  name: essay
 event:
   name: event
 linux:
   name: linux
 paper:
   name: paper
+text:
+  name: text
 web:
   name: web
 tool:

@@ -2,7 +2,7 @@
 layout: post
 title: "就職して 6 年過ぎた"
 date: 2018-04-06 00:00:00 +09:00
-tags: diary
+tags: diary text
 image: /images/six-years-reflection-android.jpg
 ---
 

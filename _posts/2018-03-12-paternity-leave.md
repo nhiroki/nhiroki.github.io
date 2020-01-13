@@ -2,7 +2,7 @@
 layout: post
 title: "育児休暇で二ヶ月会社を休んだ話"
 date: 2018-03-12 00:00:00 +09:00
-tags: diary
+tags: diary text
 image: /images/paternity-leave-fingers.jpg
 ---
 

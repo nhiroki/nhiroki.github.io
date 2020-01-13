@@ -2,7 +2,7 @@
 layout: post
 title: "新卒のソフトウェアエンジニアになるまで"
 date: 2019-04-02 00:00:00 +09:00
-tags: diary text
+tags: text
 image: /images/profile.png
 ---
 

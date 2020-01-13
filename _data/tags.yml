@@ -4,8 +4,6 @@ book:
   name: book
 codereading:
   name: codereading
-diary:
-  name: diary
 event:
   name: event
 linux:

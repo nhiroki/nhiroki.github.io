@@ -2,7 +2,7 @@
 layout: post
 title:  "2017 年の振り返り"
 date: 2017-12-31 00:00:00 +09:00
-tags: diary
+tags: text
 image: /images/year-end-reflection-google-home.jpg
 ---
 

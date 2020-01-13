@@ -2,7 +2,7 @@
 layout: post
 title: "天文宇宙検定 2 級受験記"
 date: 2017-12-13 00:00:00 +09:00
-tags: diary
+tags: text
 image: /images/astro-test-2nd-grade-textbook.jpg
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "トロント旅行記"
 date: 2019-04-20 00:00:00 +09:00
-tags: diary
+tags: text
 image: /images/trip-to-toronto/toronto.jpg
 ---
 

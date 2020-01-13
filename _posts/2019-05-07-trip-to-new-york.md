@@ -2,7 +2,7 @@
 layout: post
 title: "ニューヨーク旅行記"
 date: 2019-05-07 00:00:00 +09:00
-tags: diary
+tags: text
 image: /images/trip-to-new-york/times-square.jpg
 ---
 

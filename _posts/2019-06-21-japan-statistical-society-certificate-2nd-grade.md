@@ -2,7 +2,7 @@
 layout: post
 title: "統計検定 2 級受験記"
 date: 2019-06-21 00:00:00 +09:00
-tags: diary
+tags: text
 image: /images/japan-statistical-society-certificate-2nd-grade-questions.jpg
 ---
 

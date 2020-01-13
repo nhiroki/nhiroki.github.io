@@ -2,7 +2,7 @@
 layout: post
 title:  "2019 年の振り返り"
 date: 2019-12-31 00:00:00 +09:00
-tags: diary
+tags: text
 image: /images/profile.png
 ---
 

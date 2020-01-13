@@ -2,7 +2,7 @@
 layout: post
 title: "天文宇宙検定 1 級受験記 (2nd try)"
 date: 2019-12-21 00:00:00 +09:00
-tags: diary
+tags: text
 image: /images/astronomy-space-test-2019-1st-grade-clear-folder.jpg
 ---
 

@@ -10,6 +10,8 @@ HTTPS state とそれが non-http(s) scheme fetch でどのように振る舞う
 
 この記事は 2020 年 2 月 12 日時点の各種仕様を元に記述しており、現時点では参照している仕様が更新されていたり、リンクが切れている可能性があります。ご了承ください。
 
+**謝辞** : 本記事は弊チームにインターンに来てくれている [@elkurin_](https://twitter.com/elkurin_) さんとのディスカッションが元になっています。ありがとうございます。なお、文責はすべて私 (nhiroki) にあります。
+
 # HTTPS state in Fetch standard
 
 [Fetch standard](https://fetch.spec.whatwg.org/) は HTTPS state value という属性値を定義している。HTTPS state value は { "none", "deprecated", "modern" } のどれかを取ることができる。

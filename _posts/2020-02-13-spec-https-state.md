@@ -34,7 +34,7 @@ HTTPS state とそれが non-http(s) scheme fetch でどのように振る舞う
 
 # HTTPS state in HTML standard
 
-[HTML standard](https://html.spec.whatwg.org/multipage/) 側では environmental settings object が HTTPS state を持つと定義している。
+[HTML standard](https://html.spec.whatwg.org/multipage/) 側では environment settings object が HTTPS state を持つと定義している。
 
 > An environment settings object is an environment that additionally specifies algorithms for:
 >
@@ -42,7 +42,7 @@ HTTPS state とそれが non-http(s) scheme fetch でどのように振る舞う
 >
 > [https://html.spec.whatwg.org/multipage/webappapis.html#https-state](https://html.spec.whatwg.org/multipage/webappapis.html#https-state)
 
-Environmental settings object は主に Document の場合と Worker の場合があるが、以降は Worker の場合を見ていく。Worker の environmental settings object の HTTPS state は以下のように定義されている。
+Environmental settings object は主に Document の場合と Worker の場合があるが、以降は Worker の場合を見ていく。Worker の environment settings object の HTTPS state は以下のように定義されている。
 
 > Let settings object be a new environment settings object whose algorithms are defined as follows:
 >
@@ -67,9 +67,9 @@ worker global scope の HTTP state を返していることが分かる。worker
 >
 > [https://html.spec.whatwg.org/multipage/workers.html#worker-processing-model:concept-workerglobalscope-https-state](https://html.spec.whatwg.org/multipage/workers.html#worker-processing-model:concept-workerglobalscope-https-state)
 
-要するに top-level worker script に対応する response が持つ HTTPS state を worker の environmental settings object に設定している。以上より、Fetch standard の定義する response HTTPS state がどのように HTML standard の定義する environmental settings object の HTTPS state に関連付けられるかが分かった。
+要するに top-level worker script に対応する response が持つ HTTPS state を worker の environment settings object に設定している。以上より、Fetch standard の定義する response HTTPS state がどのように HTML standard の定義する environment settings object の HTTPS state に関連付けられるかが分かった。
 
-environmental settings object がその初期化時に response の HTTPS state を受け継ぐということは Fetch standard 側にも記載がある。
+environment settings object がその初期化時に response の HTTPS state を受け継ぐということは Fetch standard 側にも記載がある。
 
 > An environment settings object typically derives its HTTPS state from a response.
 >
@@ -131,13 +131,13 @@ Data URL は ```data:[<mime type>][;base64],<base64 data>``` のような構造�
 > 
 > [https://fetch.spec.whatwg.org/#scheme-fetch](https://fetch.spec.whatwg.org/#scheme-fetch)
 
-これはつまり Data URL を使って iframe や worker を作った場合は親のコンテキスト (environmental settings object) の HTTPS state を引き継ぐことを意味する。
+これはつまり Data URL を使って iframe や worker を作った場合は親のコンテキスト (environment settings object) の HTTPS state を引き継ぐことを意味する。
 
 # まとめ
 
 - 仕様により HTTPS state という属性値が定義されている。
   - Fetch standard は HTTPS state の具体的な値を定義し、response がそれを持つと定めている。
-  - HTML standard は environmental settings object が HTTPS state を持ち、それは response のものを引き継ぐと定義している。
+  - HTML standard は environment settings object が HTTPS state を持ち、それは response のものを引き継ぐと定義している。
   - Mixed Content standard は mixed content のチェックのために HTTPS state を使っている。
 - Data URL のような non-http(s) scheme fetch では fetch client settings object の HTTPS state が response の HTTPS state となる。
-  - Data URL から作られた iframe や worker は親コンテキスト (environmental settings object) の HTTPS State を引き継ぐ。
+  - Data URL から作られた iframe や worker は親コンテキスト (environment settings object) の HTTPS State を引き継ぐ。

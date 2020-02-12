@@ -42,7 +42,7 @@ HTTPS state とそれが non-http(s) scheme fetch でどのように振る舞う
 >
 > [https://html.spec.whatwg.org/multipage/webappapis.html#https-state](https://html.spec.whatwg.org/multipage/webappapis.html#https-state)
 
-Environmental settings object は主に Document の場合と Worker の場合があるが、以降は Worker の場合を見ていく。Worker の environment settings object の HTTPS state は以下のように定義されている。
+Environment settings object は主に Document の場合と Worker の場合があるが、以降は Worker の場合を見ていく。Worker の environment settings object の HTTPS state は以下のように定義されている。
 
 > Let settings object be a new environment settings object whose algorithms are defined as follows:
 >

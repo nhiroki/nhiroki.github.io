@@ -221,7 +221,7 @@ permalink: /books/
 - ([2018](/2018/12/22/book-japan-statistical-society-certificate-4th-grade-textbook)) 統計検定 4 級対応「資料の活用」
 - ([2016](https://twitter.com/nhiroki_/status/700320801665339393)) 人工知能は人間を超えるか
 - (2008) 人工知能の基礎
-- (2007) 確率過程 (培風館　　)
+- (2007) 確率過程 (培風館)
 
 # ソフトウェア工学
 

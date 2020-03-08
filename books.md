@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2020/01/04
+date: 2020/03/08
 permalink: /books/
 ---
 
@@ -323,6 +323,7 @@ permalink: /books/
 
 - (途中) レジリエンスの鍛え方
 
+- ([2020](/2020/03/08/book-highly-sensitive-child)) HSC の子育てハッピーアドバイス
 - ([2018](/2018/02/18/book-child-self-study)) 自分からどんどん勉強する子になる方法
 - ([2018](/2018/02/18/book-child-english)) ほんとうに頭がよくなる世界最高の子ども英語
 - ([2018](/2018/01/27/book-how-to-bring-up-boys)) 言うこと聞かない！落ち着きない！ 男の子のしつけに悩んだら読む本

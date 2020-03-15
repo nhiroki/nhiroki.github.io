@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2020/03/08
+date: 2020/03/15
 permalink: /books/
 ---
 
@@ -170,8 +170,9 @@ permalink: /books/
 
 # ネットワーク
 
-- TCP 技術入門 ― 進化を続ける基本プロトコル
 - ソースコードで体感するネットワークの仕組み ― 手を動かしながら基礎から TCP/IP の実装までがわかる
+
+- ([途中](https://twitter.com/nhiroki_/status/1237504427793068038)) TCP 技術入門 ― 進化を続ける基本プロトコル
 
 - ([2019](/2019/12/16/book-welcome-to-5g-world)) 5G ワールドへようこそ！
 - ([2018](/2018/04/21/book-akamai)) アカマイ ― 知られざるインターネットの巨人
@@ -274,6 +275,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/1077195018203348992)) ブラックホールと時空の方程式 ― 15 歳からの一般相対論
 - ([途中](https://twitter.com/nhiroki_/status/1159146915491012609)) トコトンやさしいモータの本
 - ([途中](https://twitter.com/nhiroki_/status/1213117156205850631)) 弱点克服 大学生の線形代数 改訂版
+- ([途中](https://twitter.com/nhiroki_/status/1217109338273116160)) 大学基礎数学 線形代数 キャンパス・ゼミ
 
 - ([2019](/2019/08/05/book-yabai-uchu-zukan)) ヤバい宇宙図鑑
 - ([2019](/2019/07/01/book-space-rocket)) トコトンやさしい宇宙ロケットの本

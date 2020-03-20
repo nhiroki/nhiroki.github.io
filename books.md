@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2020/03/15
+date: 2020/03/20
 permalink: /books/
 ---
 
@@ -277,6 +277,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/1213117156205850631)) 弱点克服 大学生の線形代数 改訂版
 - ([途中](https://twitter.com/nhiroki_/status/1217109338273116160)) 大学基礎数学 線形代数 キャンパス・ゼミ
 
+- ([2020](/2020/03/20/book-basic-linear-algebra-campus-seminar)) 大学基礎数学 線形代数 キャンパス・ゼミ
 - ([2019](/2019/08/05/book-yabai-uchu-zukan)) ヤバい宇宙図鑑
 - ([2019](/2019/07/01/book-space-rocket)) トコトンやさしい宇宙ロケットの本
 - ([2018](https://twitter.com/nhiroki_/status/1048394714334945280)) 超・宇宙を解く―現代天文学演習

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2020/03/20
+date: 2020/04/21
 permalink: /books/
 ---
 
@@ -275,7 +275,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/1077195018203348992)) ブラックホールと時空の方程式 ― 15 歳からの一般相対論
 - ([途中](https://twitter.com/nhiroki_/status/1159146915491012609)) トコトンやさしいモータの本
 - ([途中](https://twitter.com/nhiroki_/status/1213117156205850631)) 弱点克服 大学生の線形代数 改訂版
-- ([途中](https://twitter.com/nhiroki_/status/1217109338273116160)) 大学基礎数学 線形代数 キャンパス・ゼミ
+
 
 - ([2020](/2020/03/20/book-basic-linear-algebra-campus-seminar)) 大学基礎数学 線形代数 キャンパス・ゼミ
 - ([2019](/2019/08/05/book-yabai-uchu-zukan)) ヤバい宇宙図鑑
@@ -350,6 +350,7 @@ permalink: /books/
 
 - ([途中](https://twitter.com/nhiroki_/status/975904460047175681)) 異文化理解力 ― 相手と自分の真意がわかる ビジネスパーソン必須の教養
 
+- ([2020](/2020/04/21/book-learn-or-die)) Learn or Die 死ぬ気で学べ ― プリファードネットワークスの挑戦
 - ([2018](/2018/12/09/book-what-every-pianist-needs-to-know-about-the-body)) ピアニストならだれでも知っておきたい「からだ」のこと
 - ([2018](/2018/11/14/book-founders-of-google)) Google をつくった 3 人の男
 - ([2018](/2018/08/31/book-impact-of-aerospace-business)) 宇宙ビジネスの衝撃 ― 21 世紀の黄金をめぐる新時代のゴールドラッシュ

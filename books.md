@@ -63,6 +63,7 @@ permalink: /books/
 - Linkers and Loaders
 - コンパイラ 作りながら学ぶ
 
+- ([途中](https://twitter.com/nhiroki_/status/1223236408409645056)) グラフィックスプログラミング入門
 - ([途中](https://twitter.com/nhiroki_/status/1126868469503283201)) 実践 Rust 入門 ― 言語仕様から開発手法まで
 - ([途中](https://twitter.com/nhiroki_/status/834200033511698432)) Programming Rust
 - (途中) すごい Haskell たのしく学ぼう！

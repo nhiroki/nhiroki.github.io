@@ -6,7 +6,7 @@ tags: web text
 image: /images/profile.png
 ---
 
-COVID-19 の流行によってオンライン会議システムが急速に普及しています。これに伴い、会議システムの音声処理で使われている Audio Worklets API の使用率がここ数ヶ月で急激に増えています[^tweets] [^zoom]。
+COVID-19 の流行によってオンライン会議システムが急速に普及しています。これに伴い、会議システムの音声処理などで使われている Audio Worklets API の使用率がここ数ヶ月で急激に増えています[^tweets] [^zoom]。
 
 次のグラフは Chrome 上でのページロードに対する Audio Worklets API の使用率を表しています[^addmodule]。元データは [Chrome Platform Status](https://www.chromestatus.com/metrics/feature/timeline/popularity/2261) で見ることができます。
 
@@ -21,8 +21,6 @@ Chromium においては、チームメイトと私で 2016 年から 2018 年�
 ローンチしてからつい最近まで Chromium でしか実装されておらず、その認知度も低かったため使用率は微々たるものでした。上のグラフの平たい部分ですね。それが音声処理需要の増加によって使用率が一気に増加したのが今です。
 
 当時これを担当したのは技術的に面白そうだったからというだけの理由でしたが、それが社会活動を支える部品として広く使われるようになったことにとても驚いていますし、このような状況になる前に必要な機能を揃えられたのはとても幸運だったと思います。もしブラウザ開発を通して誰かの一助になり、困難な状況にある社会を良くすることに少しでも貢献できているのならばとても嬉しいことです。
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">英会話レッスン終わり。いつもはクラスルームレッスンなんだけど、今回から Zoom を使ったオンラインレッスンになった。1:1 のオンライン英会話は受けたことがあるけど、今回は多人数のディスカッションクラスなのでちょっと心配でしたが、思っていたよりも良い体験でした。</p>&mdash; nhiroki (@nhiroki_) <a href="https://twitter.com/nhiroki_/status/1258376524463435778?ref_src=twsrc%5Etfw">May 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # 注釈
 

@@ -6,9 +6,9 @@ tags: web text
 image: /images/profile.png
 ---
 
-COVID-19 の流行によってオンライン会議システムが急速に普及しています。これに伴い、会議システムの音声処理で使われている Audio Worklets API の使用率がここ数ヶ月で劇的に増えています[^tweets] [^zoom]。
+COVID-19 の流行によってオンライン会議システムが急速に普及しています。これに伴い、会議システムの音声処理で使われている Audio Worklets API の使用率がここ数ヶ月で急激に増えています[^tweets] [^zoom]。
 
-次のグラフは Chrome 上でのページロードに対する Audio Worklets API の使用率を表しています[^addmodule]。元データは [Chrome Platform Status](https://www.chromestatus.com/metrics/feature/timeline/popularity/2261) で見ることができます。ページロード回数はとてつもなく大きいので 0.0125% でもかなりの使用数になります。
+次のグラフは Chrome 上でのページロードに対する Audio Worklets API の使用率を表しています[^addmodule]。元データは [Chrome Platform Status](https://www.chromestatus.com/metrics/feature/timeline/popularity/2261) で見ることができます。
 
 ![Audio Worklets API の使用率](/images/usage-of-audio-worklets-graph.png)
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2020/05/04
+date: 2020/05/19
 permalink: /books/
 ---
 
@@ -277,7 +277,8 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/1159146915491012609)) トコトンやさしいモータの本
 - ([途中](https://twitter.com/nhiroki_/status/1213117156205850631)) 弱点克服 大学生の線形代数 改訂版
 
-= ([2020](/2020/05/04/book-book-guide-for-math-lovers)) 数学好きの人のためのブックガイド
+- ([2020](/2020/05/19/book-math-beginners-manual)) 数学ビギナーズマニュアル [第 2 版]
+- ([2020](/2020/05/04/book-book-guide-for-math-lovers)) 数学好きの人のためのブックガイド
 - ([2020](/2020/04/26/book-linear-algebra-campus-seminar)) 線形代数 キャンパス・ゼミ
 - ([2020](/2020/03/20/book-basic-linear-algebra-campus-seminar)) 大学基礎数学 線形代数 キャンパス・ゼミ
 - ([2019](/2019/08/05/book-yabai-uchu-zukan)) ヤバい宇宙図鑑

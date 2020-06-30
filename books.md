@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2020/06/08
+date: 2020/06/30
 permalink: /books/
 ---
 
@@ -196,6 +196,7 @@ permalink: /books/
 - 体系的に学ぶ 安全な Web アプリケーションの作り方 (第 2 版) ― 脆弱性が生まれる原理と対策の実践
 - ブラウザハック
 
+- ([2020](/2020/06/30/book-real-world-http-2nd-edition)) Real World HTTP ― 歴史とコードに学ぶインターネットとウェブ技術 [第 2 版]
 - ([2017](https://twitter.com/nhiroki_/status/938933691279015936)) 超速! Web ページ速度改善ガイド ― 使いやすさは「速さ」から始まる
 - ([2017](/2017/08/10/book-real-world-http)) Real World HTTP ― 歴史とコードに学ぶインターネットとウェブ技術
 - ([2017](https://twitter.com/nhiroki_/status/869688379167842304)) Web フロントエンドハイパフォーマンスチューニング

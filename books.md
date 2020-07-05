@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2020/06/30
+date: 2020/07/06
 permalink: /books/
 ---
 
@@ -313,6 +313,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/1011604756593340416)) 50 トピックでトレーニング ― 英語で意見を言ってみる
 - ([途中](https://twitter.com/nhiroki_/status/967952328362934272)) 世にもおもしろい英語 ― あなたの知識と感性の領域を広げる英語表現
 
+- ([2020])(/2020/07/06/book-plain-english) 伝わる短い英語 ― 新しい世界基準 Plain English
 - ([2016](https://twitter.com/nhiroki_/status/796904195425087488)) 日本人の知らないワンランク上のビジネス英語術 ― エール大学厳選 30 講
 
 # 経済

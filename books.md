@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2020/09/22
+date: 2020/10/02
 permalink: /books/
 ---
 
@@ -278,6 +278,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/1159146915491012609)) トコトンやさしいモータの本
 - ([途中](https://twitter.com/nhiroki_/status/1213117156205850631)) 弱点克服 大学生の線形代数 改訂版
 
+- ([2020](/2020/10/02/book-mars-guidebook)) 火星ガイドブック
 - ([2020](/2020/09/03/book-huge-landforms-in-deep-sea)) 見えない絶景 ― 深海底巨大地形
 - ([2020](/2020/08/02/book-boson-and-fermion)) 2 つの粒子で世界がわかる ― 量子力学から見た物質と力
 - ([2020](/2020/07/25/book-discovery-of-neutrino-from-deep-space)) 深宇宙ニュートリノの発見 ― 宇宙の巨大なエンジンからの使者

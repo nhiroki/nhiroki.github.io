@@ -119,11 +119,11 @@ image: /images/book-introduction-to-planetary-materials-sciences.webp
 - 計画概要、探査機の搭載機器、小惑星ベンヌの特徴、科学的な成果 (YORP 効果の実証、地球への衝突確率) など。オシリス・レックスはプロジェクト名の頭文字を組み合わせた名前らしい。
 - オシリス・レックスの最初の試料回収はちょうどこの本を読み終わる頃に行われたようで、無事に回収できたみたい。その時の動画が公開されていて、着地とサンプルが舞い上がる様子が鮮明に映されている。
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LJBv4reH9IU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube"><iframe width="560" height="100%" src="https://www.youtube-nocookie.com/embed/LJBv4reH9IU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 - 小惑星ベンヌの様子はこの動画が分かりやすい。大きな岩石がゴロゴロしていることがよく分かる。
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j_hSNBmpuqY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j_hSNBmpuqY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 **第 17 章　今後のサンプルリターン計画**
 

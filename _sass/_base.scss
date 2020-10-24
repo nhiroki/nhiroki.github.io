@@ -8,8 +8,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
@@ -245,4 +243,22 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+// Wrappers for YouTube's iframe.
+.youtube {
+    position: relative;
+    margin-bottom: $spacing-unit / 2;
+}
+.youtube::before {
+    content: "";
+    display: inline-block;
+    padding-top: 56.25%;
+}
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

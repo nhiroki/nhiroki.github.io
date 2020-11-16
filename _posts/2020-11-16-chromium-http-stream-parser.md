@@ -55,7 +55,7 @@ if (read_buf_->offset() == 0)
   response_->response_time = base::Time::Now();
 ```
 
-N 個の non-informational response headers と 1 個の informational response header で構成されたレスポンスで、さらにそれぞれが Q 個と R 個に分割されて送信されてきた場合、HandleReadHeaderResult() の呼び出し回数は (N * Q + R) 回になる。
+N 個の non-informational response headers と 1 個の informational response header で構成されたレスポンスで、さらにそれぞれが Q 個と R 個のフラグメントに分割されて送られてきた場合、HandleReadHeaderResult() の呼び出し回数は (N * Q + R) 回になる。
 
 全フラグメントが読み込まれるまで header parsing は行われないのでそれまでステータスコードは取れない。
 

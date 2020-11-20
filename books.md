@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2020/10/24
+date: 2020/11/21
 permalink: /books/
 ---
 
@@ -278,6 +278,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/1159146915491012609)) トコトンやさしいモータの本
 - ([途中](https://twitter.com/nhiroki_/status/1213117156205850631)) 弱点克服 大学生の線形代数 改訂版
 
+- ([2020](https://twitter.com/nhiroki_/status/1327292113508130817)) 天文宇宙検定公式問題集 1 級 (2020-2021 年版)
 - ([2020](/2020/10/24/book-introduction-to-planetary-materials-sciences)) 宇宙岩石入門 ― 起源・観測・サンプルリターン
 - ([2020](/2020/10/02/book-mars-guidebook)) 火星ガイドブック
 - ([2020](/2020/09/03/book-huge-landforms-in-deep-sea)) 見えない絶景 ― 深海底巨大地形
@@ -318,8 +319,8 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/1011604756593340416)) 50 トピックでトレーニング ― 英語で意見を言ってみる
 - ([途中](https://twitter.com/nhiroki_/status/967952328362934272)) 世にもおもしろい英語 ― あなたの知識と感性の領域を広げる英語表現
 
-- ([2020])(/2020/09/22/book-power-of-modal-auxiliary-verb) 法助動詞の底力
-- ([2020])(/2020/07/06/book-plain-english) 伝わる短い英語 ― 新しい世界基準 Plain English
+- ([2020](/2020/09/22/book-power-of-modal-auxiliary-verb)) 法助動詞の底力
+- ([2020](/2020/07/06/book-plain-english)) 伝わる短い英語 ― 新しい世界基準 Plain English
 - ([2016](https://twitter.com/nhiroki_/status/796904195425087488)) 日本人の知らないワンランク上のビジネス英語術 ― エール大学厳選 30 講
 
 # 経済

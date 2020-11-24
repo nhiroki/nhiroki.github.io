@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2020/11/21
+date: 2020/11/24
 permalink: /books/
 ---
 
@@ -278,6 +278,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/1159146915491012609)) トコトンやさしいモータの本
 - ([途中](https://twitter.com/nhiroki_/status/1213117156205850631)) 弱点克服 大学生の線形代数 改訂版
 
+- ([2020](/2020/11/24/book-kyoku-uchu-wo-toku)) 極・宇宙を解く ― 現代天文学演習
 - ([2020](https://twitter.com/nhiroki_/status/1327292113508130817)) 天文宇宙検定公式問題集 1 級 (2020-2021 年版)
 - ([2020](/2020/10/24/book-introduction-to-planetary-materials-sciences)) 宇宙岩石入門 ― 起源・観測・サンプルリターン
 - ([2020](/2020/10/02/book-mars-guidebook)) 火星ガイドブック

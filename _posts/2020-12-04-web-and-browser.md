@@ -35,10 +35,12 @@ image: /images/profile.jpg
 ## その他歴史上の話で面白そうなもの
 
 - Net News
-- FTP
+- FTP コマンドと [ftp:// URL による宣言的な記述](https://twitter.com/naka_aki_spl/status/1335390489936240640))
 - WaSP (The Web Standard Project)
 - HTML5 策定の話
 - W3C と WHATWG の話
 - Facebook が HTML5 を採用しようとした話
 - Extensions によるブラウザの機能拡張
+- セマンティックウェブ
+- スーパアプリ・ミニアプリ
 - (何かあれば教えてください)

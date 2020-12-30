@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2020/01/11
+date: 2020/12/31
 permalink: /about/
 ---
 
@@ -43,6 +43,9 @@ Hiroki Nakagawa (nhiroki)
 
 ウェブブラウザ Chrome の開発。Chrome のオープンソースプロジェクト Chromium のコミッター。主に以下のことをしていました。
 
+* Prerender API の設計と実装
+* レンダリングエンジンに最適化ヒントを与える基盤の設計と実装
+* 103 Early Hints の評価メトリクスの設計と実装
 * Off-the-main-thread リソースローディングの設計と実装
   - [ネットワーク API のメインスレッド依存をなくす話](/2018/06/15/blink-off-the-main-thread-loading)
   - [ウェブブラウザの off-the-main-thread API の話](/2018/05/07/off-the-main-thread-api)
@@ -94,6 +97,7 @@ Chrome OS の文字入力変換ウィンドウの UI 改善。Chromium とか iB
 
 **発表**
 
+* 2020.12.04 「ウェブの進化とウェブブラウザ開発の最前線」 (慶應義塾大学 情報工学特別講義) ([article](/2020/12/04/web-and-browser), [slide](https://docs.google.com/presentation/d/e/2PACX-1vQA7761ZtEk8uqs6wQ3sOsXo2B-IGpsvRHHftseFDoPTcE4Jq0TPCuX92GrLeL0D4wkJNhUk0jVxE3V/pub?start=false&loop=false&delayms=3000))
 * 2017.03.21 「[論文紹介] The Linux Scheduler: A Decade of Wasted Cores (EuroSys 2016)」([システム系輪講会](https://connpass.com/event/52323/)) ([slide](https://docs.google.com/presentation/d/1B9lC6uPxHBzWm9Elhn8cvvQXy7ykIe7EPgFe0i0hAYk/pub?start=false&loop=false&slide=id.p))
 * 2016.02.06 「IoT 時代の Web エンジニア」 (IT 分科会 #2) (slide)
 * 2015.08.02 「Mobile Web and Native App -Past, Present, Future-」 (IT 分科会 #1) (slide)

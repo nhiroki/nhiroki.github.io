@@ -84,7 +84,7 @@ crossorigin 属性は値として `""` (空文字列), `anonymous`, `use-credent
 <img src="https://cross-origin.example.com/image.jpg" crossorigin="use-credentials">
 ```
 
-これら属性値は仕様では State と呼ばれ、CORS モードでリクエストを投げる時の credentials mode を決めます。State は No CORS, Anonymous, Use Credentials の 3 つで、crossorigin 属性を指定しない (1) のときは No CORS になります。
+これら属性値は仕様では State と呼ばれ、cors モードでリクエストを投げる時の credentials mode を決めます。State は No CORS, Anonymous, Use Credentials の 3 つで、crossorigin 属性を指定しない (1) のときは No CORS になります。
 
 |属性|State|
 |(1) 未指定 (デフォルト)|No CORS|

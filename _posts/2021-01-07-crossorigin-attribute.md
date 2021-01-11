@@ -3,7 +3,7 @@ layout: post
 title: "crossorigin 属性の仕様を読み解く"
 date: 2021-01-07 00:00:00 +09:00
 tags: web
-image: /images/profile.jpg
+image: /images/profile.png
 ---
 
 本記事では HTML タグに指定可能な crossorigin 属性について仕様を参照しながら詳しく解説します。crossorigin 属性は複数の意味を表しており、またそれを指定するタグの他の属性値によって振る舞いが変わってしまうことから、その挙動を正確に理解するのがなかなか難しい属性です。

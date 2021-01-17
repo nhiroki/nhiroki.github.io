@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2021/01/04
+date: 2021/01/18
 permalink: /books/
 ---
 
@@ -365,6 +365,7 @@ permalink: /books/
 
 - ([途中](https://twitter.com/nhiroki_/status/975904460047175681)) 異文化理解力 ― 相手と自分の真意がわかる ビジネスパーソン必須の教養
 
+- ([2021](/2021/01/18/book-work-of-real-estate-notary)) こんなにおもしろい宅地建物取引士の仕事 [第 2 版]
 - ([2020](/2020/08/22/book-manga-real-estate-notary-first-step)) 2020 年版 マンガ宅建士 はじめの一歩
 - ([2020](/2020/04/21/book-learn-or-die)) Learn or Die 死ぬ気で学べ ― プリファードネットワークスの挑戦
 - ([2018](/2018/12/09/book-what-every-pianist-needs-to-know-about-the-body)) ピアニストならだれでも知っておきたい「からだ」のこと

@@ -3,7 +3,7 @@ layout: post
 title: "ウェブの進化とウェブブラウザ開発の最前線"
 date: 2020-12-04 00:00:00 +09:00
 tags: web
-image: /images/profile.jpg
+image: /images/profile.png
 ---
 
 学部 3, 4 年生向けの特別講義で『[ウェブの進化とウェブブラウザ開発の最前線](https://docs.google.com/presentation/d/e/2PACX-1vQA7761ZtEk8uqs6wQ3sOsXo2B-IGpsvRHHftseFDoPTcE4Jq0TPCuX92GrLeL0D4wkJNhUk0jVxE3V/pub?start=false&loop=false&delayms=3000)』というタイトルで話をしてきました。

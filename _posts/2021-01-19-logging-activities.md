@@ -3,7 +3,7 @@ layout: post
 title: "アクティビティログの記録"
 date: 2021-01-19 00:00:00 +09:00
 tags: text
-image: /images/profile.jpg
+image: /images/profile.png
 ---
 
 Message Passing の「[ブックマークのはなし](https://messagepassing.github.io/005-bookmark/01-morrita/)」のスレッドを読んで感化され、自分のログ取りのやり方について書いてみました。件のスレッドでは読書記録が話題の中心ですが、ここでは読書に限らず日々の色々なアクティビティログについて書きます。

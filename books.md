@@ -237,7 +237,7 @@ permalink: /books/
 - マイクロサービスアーキテクチャ
 - API デザインケーススタディ ~Rubyの実例から学ぶ。問題に即したデザインと普遍の考え方
 
-- ([2021])(/2021/04/18/book-more-effective-agile) More Effective Agile ― ソフトウェアリーダーになるための 28 の道標
+- ([2021](/2021/04/18/book-more-effective-agile)) More Effective Agile ― ソフトウェアリーダーになるための 28 の道標
 - ([2018](/2018/11/21/book-the-managers-path)) エンジニアのためのマネジメントキャリアパス ― テックリードから CTO までマネジメントスキル向上ガイド
 - ([2018](/2018/09/04/book-cyber-attack)) サイバー攻撃 ― ネット世界の裏側で起きていること
 - ([2018](/2018/04/17/book-engineering-organization-theory)) エンジニアリング組織論への招待 ― 不確実性に向き合う思考と組織のリファクタリング

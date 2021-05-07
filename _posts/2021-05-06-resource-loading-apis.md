@@ -98,7 +98,7 @@ image: /images/profile.png
 
 DNS の情報がクライアントや最寄りの DNS サーバにキャッシュされていない場合、その問い合わせは DNS ルートサーバから下位の DNS サーバへと順番に行われるため、その分の待ち時間が発生します。dns-prefetch でこの処理を先に済ませることができます。
 
-dns-prefetch は他の Pre* APIs に比べて軽量な処理ではありますが、その使用は重要なリソース（ドメイン）に対してのみにすべきです。ブラウザは同時に走らせる DNS の問い合わせ処理数に制限をかけています。例えば [Chrome ではその並列数を 6 に制限]((https://source.chromium.org/chromium/chromium/src/+/master:net/dns/host_resolver_manager.cc;l=351;drc=71698e610121078e0d1a811054dcf9fd89b49578))しています。
+dns-prefetch は他の Pre* APIs に比べて軽量な処理ではありますが、その使用は重要なリソース（ドメイン）に対してのみにすべきです。ブラウザは同時に走らせる DNS の問い合わせ処理数に制限をかけています。例えば [Chrome ではその並列数を 6 に制限](https://source.chromium.org/chromium/chromium/src/+/master:net/dns/host_resolver_manager.cc;l=351;drc=71698e610121078e0d1a811054dcf9fd89b49578)しています。
 
 ```c++
 // Maximum of 6 concurrent resolver threads (excluding retries).

@@ -88,7 +88,7 @@ SW の実行コンテキスト上では自身が所属している Registration 
 var registration = self.registration;
 ```
 
-Registration に紐付いた SW を更新するには update() を使います ([別記事参照](/2015/06/22/service-worker-update/))。
+Registration に紐付いた SW を更新するには update() を使います ([別記事参照](/2015/06/22/service-worker-update))。
 
 ```js
 registration.update();

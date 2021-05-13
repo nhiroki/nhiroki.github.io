@@ -88,7 +88,7 @@ SW の実行コンテキスト上では自身が所属している Registration 
 var registration = self.registration;
 ```
 
-Registration に紐付いた SW を更新するには update() を使います ([別記事参照](/2015/06/22/service-worker-update/))。
+Registration に紐付いた SW を更新するには update() を使います ([別記事参照](/2015/06/22/service-worker-update))。
 
 ```js
 registration.update();
@@ -118,7 +118,7 @@ interface ServiceWorkerRegistration : EventTarget {
 
 [![ServiceWorkerRegistration](/images/service-worker-registration.png)](/images/service-worker-registration.png)
 
-.installing は register() もしくは update() から install イベント完了までの installing 状態の ServiceWorker オブジェクトです。新しい SW が .installing にセットされると Registration の updatefound イベントが発火します ([別記事参照](/2015/06/22/service-worker-update/))。これを使うと、新しい SW が検出されたらとりあえず postMessage を送る、といったことができます。
+.installing は register() もしくは update() から install イベント完了までの installing 状態の ServiceWorker オブジェクトです。新しい SW が .installing にセットされると Registration の updatefound イベントが発火します ([別記事参照](/2015/06/22/service-worker-update))。これを使うと、新しい SW が検出されたらとりあえず postMessage を送る、といったことができます。
 
 ```js
 registration.addEventListener('updatefound', function(e) {

@@ -80,7 +80,7 @@ clients.claim() は各クライアントに対して、呼び出し元の Servic
 ```js
 // /scope/will-be-controlled.html
 var controller_change_promise = new Promise(function(resolve) {
-  navigator.serviceworker.addEventListener('controllerchange', resolve);
+  navigator.serviceWorker.addEventListener('controllerchange', resolve);
 });
 
 navigator.serviceWorker.register('sw.js', {scope: '/scope/'})

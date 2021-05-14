@@ -6,6 +6,8 @@ codereading:
   name: codereading
 event:
   name: event
+game:
+  name: game
 linux:
   name: linux
 paper:

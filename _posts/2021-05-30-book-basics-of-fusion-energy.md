@@ -6,7 +6,7 @@ tags: book
 image: /images/book-basics-of-fusion-energy.webp
 ---
 
-『核融合エネルギーのきほん』の読書メモです。本書ではアジャイル開発における 28 の基本原則と、それを支えるプラクティスについて紹介しています。 
+『核融合エネルギーのきほん』の読書メモです。
 
 ![表紙](/images/book-basics-of-fusion-energy.webp)
 

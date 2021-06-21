@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2020/12/31
+date: 2021/06/21
 permalink: /about/
 ---
 
@@ -44,6 +44,7 @@ Hiroki Nakagawa (nhiroki)
 ウェブブラウザ Chrome の開発。Chrome のオープンソースプロジェクト Chromium のコミッター。主に以下のことをしていました。
 
 * Prerender API の設計と実装
+  - [リソースの読み込みを助けるウェブブラウザ API の世界](/2021/05/06/resource-loading-apis)
 * レンダリングエンジンに最適化ヒントを与える基盤の設計と実装
 * 103 Early Hints の評価メトリクスの設計と実装
 * Off-the-main-thread リソースローディングの設計と実装
@@ -54,6 +55,7 @@ Hiroki Nakagawa (nhiroki)
   - [JavaScript のスクリプトインポートを正しく使い分けようという話](/2018/09/07/javascript-import)
 * [Worklets API](https://drafts.css-houdini.org/worklets/) の設計と実装
   - [Chrome 79 から Worklet.addModule() が詳細なエラーを返すようになった話](/2019/10/16/worklet-addmodule-error)
+  - [WFH で Audio Worklets の使用率が増えている話](/2020/05/12/usage-of-audio-worklets)
 * [Workers](https://html.spec.whatwg.org/multipage/workers.html#workers) / [Worklets](https://drafts.css-houdini.org/worklets/) API のスレッディング基盤の設計と実装
   - [Chrome 69 で Web Worker から Web Worker を作れるようになった話](/2018/10/29/nested-workers)
   - [JavaScript のスレッド並列実行環境](/2017/12/10/javascript-parallel-processing)

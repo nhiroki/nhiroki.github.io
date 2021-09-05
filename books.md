@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2021/06/18
+date: 2021/09/05
 permalink: /books/
 ---
 
@@ -283,7 +283,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/1213117156205850631)) 弱点克服 大学生の線形代数 改訂版
 
 - ([2021](/2021/06/18/book-jupiter-saturn-guidebook)) 木星・土星ガイドブック
-- (2021) 数学に魅せられて、科学を見失う ― 物理学と「美しさ」の罠
+- ([2021](https://twitter.com/nhiroki_/status/1387633230992400386)) 数学に魅せられて、科学を見失う ― 物理学と「美しさ」の罠
 - ([2021](/2021/05/30/book-basics-of-fusion-energy)) 核融合エネルギーのきほん
 - ([2020](/2020/11/24/book-kyoku-uchu-wo-toku)) 極・宇宙を解く ― 現代天文学演習
 - ([2020](https://twitter.com/nhiroki_/status/1327292113508130817)) 天文宇宙検定公式問題集 1 級 (2020-2021 年版)
@@ -371,6 +371,7 @@ permalink: /books/
 
 - ([途中](https://twitter.com/nhiroki_/status/975904460047175681)) 異文化理解力 ― 相手と自分の真意がわかる ビジネスパーソン必須の教養
 
+- ([2021](/2021/09/05/book-cognitive-bias)) 認知バイアス ― 心に潜むふしぎな働き
 - ([2021](/2021/01/18/book-work-of-real-estate-notary)) こんなにおもしろい宅地建物取引士の仕事 [第 2 版]
 - ([2020](/2020/08/22/book-manga-real-estate-notary-first-step)) 2020 年版 マンガ宅建士 はじめの一歩
 - ([2020](/2020/04/21/book-learn-or-die)) Learn or Die 死ぬ気で学べ ― プリファードネットワークスの挑戦

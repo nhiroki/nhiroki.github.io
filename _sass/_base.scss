@@ -142,7 +142,8 @@ a {
  */
 blockquote {
     color: $text-color;
-    border: 1px dashed $grey-color;
+    border-left: 10px solid $grey-color;
+    background: $code-background-color;
     padding: $spacing-unit / 2;
     font-size: $base-font-size;
     font-style: italic;

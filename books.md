@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2021/09/05
+date: 2021/09/12
 permalink: /books/
 ---
 
@@ -282,6 +282,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/1159146915491012609)) トコトンやさしいモータの本
 - ([途中](https://twitter.com/nhiroki_/status/1213117156205850631)) 弱点克服 大学生の線形代数 改訂版
 
+- ([2021](/2021/09/12/book-binary-star)) 連星からみた宇宙 ― 超新星からブラックホール、重力波まで
 - ([2021](/2021/06/18/book-jupiter-saturn-guidebook)) 木星・土星ガイドブック
 - ([2021](https://twitter.com/nhiroki_/status/1387633230992400386)) 数学に魅せられて、科学を見失う ― 物理学と「美しさ」の罠
 - ([2021](/2021/05/30/book-basics-of-fusion-energy)) 核融合エネルギーのきほん

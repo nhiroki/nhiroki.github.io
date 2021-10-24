@@ -185,7 +185,7 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    font-size: $very-small-font-size;
     @include media-query($on-palm) {
         font-size: $small-font-size-on-palm;
     }

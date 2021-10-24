@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "読書｜イラストでわかる Docker と Kubernetes"
+title: "『イラストでわかる Docker と Kubernetes』を読んだ"
 date: 2021-01-04 00:00:00 +09:00
 tags: book
 image: /images/book-docker-and-kubernetes.webp

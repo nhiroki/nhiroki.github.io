@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "読書｜動かして学ぶ量子コンピュータプログラミング"
+title: "『動かして学ぶ量子コンピュータプログラミング ― シミュレータとサンプルコートで理解する基本アルゴリズム』を読んだ"
 date: 2021-01-22 00:00:00 +09:00
 tags: book
 image: /images/book-programming-quantum-computers.webp

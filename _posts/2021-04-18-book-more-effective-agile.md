@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "読書｜More Effective Agile ― ソフトウェアリーダーになるための 28 の道標"
+title: "『More Effective Agile ― ソフトウェアリーダーになるための 28 の道標』を読んだ"
 date: 2021-04-18 00:00:00 +09:00
 tags: book
 image: /images/book-more-effective-agile.webp

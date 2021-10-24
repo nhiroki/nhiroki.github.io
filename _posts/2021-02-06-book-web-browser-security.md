@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "読書｜Web ブラウザセキュリティ"
+title: "『Web ブラウザセキュリティ ― Web アプリケーションの安全性を支える仕組みを整理する』を読んだ"
 date: 2021-02-06 00:00:00 +09:00
 tags: book
 image: /images/book-web-browser-security.webp

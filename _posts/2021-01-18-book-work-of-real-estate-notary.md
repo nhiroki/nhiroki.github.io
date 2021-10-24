@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "読書｜こんなにおもしろい宅地建物取引士の仕事 [第 2 版]"
+title: "『こんなにおもしろい宅地建物取引士の仕事 [第 2 版]』を読んだ"
 date: 2021-01-18 00:00:00 +09:00
 tags: book
 image: /images/book-work-of-real-estate-notary.webp

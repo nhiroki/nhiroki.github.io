@@ -142,9 +142,8 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: #000;
     border-left: 10px solid $grey-color;
-    background: #fff;
+    background: #000;
     padding: $spacing-unit / 2;
     font-size: $base-font-size;
     font-style: italic;
@@ -155,20 +154,6 @@ blockquote {
 
     @include media-query($on-palm) {
         font-size: $base-font-size-on-palm;
-    }
-
-    a {
-        color: darkred;
-        text-decoration: none;
-
-        &:visited {
-            color: darkred;
-        }
-
-        &:hover {
-            color: darkred;
-            text-decoration: underline;
-        }
     }
 }
 

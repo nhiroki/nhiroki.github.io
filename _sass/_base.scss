@@ -46,6 +46,7 @@ img {
     vertical-align: middle;
     display: block;
     margin: 0 auto;
+    background-color: #fff;
 }
 
 .caption {
@@ -122,15 +123,15 @@ h1 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: lightskyblue;
     text-decoration: none;
 
     &:visited {
-        color: $brand-color;
+        color: lightskyblue;
     }
 
     &:hover {
-        color: $text-color;
+        color: lightskyblue;
         text-decoration: underline;
     }
 }
@@ -141,9 +142,9 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $text-color;
+    color: #000;
     border-left: 10px solid $grey-color;
-    background: $code-background-color;
+    background: #fff;
     padding: $spacing-unit / 2;
     font-size: $base-font-size;
     font-style: italic;
@@ -154,6 +155,20 @@ blockquote {
 
     @include media-query($on-palm) {
         font-size: $base-font-size-on-palm;
+    }
+
+    a {
+        color: darkred;
+        text-decoration: none;
+
+        &:visited {
+            color: darkred;
+        }
+
+        &:hover {
+            color: darkred;
+            text-decoration: underline;
+        }
     }
 }
 

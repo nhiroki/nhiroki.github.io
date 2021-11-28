@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2021/11/18
+date: 2021/11/28
 permalink: /books/
 ---
 
@@ -267,6 +267,7 @@ permalink: /books/
 - セキュリティコンテストのための CTF 問題集
 - セキュリティコンテストチャレンジブック ― CTF で学ぼう! 情報を守るための戦い方
 
+- ([2021](/2021/11/28/book-virtual-reality)) 仮想空間と VR
 - ([2017](https://twitter.com/nhiroki_/status/830903270759501826)) こんなにスゴイ！地図作りの現場
 - (2015) たのしい電子工作 Arduino で電子工作をはじめよう！
 - (2015) Arduino をはじめよう（第 2 版）

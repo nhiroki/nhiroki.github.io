@@ -8,6 +8,8 @@ image: /images/astronomy-space-test-2021-1st-grade-signboard.webp
 
 11 月 21 日に第 12 回「[天文宇宙検定](http://www.astro-test.org/)」の 1 級を受けました。自己採点の結果 100 点中 56 点だったので今回も残念ながら不合格でした。本記事はその受験記になります。
 
+**2021 年 12 月 23 日追記：**正式な点数は 59 点でした。[問 13 の H3 ロケットに関する問題が作問不備](http://www.astro-test.org/other/4186/)で全員正解になった分みたい。
+
 ![看板](/images/astronomy-space-test-2021-1st-grade-signboard.webp)
 
 # 天文宇宙検定とは

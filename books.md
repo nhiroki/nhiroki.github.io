@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2021/11/28
+date: 2021/12/24
 permalink: /books/
 ---
 
@@ -238,6 +238,7 @@ permalink: /books/
 - マイクロサービスアーキテクチャ
 - API デザインケーススタディ ~Rubyの実例から学ぶ。問題に即したデザインと普遍の考え方
 
+- ([2021](/2021/12/25/book-team-geek)) Team Geek ― Google のギークたちはいかにしてチームを作るのか』を読んだ
 - ([2021](/2021/04/18/book-more-effective-agile)) More Effective Agile ― ソフトウェアリーダーになるための 28 の道標
 - ([2018](/2018/11/21/book-the-managers-path)) エンジニアのためのマネジメントキャリアパス ― テックリードから CTO までマネジメントスキル向上ガイド
 - ([2018](/2018/09/04/book-cyber-attack)) サイバー攻撃 ― ネット世界の裏側で起きていること

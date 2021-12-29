@@ -141,6 +141,7 @@ permalink: /books/
   - 出版記念イベントに参加しました（[感想](https://twitter.com/nhiroki_/status/730029907426746368)）
 - (途中) インサイド Windows 上巻
 
+- ([2021](https://twitter.com/nhiroki_/status/1385941624228700162)) マイクロカーネルの設計と実装
 - ([2018](/2018/03/02/book-mechanism-of-linux)) [試して理解] Linux のしくみ ― 実験と図解で学ぶ OS とハードウェアの基礎知識
 - ([2017](/2017/07/11/book-android)) Android を支える技術 I - 60 fps を達成するモダンな GUI システム
 - ([2017](https://twitter.com/nhiroki_/status/749190068376440832)) Linux プログラミングインタフェース

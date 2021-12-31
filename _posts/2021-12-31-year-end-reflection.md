@@ -108,9 +108,7 @@ Prerender API (Speculation Rules API) については [Origin Trial](https://gro
 
 ## コミュニティ活動
 
-toyoshim さんが立ち上げられた「Chromium プロジェクトへの貢献に興味がある人をサポートするコミュニティ」のお手伝いを始めました。長年「日本から Chromium 開発に参加する人が増えるといいなー」と思い、[Chromium のアドベントカレンダーを作ったり](https://qiita.com/advent-calendar/2017/chromium)、プロジェクト紹介記事を書いたりして、細々と布教活動をしていました。今後はこのコミュニティを通してより直接的にコントリビューターの方々を支援していければと考えています。
-
-<blockquote class="twitter-tweet" data-dnt="true"><p lang="ja" dir="ltr">そういや、Chromeにパッチ投げてみたい人とかいないかな。なんか気になるけどインターンとかGSoCのテーマってほどじゃないってくらいの微妙なレベルのLoading系の修正が溜まってきてる……（それをcontributorに頼るのもずるいとは思うんだけど）</p>&mdash; とよしま (@toyoshim) <a href="https://twitter.com/toyoshim/status/1470681009901682689?ref_src=twsrc%5Etfw">December 14, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+toyoshim さんが[立ち上げられた](https://twitter.com/toyoshim/status/1470681009901682689)「Chromium プロジェクトへの貢献に興味がある人をサポートするコミュニティ」のお手伝いを始めました。長年「日本から Chromium 開発に参加する人が増えるといいなー」と思い、[Chromium のアドベントカレンダーを作ったり](https://qiita.com/advent-calendar/2017/chromium)、プロジェクト紹介記事を書いたりして、細々と布教活動をしていました。今後はこのコミュニティを通してより直接的にコントリビューターの方々を支援していければと考えています。
 
 ## 言語化
 

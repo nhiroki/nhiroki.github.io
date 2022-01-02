@@ -3,7 +3,7 @@ layout: post
 title: "『こどもサピエンス史 ― 生命の始まりから AI まで』を読んだ"
 date: 2022-01-02 00:00:00 +09:00
 tags: book
-image: /images/book-miyazawa-kenji-space-and-earth-science-1.webp
+image: /images/book-history-of-sapiens-for-children.webp
 ---
 
 『こどもサピエンス史 ― 生命の始まりから AI まで』を読みました。

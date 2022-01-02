@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2021/12/29
+date: 2022/01/02
 permalink: /books/
 ---
 
@@ -377,6 +377,7 @@ permalink: /books/
 
 - ([途中](https://twitter.com/nhiroki_/status/975904460047175681)) 異文化理解力 ― 相手と自分の真意がわかる ビジネスパーソン必須の教養
 
+- ([2022](/2022/01/02/book-history-of-sapiens-for-children)) こどもサピエンス史 ― 生命の始まりから AI まで
 - ([2021](https://twitter.com/nhiroki_/status/1456970450722983943)) 東京 23 区凸凹地図
 - ([2021](/2021/09/05/book-cognitive-bias)) 認知バイアス ― 心に潜むふしぎな働き
 - ([2021](https://twitter.com/nhiroki_/status/1421797597237239813)) よい資料を作るためのレイアウトのルール 伝わるデザインの基本（増補改訂 3 版）

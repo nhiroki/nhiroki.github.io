@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2022/01/16
+date: 2022/01/22
 permalink: /books/
 ---
 
@@ -377,6 +377,7 @@ permalink: /books/
 
 - ([途中](https://twitter.com/nhiroki_/status/975904460047175681)) 異文化理解力 ― 相手と自分の真意がわかる ビジネスパーソン必須の教養
 
+- ([2022](/2022/01/22/book-the-pomodoro-technique)) どんな仕事も「25 分 + 5 分」で結果が出る ― ポモドーロ・テクニック入門
 - ([2022](/2022/01/16/book-the-lean-startup)) リーンスタートアップ ― ムダのない起業プロセスでイノベーションを生みだす
 - ([2022](/2022/01/02/book-history-of-sapiens-for-children)) こどもサピエンス史 ― 生命の始まりから AI まで
 - ([2021](https://twitter.com/nhiroki_/status/1456970450722983943)) 東京 23 区凸凹地図

@@ -35,6 +35,7 @@ image: /images/book-theory-and-practice-of-blockchain.webp
 - Chapter 13　ブロックチェーンを利用したシステム構成
 - Chapter 14　ブロックチェーン特有のリスク
 - Chapter 15　ブロックチェーンのビジネスへの導入
+- 付録　数学的基礎
 
 # 雑感
 

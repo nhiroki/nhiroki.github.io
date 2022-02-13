@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2022/01/22
+date: 2022/02/13
 permalink: /books/
 ---
 
@@ -165,6 +165,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/1009972198482866178)) Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
 - ([途中](https://twitter.com/nhiroki_/status/798189186457026560)) Shared Memory Application Programming
 
+- ([2022](/2022/02/13/theory-and-practice-of-blockchain)) ブロックチェーン技術概論 ― 理論と実践
 - ([2021](/2021/01/04/book-docker-and-kubernetes)) イラストでわかる Docker と Kubernetes
 - ([2018](/2018/06/21/book-the-art-of-concurrency)) 並行コンピューティング技法 ― 実践マルチコア/マルチスレッドプログラミング (The Art of Concurrency)
 - (2011) The Art of Multiprocessor Programming ― 並行プログラミングの原理から実践まで

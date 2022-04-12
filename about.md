@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2021/10/24
+date: 2022/04/12
 permalink: /about/
 ---
 
@@ -9,7 +9,7 @@ permalink: /about/
 
 Hiroki Nakagawa (nhiroki)
 
-シニアソフトウェアエンジニア @ グーグル。ウェブブラウザ Chrome (Chromium) 開発者。情報理工学修士。2 児の父親。
+Senior Software Engineer / Tech Lead Manager (TLM) @ Google。ウェブブラウザ Chrome (Chromium) 開発者。情報理工学修士。2 児の父親。
 
 ---
 
@@ -43,31 +43,31 @@ Hiroki Nakagawa (nhiroki)
 
 ウェブブラウザ Chrome の開発。Chrome のオープンソースプロジェクト Chromium のコミッター。主に以下のことをしていました。
 
-* Prerender API の設計と実装
+* Prerender API の設計と実装 (TL / Manager)
   - [リソースの読み込みを助けるウェブブラウザ API の世界](/2021/05/06/resource-loading-apis)
-* レンダリングエンジンに最適化ヒントを与える基盤の設計と実装
-* 103 Early Hints の評価メトリクスの設計と実装
-* Off-the-main-thread リソースローディングの設計と実装
+* レンダリングエンジンに最適化ヒントを与える基盤の設計と実装 (IC)
+* 103 Early Hints の評価メトリクスの設計と実装 (IC)
+* Off-the-main-thread リソースローディングの設計と実装 (TL)
   - [ネットワーク API のメインスレッド依存をなくす話](/2018/06/15/blink-off-the-main-thread-loading)
   - [ウェブブラウザの off-the-main-thread API の話](/2018/05/07/off-the-main-thread-api)
-* ES Modules for Workers API の設計と実装
+* ES Modules for Workers API の設計と実装 (TL)
   - [Chrome 80 から Web Worker (Dedicated Worker) で ES Modules が使えます](/2019/12/05/es-modules-for-dedicated-workers)
   - [JavaScript のスクリプトインポートを正しく使い分けようという話](/2018/09/07/javascript-import)
-* [Worklets API](https://drafts.css-houdini.org/worklets/) の設計と実装
+* [Worklets API](https://drafts.css-houdini.org/worklets/) の設計と実装 (TL)
   - [Chrome 79 から Worklet.addModule() が詳細なエラーを返すようになった話](/2019/10/16/worklet-addmodule-error)
   - [WFH で Audio Worklets の使用率が増えている話](/2020/05/12/usage-of-audio-worklets)
-* [Workers](https://html.spec.whatwg.org/multipage/workers.html#workers) / [Worklets](https://drafts.css-houdini.org/worklets/) API のスレッディング基盤の設計と実装
+* [Workers](https://html.spec.whatwg.org/multipage/workers.html#workers) / [Worklets](https://drafts.css-houdini.org/worklets/) API のスレッディング基盤の設計と実装 (TL)
   - [Chrome 69 で Web Worker から Web Worker を作れるようになった話](/2018/10/29/nested-workers)
   - [JavaScript のスレッド並列実行環境](/2017/12/10/javascript-parallel-processing)
-* [CacheStorage API](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#cache-objects) の実装
+* [CacheStorage API](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#cache-objects) の実装 (IC)
   - [Chrome 46 に Cache.addAll() を実装した](/2015/09/02/cache-storage-addall)
-* [ServiceWorker API](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/) の設計と実装
+* [ServiceWorker API](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/) の設計と実装 (IC)
   - [Service Worker スクリプトのインストールと更新処理](/2018/02/15/service-worker-install-and-update-scripts)
   - [イベント駆動型サービス実行基盤としての Service Worker](/2017/02/13/service-worker-event-driven-background-processing)
   - [Service Worker のスコープとページコントロール](/2015/02/28/service-worker-scope-and-page-control)
-* [chrome.syncFileSystem API](https://developer.chrome.com/apps/syncFileSystem) の設計と実装
-* PPAPI 用 FileSystem API の設計と実装
-* [FileSystem API](https://www.w3.org/TR/file-system-api/) / [QuotaManagement API](http://w3c.github.io/quota-api/) のメンテナンス
+* [chrome.syncFileSystem API](https://developer.chrome.com/apps/syncFileSystem) の設計と実装 (IC)
+* PPAPI 用 FileSystem API の設計と実装 (IC)
+* [FileSystem API](https://www.w3.org/TR/file-system-api/) / [QuotaManagement API](http://w3c.github.io/quota-api/) のメンテナンス (IC)
 
 私が加えた変更の一覧は[こちら（2017 年 6 月以降）](https://chromium-review.googlesource.com/q/owner:nhiroki%2540chromium.org)と[こちら（2017 年 5 月以前）](https://codereview.chromium.org/search?closed=1&owner=nhiroki%40chromium.org&reviewer=&cc=&repo_guid=&base=&project=&private=1&commit=1&created_before=&created_after=&modified_before=&modified_after=&order=&format=html&keys_only=False&with_messages=False&cursor=&limit=200)で見ることができます。また、上記コンポーネントとレンダリングエンジン Blink の Core コンポーネントの[コードオーナーシップ](https://www.chromium.org/developers/owners-files)を持っています。主な使用言語は C++ / JavaScript です。
 

@@ -225,11 +225,9 @@
     margin-bottom: $spacing-unit;
 
     h1 {
-        color: $reversed-text-color;
         font-size: 24px;
-        background-color: $reversed-background-color;
-        padding-left: 10px;
         margin-top: $spacing-unit * 1.5;
+        border-bottom: 1px solid $text-color;
 
         @include media-query($on-laptop) {
             font-size: 24px;

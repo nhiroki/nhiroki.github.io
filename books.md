@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本棚
-date: 2022/05/14
+date: 2022/06/29
 permalink: /books/
 ---
 
@@ -287,6 +287,7 @@ permalink: /books/
 - ([途中](https://twitter.com/nhiroki_/status/1159146915491012609)) トコトンやさしいモータの本
 - ([途中](https://twitter.com/nhiroki_/status/1213117156205850631)) 弱点克服 大学生の線形代数 改訂版
 
+- ([2022](/2022/06/29/book-strange-stars)) へんな星たち ― 天体物理学が挑んだ 10 の恒星
 - ([2022](/2022/05/14/book-constants-to-rule-the-universe)) 宇宙を支配する「定数」 ― 万有引力から光速、プランク定数まで
 - ([2022](/2022/05/01/book-women-in-astronomy)) 女性と天文学
 - ([2021](/2021/11/07/book-miyazawa-kenji-space-and-earth-science-1)) 宮沢賢治と学ぶ宇宙と地球の科学１ ― 宇宙と天体

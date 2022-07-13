@@ -8,6 +8,8 @@ image: /images/astronomy-space-test-2022-05-1st-grade.webp
 
 5 月 29 日に第 13 回「[天文宇宙検定](http://www.astro-test.org/)」の 1 級を受けてきました。自己採点の結果 100 点中 55 点だったので今回も残念ながら不合格でした。
 
+**2022 年 7 月 13 日追記：**正式な点数は 57 点でした。
+
 ![クリアケース](/images/astronomy-space-test-2022-05-1st-grade.webp)
 
 # 天文宇宙検定とは

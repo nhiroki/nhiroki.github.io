@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Service Worker の FetchEvent がネットワークフォールバックした場合の仕様"
+title: "Service Worker の FetchEvent がネットワークフォールバックした場合の仕様を読み解く"
 date: 2022-09-10 00:00:00 +09:00
 tags: web
 image: /images/profile.png

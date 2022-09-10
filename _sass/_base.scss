@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit;
 }
 
 
@@ -247,7 +247,7 @@ pre {
 // Wrappers for YouTube's iframe.
 .youtube {
     position: relative;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit;
 }
 .youtube::before {
     content: "";

@@ -6,23 +6,26 @@
 
 
 // Our variables
-$base-font-family: "Noto Sans JP", sans-serif;
-$base-font-size:   16px;
-$base-font-size-on-palm: 15px;
-$small-font-size:  $base-font-size * 0.875;
-$small-font-size-on-palm:  $base-font-size-on-palm * 0.875;
-$very-small-font-size: $base-font-size * 0.750;
-$very-small-font-size-on-palm: $base-font-size-on-palm * 0.750;
-$base-line-height: 1.8;
+:root {
+    --base-font-family: "Noto Sans JP", sans-serif;
+    --base-font-size:   16px;
+    --base-font-size-on-palm: 15px;
+    --small-font-size:  calc(var(--base-font-size) * 0.875);
+    --small-font-size-on-palm:  calc(var(--base-font-size-on-palm) * 0.875);
+    --very-small-font-size: calc(var(--base-font-size) * 0.750);
+    --very-small-font-size-on-palm: calc(var(--base-font-size-on-palm) * 0.750);
 
-$code-font-family: 'Source Code Pro';
-$code-background-color: #000;
+    --base-line-height: 1.8;
+    --spacing-unit: 30px;
 
-$spacing-unit:     30px;
+    --code-font-family: 'Source Code Pro';
+    --code-background-color: #000;
 
-$text-color:       #fff;
-$background-color: #202224;
-$reversed-background-color: $text-color;
+    --text-color: #fff;
+    --background-color: #202224;
+    --reversed-background-color: var(--text-color);
+}
+
 $brand-color:      #268bd2;
 
 $grey-color:       #828282;

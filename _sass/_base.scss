@@ -12,15 +12,15 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
+    font-family: var(--base-font-family);
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
     font-weight: 300;
-    color: $text-color;
-    background-color: $background-color;
+    color: var(--text-color);
+    background-color: var(--background-color);
 
     @include media-query($on-palm) {
-        font-size: $base-font-size-on-palm;
+        font-size: var(--base-font-size-on-palm);
     }
 }
 
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit;
+    margin-bottom: var(--spacing-unit);
 }
 
 
@@ -64,10 +64,10 @@ figure > img {
 }
 
 figcaption {
-    font-size: $small-font-size;
+    font-size: var(--small-font-size);
 
     @include media-query($on-palm) {
-        font-size: $small-font-size-on-palm;
+        font-size: var(--small-font-size-on-palm);
     }
 }
 
@@ -80,12 +80,12 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: calc(var(--spacing-unit) / 2);
 }
 
 th, td {
-    border: solid 1px $text-color;
-    padding: $spacing-unit / 3;
+    border: solid 1px var(--text-color);
+    padding: calc(var(--spacing-unit) / 3);
 }
 
 
@@ -94,7 +94,7 @@ th, td {
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+    margin-left: var(--spacing-unit);
 }
 
 li {
@@ -144,8 +144,8 @@ a {
 blockquote {
     border-left: 10px solid $grey-color;
     background: #000;
-    padding: $spacing-unit / 2;
-    font-size: $base-font-size;
+    padding: calc(var(--spacing-unit) / 2);
+    font-size: var(--base-font-size);
     font-style: italic;
 
     > :last-child {
@@ -153,7 +153,7 @@ blockquote {
     }
 
     @include media-query($on-palm) {
-        font-size: $base-font-size-on-palm;
+        font-size: var(--base-font-size-on-palm);
     }
 }
 
@@ -164,13 +164,13 @@ blockquote {
  */
 pre,
 code {
-    font-size: $small-font-size;
-    font-family: $code-font-family;
-    background-color: $code-background-color;
-    color: $text-color;
+    font-size: var(--small-font-size);
+    font-family: var(--code-font-family);
+    background-color: var(--code-background-color);
+    color: var(--text-color);
 
     @include media-query($on-palm) {
-        font-size: $small-font-size-on-palm;
+        font-size: var(--small-font-size-on-palm);
     }
 }
 
@@ -195,19 +195,17 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
+    max-width: calc(800px - calc(var(--spacing-unit) * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding-right: var(--spacing-unit);
+    padding-left: var(--spacing-unit);
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(800px - (#{$spacing-unit}));
-        max-width:         calc(800px - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        max-width: calc(800px - calc(var(--spacing-unit)));
+        padding-right: calc(var(--spacing-unit / 2));
+        padding-left: calc(var(--spacing-unit / 2));
     }
 }
 
@@ -247,7 +245,7 @@ pre {
 // Wrappers for YouTube's iframe.
 .youtube {
     position: relative;
-    margin-bottom: $spacing-unit;
+    margin-bottom: var(--spacing-unit);
 }
 .youtube::before {
     content: "";

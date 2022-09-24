@@ -206,6 +206,7 @@
     letter-spacing: -1px;
     line-height: 1.4;
     border: none;
+    margin-bottom: calc(var(--spacing-unit) / 3);
 
     @include media-query($on-laptop) {
         font-size: 30px;

@@ -3,7 +3,7 @@ layout: post
 title:  "2022 年の振り返り"
 date: 2022-12-31 00:00:00 +09:00
 tags: text
-image: /images/profile.png
+image: /images/2022-year-end-reflection-miyako.webp
 ---
 
 2022 年の雑多な振り返り兼備忘録です。今年で 36 歳になりました。

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2022/04/12
+date: 2023/05/01
 permalink: /about/
 ---
 
@@ -9,7 +9,7 @@ permalink: /about/
 
 Hiroki Nakagawa (nhiroki)
 
-Senior Software Engineer / Tech Lead Manager (TLM) @ Google。ウェブブラウザ Chrome (Chromium) 開発者。情報理工学修士。2 児の父親。
+Staff Software Engineer / Tech Lead Manager (TLM) @ Google。ウェブブラウザ Chrome (Chromium) 開発者。情報理工学修士。2 児の父親。
 
 ---
 

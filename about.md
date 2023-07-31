@@ -15,6 +15,8 @@ Staff Software Engineer / Tech Lead Manager (TLM) @ Google。ウェブブラウ�
 - [Twitter(nhiroki_)](https://twitter.com/nhiroki_)
 - [GitHub(nhiroki)](https://github.com/nhiroki)
 
+> このブログで述べられている内容はすべて私の個人的な意見に基づくものであり、所属する組織、団体とは一切関係ありません。
+
 ---
 
 **振り返り**

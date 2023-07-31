@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2023/05/01
+date: 2023/07/31
 permalink: /about/
 ---
 
@@ -10,6 +10,10 @@ permalink: /about/
 Hiroki Nakagawa (nhiroki)
 
 Staff Software Engineer / Tech Lead Manager (TLM) @ Google。ウェブブラウザ Chrome (Chromium) 開発者。情報理工学修士。2 児の父親。
+
+- [Bluesky(nhiroki.bsky.social)](https://bsky.app/profile/nhiroki.bsky.social)
+- [Twitter(nhiroki_)](https://twitter.com/nhiroki_)
+- [GitHub(nhiroki)](https://github.com/nhiroki)
 
 ---
 

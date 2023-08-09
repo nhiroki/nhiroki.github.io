@@ -10,8 +10,6 @@ image: /images/book-the-new-psychology-of-success.webp
 
 ![表紙](/images/book-the-new-psychology-of-success.webp)
 
-# 概要
-
 マインドセット (mindset) とは「心のあり方」であり、筆者によると自分が性格だと思っているものの多くは実はマインドセットによるものだそうです。マインドセットは、硬直マインドセット (fixed mindset) としなやかなマインドセット (growth mindset) に分けられます。硬直したマインドセットの人は、能力は生まれや環境によって決まり、努力は能力の劣ったものがすることだと考え、自身の優れた能力を示し続けることで自己肯定感を得ようとします。一方しなやかなマインドセットの人は、能力は努力次第で伸ばすことができると考え、何か失敗しても外聞を気にして取り繕うのではなく、それを成長の糧として利用することができます。こういったマインドセットの違いが家庭・職場・教育現場・スポーツなど様々な環境でどのような影響を及ぼすのか、そしてしなやかなマインドセットを獲得するにはどうすればいいのか、本書は事例[^example]をふんだんに交えて紹介しています。
 
 一見するとしなやかなマインドセットの持ち主であっても、直面しているものごとや環境の変化によってマインドセットが硬直したり、またしなやかになったりします。常に自分のマインドセットが硬直していないか確認し、それをしなやかに保つことが成長していく上で重要になります。経験的にも「この人はどんどん成長しているな」と感じる人はしなやかなマインドセットを持っていることが多いですね。
@@ -22,8 +20,8 @@ image: /images/book-the-new-psychology-of-success.webp
 
 <div class="youtube"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_X0mgOOSpLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-# 目次
-
+```
+目次
 - 第１章　マインドセットとは何か
 - 第２章　マインドセットでここまで違う
 - 第３章　能力と実績のウソホント
@@ -32,7 +30,6 @@ image: /images/book-the-new-psychology-of-success.webp
 - 第６章　つきあい――対人関係のマインドセット
 - 第７章　教育――マインドセットを培う
 - 第８章　マインドセットをしなやかにしよう
-
-# 注釈
+```
 
 [^example]: 事例において硬直マインドセットの持ち主がボロクソに書かれていてちょっと読むのがしんどかったです。

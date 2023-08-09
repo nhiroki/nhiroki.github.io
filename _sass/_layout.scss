@@ -112,8 +112,16 @@
     }
 }
 
-.post-meta {
+.post-list-meta {
     font-size: var(--very-small-font-size);
+    @include media-query($on-palm) {
+        font-size: var(--very-small-font-size-on-palm);
+    }
+}
+
+.post-meta {
+    font-size: var(--small-font-size);
+    font-weight: bold;
     @include media-query($on-palm) {
         font-size: var(--small-font-size-on-palm);
     }

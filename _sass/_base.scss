@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    border-bottom: 1px solid $grey-color;
+    border-bottom: 1px solid var(--grey-color);
 }
 
 
@@ -142,7 +142,7 @@ a {
  * Blockquotes
  */
 blockquote {
-    border-left: 10px solid $grey-color;
+    border-left: 10px solid var(--grey-color);
     background: #000;
     padding: calc(var(--spacing-unit) / 2);
     font-size: var(--base-font-size);
@@ -237,7 +237,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: var(--grey-color);
         }
     }
 }

@@ -50,7 +50,7 @@
         top: 9px;
         right: 30px;
         background-color: var(--reversed-background-color);
-        border: 1px solid $grey-color-light;
+        border: 1px solid var(--grey-color-light);
         border-radius: 5px;
         text-align: right;
 
@@ -68,7 +68,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: var(--grey-color-dark);
                 }
             }
         }

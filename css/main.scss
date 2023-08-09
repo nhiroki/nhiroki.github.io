@@ -24,11 +24,11 @@
     --text-color: #fff;
     --background-color: #202224;
     --reversed-background-color: var(--text-color);
-}
 
---grey-color:       #828282;
---grey-color-light: #e8e8e8;  // 40% lighten
---grey-color-dark:  #424242;  // 25% darken
+    --grey-color: #828282;
+    --grey-color-light: #e8e8e8;  // 40% lighten
+    --grey-color-dark: #424242;  // 25% darken
+}
 
 $on-palm:          600px;
 $on-laptop:        800px;

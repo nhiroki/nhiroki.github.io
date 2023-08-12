@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "『宇宙検閲官仮説「裸の特異点」は隠されるか』を読んだ"
+title: "『宇宙検閲官仮説 「裸の特異点」は隠されるか』を読んだ"
 date: 2023-08-13 00:00:00 +09:00
 tags: book
 image: /images/book-cosmic-censorship-hypothesis.webp
 ---
 
-『宇宙検閲官仮説「裸の特異点」は隠されるか』を読みました。面白くて一気に読みました。
+『宇宙検閲官仮説 「裸の特異点」は隠されるか』を読みました。面白くて一気に読みました。
 
 ![表紙](/images/book-cosmic-censorship-hypothesis.webp)
 

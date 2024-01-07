@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Chromium では Prefetch や Prerender を総称して Speculative Loading と呼ぶことになった"
+title: "Chromium では Prefetch や Prerender を総称して Speculative Loading と呼ぶことになった話"
 date: 2024-01-07 00:00:00 +09:00
 tags: web
-image: /images/tamagawa-nikaryo-kamigawara-zeki.webp
+image: /images/2024-01-07-speculative-loading-ogp.png
 ---
 
 Chromium では Prefetch や Prerender といった[投機的なリソースローディング機能](/2021/05/06/resource-loading-apis)を総称して **Preloading** と呼んでいました。しかし、Preloading という名称は既に広く使われており、特に具体的な API である `<link rel=preload>` や Service Worker の Navigation Preload などと被ってしまうため、評判がよくありませんでした。

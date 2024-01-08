@@ -20,4 +20,4 @@ Chromium では Prefetch や Prerender といった[投機的なリソースロ�
 
 <blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr"><a href="https://twitter.com/programmingart?ref_src=twsrc%5Etfw">@programmingart</a> you may be pleased with the latest change in Chrome Canary: <a href="https://t.co/yBmSauqwkX">pic.twitter.com/yBmSauqwkX</a></p>&mdash; Barry Pollard (@tunetheweb) <a href="https://twitter.com/tunetheweb/status/1718899373168341106?ref_src=twsrc%5Etfw">October 30, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-[MDN の Speculation Rules API](https://developer.mozilla.org/en-US/docs/Web/API/Speculation_Rules_API) のページでは既に新しい表記が使われています。
+MDN の [Speculative Loading](https://developer.mozilla.org/en-US/docs/Web/Performance/Speculative_loading) や [Speculation Rules API](https://developer.mozilla.org/en-US/docs/Web/API/Speculation_Rules_API) の記事では既に新しい表記が使われています。
